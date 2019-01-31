@@ -17,19 +17,27 @@ namespace DriveBot.Resources.Utils
         /// <param name="gameSearch">Corresponde al texto del juego</param>
         /// <param name="game">Parametro donde se guardará el juego encontrado</param>
         /// <returns>Regresa verdadero en caso de haber encontrado el juego</returns>
-        public static bool searchGame(string gameSearch, stdClassCSharp game)
+        public static bool searchGame(string gameSearch,ref stdClassCSharp game, int indexGame = -1)
         {
             bool response = false;
-            
-            stdClassCSharp gamesStd = stdClassCSharp.jsonToStdClass(FilesConfig.getGames());
 
-            for( int i = 0; i < gamesStd.toArray().Length && !response; i++)
+            stdClassCSharp gamesStd = stdClassCSharp.readJsonFile("games.json");
+
+            if (indexGame >= 0)
             {
-                if(gamesStd[i]["Titulo"].ToLower().Contains(gameSearch.ToLower()) || gameSearch.ToLower().Contains(gamesStd[i]["Titulo"].ToLower()))
+                game = gamesStd[indexGame];
+                response = true;
+            }
+            else
+            {
+                for (int i = 0; i < gamesStd.toArray().Length && !response; i++)
                 {
-                    response = true;
-                    game = gamesStd[i];
-                    i = gamesStd.toArray().Length;
+                    if (gamesStd[i]["Titulo"].ToLower().Contains(gameSearch.ToLower()) || gameSearch.ToLower().Contains(gamesStd[i]["Titulo"].ToLower()))
+                    {
+                        response = true;
+                        game = gamesStd[i];
+                        i = gamesStd.toArray().Length;
+                    }
                 }
             }
 
@@ -42,20 +50,56 @@ namespace DriveBot.Resources.Utils
         /// <param name="updateSearch">Corresponde al texto con el titulo del update</param>
         /// <param name="indexUpdate"></param>
         /// <returns></returns>
-        public static bool searchUpdate(string updateSearch, stdClassCSharp update, int indexUpdate = -1)
+        public static bool searchUpdate(string updateSearch, ref stdClassCSharp update, int indexUpdate = -1)
         {
             bool response = false;
 
-            stdClassCSharp updatesStd = stdClassCSharp.jsonToStdClass(FilesConfig.getGames());
+            stdClassCSharp updatesStd = stdClassCSharp.readJsonFile("updates.json");
+
+            if(indexUpdate >= 0)
+            {
+                update = updatesStd[indexUpdate];
+                response = true;
+            }
+            else
+            {
+                for (int i = 0; i < updatesStd.toArray().Length && !response; i++)
+                {
+                    if (updatesStd[i]["Titulo"].ToLower().Contains(updateSearch.ToLower()) || updateSearch.ToLower().Contains(updatesStd[i]["Titulo"].ToLower()))
+                    {
+                        response = true;
+                        update = updatesStd[i];
+                        i = updatesStd.toArray().Length;
+                    }
+                }
+            }
 
             return response;
         }
 
-        public static bool searchDlc(string dlcSearch, stdClassCSharp dlc, int indexUpdate = -1)
+        public static bool searchDlc(string dlcSearch, ref stdClassCSharp dlc, int indexDlc = -1)
         {
             bool response = false;
 
-            stdClassCSharp gamesStd = stdClassCSharp.jsonToStdClass(FilesConfig.getGames());
+            stdClassCSharp dlcStd = stdClassCSharp.readJsonFile("dlcs.json");
+
+            if (indexDlc >= 0)
+            {
+                dlc = dlcStd[indexDlc];
+                response = true;
+            }
+            else
+            {
+                for (int i = 0; i < dlcStd.toArray().Length && !response; i++)
+                {
+                    if (dlcStd[i]["Titulo"].ToLower().Contains(dlcSearch.ToLower()) || dlcSearch.ToLower().Contains(dlcStd[i]["Titulo"].ToLower()))
+                    {
+                        response = true;
+                        dlc = dlcStd[i];
+                        i = dlcStd.toArray().Length;
+                    }
+                }
+            }
 
             return response;
         }
@@ -66,7 +110,7 @@ namespace DriveBot.Resources.Utils
         /// <param name="game">Corresponde a los datos del juego</param>
         /// <param name="builderGame">Correspone al builder donde se harán las configuraciones</param>
         /// <returns>Regresa verdadero si todo se ejecuta correctamente.</returns>
-        public static bool generaBuilderGame(stdClassCSharp game, EmbedBuilder builderGame)
+        public static bool generaBuilderGame(stdClassCSharp game,ref EmbedBuilder builderGame)
         {
             bool respuesta = false;
             try
@@ -132,11 +176,12 @@ namespace DriveBot.Resources.Utils
 
                 if (game["UpdateIndex", TiposDevolver.Boleano])
                 {
-                    game["Update"] = new stdClassCSharp();
+                    stdClassCSharp update = new stdClassCSharp();
 
-                    if (searchUpdate(game["Titulo"], game["Update"], game["UpdateIndex",TiposDevolver.Entero])
-                        && game["Update"].toArray().Length > 0)
+                    if (searchUpdate(game["Titulo"], ref update, game["UpdateIndex",TiposDevolver.Entero])
+                        && update.toArray().Length > 0)
                     {
+                        game["Update"] = update;
                         stdClassCSharp links = game["Update"].Links;
                         foreach (var link in links.toArray())
                         {
@@ -154,11 +199,12 @@ namespace DriveBot.Resources.Utils
 
                 if (game["DlcIndex", TiposDevolver.Boleano])
                 {
-                    game["Dlc"] = new stdClassCSharp();
+                    stdClassCSharp dlc = new stdClassCSharp();
 
-                    if (searchDlc(game["Titulo"], game["Dlc"], game["DlcIndex", TiposDevolver.Entero])
-                        && game["Dlc"].toArray().Length > 0)
+                    if (searchDlc(game["Titulo"], ref dlc, game["DlcIndex", TiposDevolver.Entero])
+                        && dlc.toArray().Length > 0)
                     {
+                        game["Dlc"] = dlc;
                         stdClassCSharp links = game["Dlc"].Links;
                         foreach (var link in links.toArray())
                         {
@@ -173,8 +219,7 @@ namespace DriveBot.Resources.Utils
                         sbDatos.Clear();
                     }
                 }
-
-                /*   .WithColor(new Color(0xD0021B))//azul 0x838AFF // blanco 0xFFFFFF*/
+                respuesta = true;
             }
             catch
             {
@@ -189,7 +234,7 @@ namespace DriveBot.Resources.Utils
         /// <param name="update">Corresponde a los datos del juego</param>
         /// <param name="builderUpdate">Correspone al builder donde se harán las configuraciones</param>
         /// <returns>Regresa verdadero si todo se ejecuta correctamente.</returns>
-        public static bool generaBuilderUpdate(stdClassCSharp update, EmbedBuilder builderUpdate)
+        public static bool generaBuilderUpdate(stdClassCSharp update,ref EmbedBuilder builderUpdate)
         {
             bool respuesta = false;
             try
@@ -252,6 +297,8 @@ namespace DriveBot.Resources.Utils
                 builderUpdate.AddField("Links", sbDatos.ToString());
 
                 sbDatos.Clear();
+
+                respuesta = true;
             }
             catch
             {
@@ -266,7 +313,7 @@ namespace DriveBot.Resources.Utils
         /// <param name="dlc">Corresponde a los datos del juego</param>
         /// <param name="builderDlc">Correspone al builder donde se harán las configuraciones</param>
         /// <returns>Regresa verdadero si todo se ejecuta correctamente.</returns>
-        public static bool generaBuilderDlc(stdClassCSharp dlc, EmbedBuilder builderDlc)
+        public static bool generaBuilderDlc(stdClassCSharp dlc, ref EmbedBuilder builderDlc)
         {
             bool respuesta = false;
             try
@@ -328,6 +375,8 @@ namespace DriveBot.Resources.Utils
                 builderDlc.AddField("Links", sbDatos.ToString());
 
                 sbDatos.Clear();
+
+                respuesta = true;
             }
             catch
             {

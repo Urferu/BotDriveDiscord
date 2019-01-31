@@ -37,26 +37,29 @@
             // 
             // txtTocken
             // 
-            this.txtTocken.Location = new System.Drawing.Point(24, 39);
+            this.txtTocken.Location = new System.Drawing.Point(32, 48);
+            this.txtTocken.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTocken.Name = "txtTocken";
-            this.txtTocken.Size = new System.Drawing.Size(366, 20);
+            this.txtTocken.Size = new System.Drawing.Size(487, 22);
             this.txtTocken.TabIndex = 0;
             this.txtTocken.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblTocken
             // 
             this.lblTocken.AutoSize = true;
-            this.lblTocken.Location = new System.Drawing.Point(21, 23);
+            this.lblTocken.Location = new System.Drawing.Point(28, 28);
+            this.lblTocken.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTocken.Name = "lblTocken";
-            this.lblTocken.Size = new System.Drawing.Size(66, 13);
+            this.lblTocken.Size = new System.Drawing.Size(84, 17);
             this.lblTocken.TabIndex = 1;
             this.lblTocken.Text = "Tocken Bot:";
             // 
             // btnConectar
             // 
-            this.btnConectar.Location = new System.Drawing.Point(24, 65);
+            this.btnConectar.Location = new System.Drawing.Point(32, 80);
+            this.btnConectar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConectar.Name = "btnConectar";
-            this.btnConectar.Size = new System.Drawing.Size(75, 23);
+            this.btnConectar.Size = new System.Drawing.Size(100, 28);
             this.btnConectar.TabIndex = 2;
             this.btnConectar.Text = "Conectar";
             this.btnConectar.UseVisualStyleBackColor = true;
@@ -64,12 +67,14 @@
             // 
             // btnAgregarJuego
             // 
-            this.btnAgregarJuego.Location = new System.Drawing.Point(299, 65);
+            this.btnAgregarJuego.Location = new System.Drawing.Point(399, 80);
+            this.btnAgregarJuego.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgregarJuego.Name = "btnAgregarJuego";
-            this.btnAgregarJuego.Size = new System.Drawing.Size(91, 50);
+            this.btnAgregarJuego.Size = new System.Drawing.Size(121, 62);
             this.btnAgregarJuego.TabIndex = 3;
             this.btnAgregarJuego.Text = "Agregar/Editar Juego";
             this.btnAgregarJuego.UseVisualStyleBackColor = true;
+            this.btnAgregarJuego.Click += new System.EventHandler(this.btnAgregarJuego_Click);
             // 
             // bwBot
             // 
@@ -77,15 +82,15 @@
             // 
             // FormServer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(407, 127);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(543, 156);
             this.ControlBox = false;
             this.Controls.Add(this.btnAgregarJuego);
             this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.lblTocken);
             this.Controls.Add(this.txtTocken);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormServer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Propiedades del servidor";

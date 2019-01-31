@@ -8,33 +8,26 @@ namespace DriveBot.Core.Commands
     public class GamesSearch : ModuleBase<SocketCommandContext>
     {
         [Command("game"), Alias("juego", "si el", "quiero el"), Summary("Solicita juego command")]
-        public async Task sJustein()
+        public async Task sJustein([Remainder]string inputMessage = "NONE")
         {
-            string mensaje = Context.Message.Content.Replace("!game ", "").Replace("juego ", "").Replace("si el ", "").Replace("quiero el ", "").Replace(Context.Client.CurrentUser.Username, "");
+            string mensaje = inputMessage;
             stdClassCSharp game = new stdClassCSharp();
             EmbedBuilder builderGame = new EmbedBuilder();
 
-            if(Utils.searchGame(mensaje, game))
+            if(Utils.searchGame(mensaje,ref game))
             {
-                if(Utils.generaBuilderGame(game, builderGame))
+                if(Utils.generaBuilderGame(game,ref builderGame))
                 {
-                    var embed = builderGame.Build();
-
-                    await Context.User.SendMessageAsync(
-                    null,
-                    embed: embed)
-                    .ConfigureAwait(false);
-
-                    await Context.Message.DeleteAsync();
+                    await Context.User.SendMessageAsync("", false, builderGame.Build());
                 }
                 else
                 {
-                    await Context.Channel.SendMessageAsync($"@{Context.User.Username} mis circuitos no me permitieron buscar tu juego correctamente :(");
+                    await Context.Channel.SendMessageAsync($"{Context.User.Mention} mis circuitos no me permitieron buscar tu juego correctamente :(");
                 }
             }
             else
             {
-                await Context.Channel.SendMessageAsync($"@{Context.User} no encontre el juego que me pediste :(");
+                await Context.Channel.SendMessageAsync($"{Context.User.Mention} no encontre el juego que me pediste :(");
             }
         }
     }

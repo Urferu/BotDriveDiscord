@@ -1,8 +1,8 @@
 ﻿[
     {
         "Titulo": "Super Smash Bros Ultimate",
-        "Peso": "483 MB"
-        "Formato": "NSP",
+        "Peso": "483 MB",
+		"Formato": "NSP",
         "Version": "v262144 (2.0.0) patched for 5.xx",
         "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/516043161953501216/Caratula_SSBU.png",
         "ImagenDiscord": "https://cdn.discordapp.com/attachments/517000082646761473/540239436357828608/images.jpg",

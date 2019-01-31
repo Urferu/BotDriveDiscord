@@ -111,6 +111,12 @@
     <Compile Include="Resources\Utils\JSON.cs" />
     <Compile Include="Resources\Utils\stdClass.cs" />
     <Compile Include="Resources\Utils\Utils.cs" />
+    <Compile Include="Views\FormDatosDelJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormDatosDelJuego.Designer.cs">
+      <DependentUpon>FormDatosDelJuego.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\FormJuegos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Views\FormDatosDelJuego.resx">
+      <DependentUpon>FormDatosDelJuego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormJuegos.resx">
+      <DependentUpon>FormJuegos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\FormServer.resx">
       <DependentUpon>FormServer.cs</DependentUpon>
     </EmbeddedResource>

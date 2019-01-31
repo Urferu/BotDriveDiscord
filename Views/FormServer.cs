@@ -12,6 +12,7 @@ namespace DriveBot.Views
 {
     public partial class FormServer : Form
     {
+        string tocken;
         public FormServer()
         {
             InitializeComponent();
@@ -24,13 +25,20 @@ namespace DriveBot.Views
 
         private void button1_Click(object sender, EventArgs e)
         {
+            tocken = txtTocken.Text;
             btnConectar.Enabled = false;
             bwBot.RunWorkerAsync();
         }
 
         private void bwBot_DoWork(object sender, DoWorkEventArgs e)
         {
-            new Program().iniciaServer(txtTocken.Text);
+            new Program().iniciaServer(tocken);
+        }
+
+        private void btnAgregarJuego_Click(object sender, EventArgs e)
+        {
+            FormJuegos formJuegos = new FormJuegos();
+            formJuegos.ShowDialog();
         }
     }
 }

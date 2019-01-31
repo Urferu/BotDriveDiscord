@@ -12,7 +12,7 @@ namespace DriveBot
 {
     class Program
     {
-        string Tocken = "";
+        //string Tocken = "";
         private DiscordSocketClient client;
         private CommandService commands;
         static void Main(string[] args)
@@ -24,14 +24,13 @@ namespace DriveBot
 
         public void iniciaServer(string tocken)
         {
-            Tocken = tocken;
             int intentos = 3;
             int tiempoEspera = 1000;
             for (int i = 1; i <= intentos; ++i)
             {
                 try
                 {
-                    new Program().MainAsync().GetAwaiter().GetResult();
+                    new Program().MainAsync(tocken).GetAwaiter().GetResult();
                 }
                 catch (Exception)
                 {
@@ -43,7 +42,7 @@ namespace DriveBot
             }
         }
 
-        private async Task MainAsync()
+        private async Task MainAsync(string tocken)
         {
             client = new DiscordSocketClient(new DiscordSocketConfig
             {
@@ -62,7 +61,7 @@ namespace DriveBot
             client.Ready += Client_Ready;
             client.Log += Client_Log;
 
-            await client.LoginAsync(TokenType.Bot, Tocken);
+            await client.LoginAsync(TokenType.Bot, tocken);
             await client.StartAsync();
 
             await Task.Delay(-1);
