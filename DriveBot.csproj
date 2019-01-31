@@ -9,19 +9,21 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DriveBot</RootNamespace>
     <AssemblyName>DriveBot</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>Release\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +33,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Discord.Net.Commands, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
@@ -76,6 +81,7 @@
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Interactive.Async, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
       <HintPath>packages\System.Interactive.Async.3.1.1\lib\net45\System.Interactive.Async.dll</HintPath>
       <Private>True</Private>
@@ -86,6 +92,7 @@
       <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -94,18 +101,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Commands\DlcSearch.cs" />
+    <Compile Include="Core\Commands\GamesSearch.cs" />
     <Compile Include="Core\Commands\HelloWorld.cs" />
+    <Compile Include="Core\Commands\UpdateSearch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Database\FilesConfig.cs" />
+    <Compile Include="Resources\Utils\JSON.cs" />
+    <Compile Include="Resources\Utils\stdClass.cs" />
+    <Compile Include="Resources\Utils\Utils.cs" />
+    <Compile Include="Views\FormJuegos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormJuegos.Designer.cs">
+      <DependentUpon>FormJuegos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormServer.Designer.cs">
+      <DependentUpon>FormServer.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\Database\" />
-    <Folder Include="Resources\Datatypes\" />
-    <Folder Include="Resources\Extensions\" />
+    <EmbeddedResource Include="Views\FormServer.resx">
+      <DependentUpon>FormServer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

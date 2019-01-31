@@ -5,26 +5,16 @@ using System.Threading;
 using Discord;
 using Discord.WebSocket;
 using Discord.Commands;
-using System.Windows.Forms;
-using System.ComponentModel;
 
 namespace DriveBot
 {
     class Program
     {
-        string Tocken = "";
+        const string _TOCKEN = "NTM5OTU3MTAwMzc4MzI0OTkz.DzN1CQ.cKeDXBz76TF6H5AiksqTCan9gnU";
         private DiscordSocketClient client;
         private CommandService commands;
         static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Views.FormServer());
-        }
-
-        public void iniciaServer(string tocken)
-        {
-            Tocken = tocken;
             int intentos = 3;
             int tiempoEspera = 1000;
             for (int i = 1; i <= intentos; ++i)
@@ -35,12 +25,13 @@ namespace DriveBot
                 }
                 catch (Exception)
                 {
-                    if (i == intentos)
+                    if(i== intentos)
                         throw;
 
                     Thread.Sleep(tiempoEspera);
                 }
             }
+               
         }
 
         private async Task MainAsync()
@@ -62,7 +53,7 @@ namespace DriveBot
             client.Ready += Client_Ready;
             client.Log += Client_Log;
 
-            await client.LoginAsync(TokenType.Bot, Tocken);
+            await client.LoginAsync(TokenType.Bot, _TOCKEN);
             await client.StartAsync();
 
             await Task.Delay(-1);
