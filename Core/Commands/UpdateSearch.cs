@@ -7,27 +7,39 @@ namespace DriveBot.Core.Commands
 {
     public class UpdateSearch : ModuleBase<SocketCommandContext>
     {
-        [Command("update"), Alias("actualizacion", "actualización", "quiero la actualizacion del"), Summary("Solicita juego command")]
+        [Command("update"), Alias("update", "quiero el update del", "actualizacion", "actualización", "quiero la actualizacion del"), Summary("Solicita juego command")]
         public async Task sJustein([Remainder]string inputMessage = "NONE")
         {
             string mensaje = inputMessage;
+            int argPos = 0;
             stdClassCSharp update = new stdClassCSharp();
             EmbedBuilder builderUpdate = new EmbedBuilder();
 
-            if (Utils.searchUpdate(mensaje, ref update))
+            if (mensaje.Trim().Length > 3)
             {
-                if (Utils.generaBuilderUpdate(update, ref builderUpdate))
+                if (Utils.searchUpdate(mensaje, ref update))
                 {
-                    await Context.User.SendMessageAsync("", false, builderUpdate.Build());
+                    if (Utils.generaBuilderUpdate(update, ref builderUpdate))
+                    {
+                        if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
+                            await Context.Message.DeleteAsync(RequestOptions.Default);
+
+                        await Context.User.SendMessageAsync("", false, builderUpdate.Build());
+                        await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he respondido tu solicitud por mp :)");
+                    }
+                    else
+                    {
+                        await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} mis circuitos no me permitieron buscar tu actualización correctamente :(");
+                    }
                 }
                 else
                 {
-                    await Context.Channel.SendMessageAsync($"{Context.User.Mention} mis circuitos no me permitieron buscar tu actualización correctamente :(");
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} no encontre la actualización que me pediste :(, pideselo a bello XD.");
                 }
             }
             else
             {
-                await Context.Channel.SendMessageAsync($"{Context.User.Mention} no encontre la actualización que me pediste :(");
+                await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} Debes escribir mas de 3 letras de la actualización que buscas.");
             }
         }
     }

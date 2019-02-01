@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DriveBot.Resources.Database;
 
 using Discord;
 
@@ -102,6 +101,23 @@ namespace DriveBot.Resources.Utils
             }
 
             return response;
+        }
+
+        public static string getListGames()
+        {
+            StringBuilder response = new StringBuilder();
+
+            stdClassCSharp gamesStd = stdClassCSharp.readJsonFile("games.json");
+
+            foreach(stdClassCSharp game in gamesStd.toArray())
+            {
+                if (response.Length > 0)
+                    response.Append(Environment.NewLine);
+
+                response.Append(game["Titulo"]);
+            }
+
+            return response.ToString();
         }
 
         /// <summary>

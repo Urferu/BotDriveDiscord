@@ -104,10 +104,10 @@
     <Compile Include="Core\Commands\DlcSearch.cs" />
     <Compile Include="Core\Commands\GamesSearch.cs" />
     <Compile Include="Core\Commands\HelloWorld.cs" />
+    <Compile Include="Core\Commands\ListGames.cs" />
     <Compile Include="Core\Commands\UpdateSearch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\Database\FilesConfig.cs" />
     <Compile Include="Resources\Utils\JSON.cs" />
     <Compile Include="Resources\Utils\stdClass.cs" />
     <Compile Include="Resources\Utils\Utils.cs" />

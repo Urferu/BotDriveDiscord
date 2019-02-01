@@ -11,23 +11,35 @@ namespace DriveBot.Core.Commands
         public async Task sJustein([Remainder]string inputMessage = "NONE")
         {
             string mensaje = inputMessage;
+            int argPos = 0;
             stdClassCSharp game = new stdClassCSharp();
             EmbedBuilder builderGame = new EmbedBuilder();
 
-            if(Utils.searchGame(mensaje,ref game))
+            if (mensaje.Trim().Length > 3)
             {
-                if(Utils.generaBuilderGame(game,ref builderGame))
+                if (Utils.searchGame(mensaje, ref game))
                 {
-                    await Context.User.SendMessageAsync("", false, builderGame.Build());
+                    if (Utils.generaBuilderGame(game, ref builderGame))
+                    {
+                        if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
+                            await Context.Message.DeleteAsync(RequestOptions.Default);
+
+                        await Context.User.SendMessageAsync("", false, builderGame.Build());
+                        await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he respondido tu solicitud por mp :)");
+                    }
+                    else
+                    {
+                        await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} mis circuitos no me permitieron buscar tu juego correctamente :(");
+                    }
                 }
                 else
                 {
-                    await Context.Channel.SendMessageAsync($"{Context.User.Mention} mis circuitos no me permitieron buscar tu juego correctamente :(");
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} no encontre el juego que me pediste :(, pideselo a bello XD.");
                 }
             }
             else
             {
-                await Context.Channel.SendMessageAsync($"{Context.User.Mention} no encontre el juego que me pediste :(");
+                await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} Debes escribir mas de 3 letras de el juego que buscas.");
             }
         }
     }

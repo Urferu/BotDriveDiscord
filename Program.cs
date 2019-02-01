@@ -6,7 +6,6 @@ using Discord;
 using Discord.WebSocket;
 using Discord.Commands;
 using System.Windows.Forms;
-using System.ComponentModel;
 
 namespace DriveBot
 {
@@ -46,7 +45,8 @@ namespace DriveBot
         {
             client = new DiscordSocketClient(new DiscordSocketConfig
             {
-                LogLevel = LogSeverity.Debug
+                LogLevel = LogSeverity.Debug,
+                
             });
             commands = new CommandService(new CommandServiceConfig
             {

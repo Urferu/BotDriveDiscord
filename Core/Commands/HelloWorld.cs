@@ -16,23 +16,21 @@ namespace DriveBot.Core.Commands
             switch(new Random().Next(10))
             {
                 case 1:
-                    await Context.Channel.SendMessageAsync($"Hola que tal!!! {Context.User.Mention}");
+                    await Context.Channel.SendMessageAsync($"Hola que tal!!! {Context.Message.Author.Mention}");
                     break;
                 case 2:
-                    await Context.Channel.SendMessageAsync($"Que cuentas {Context.User.Mention}?");
+                    await Context.Channel.SendMessageAsync($"Que cuentas {Context.Message.Author.Mention}?");
                     break;
                 case 3:
-                    await Context.Channel.SendMessageAsync($"Hola {Context.User.Mention} ¿Deseas algún juego?");
+                    await Context.Channel.SendMessageAsync($"Hola {Context.Message.Author.Mention} ¿Deseas algún juego?");
                     break;
                 case 4:
-                    await Context.Channel.SendMessageAsync($"Hey {Context.User.Mention} tengo unos cuantos juegos para ti solo pidelo.");
+                    await Context.Channel.SendMessageAsync($"Hey {Context.Message.Author.Mention} tengo unos cuantos juegos para ti solo pidelos.");
                     break;
                 default:
-                    await Context.Channel.SendMessageAsync($"{Context.User.Mention} unos juegos?");
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} unos juegos?");
                     break;
             }
-
-            
         }
     }
 }

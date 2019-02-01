@@ -10,23 +10,36 @@ namespace DriveBot.Core.Commands
         public async Task sJustein([Remainder]string inputMessage = "NONE")
         {
             string mensaje = inputMessage;
+            int argPos = 0;
             stdClassCSharp dlc = new stdClassCSharp();
             EmbedBuilder builderDlc = new EmbedBuilder();
 
-            if (Utils.searchDlc(mensaje, ref dlc))
+            if (mensaje.Trim().Length > 3)
             {
-                if (Utils.generaBuilderDlc(dlc, ref builderDlc))
+                if (Utils.searchDlc(mensaje, ref dlc))
                 {
-                    await Context.User.SendMessageAsync("", false, builderDlc.Build());
+                    if (Utils.generaBuilderDlc(dlc, ref builderDlc))
+                    {
+                        if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
+                            await Context.Message.DeleteAsync(RequestOptions.Default);
+
+                        await Context.User.SendMessageAsync("", false, builderDlc.Build());
+                        await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he respondido tu solicitud por mp :)");
+
+                    }
+                    else
+                    {
+                        await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} mis circuitos no me permitieron buscar tu dlc correctamente :(");
+                    }
                 }
                 else
                 {
-                    await Context.Channel.SendMessageAsync($"{Context.User.Mention} mis circuitos no me permitieron buscar tu dlc correctamente :(");
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} no encontre el dlc que me pediste :(, pideselo a bello XD");
                 }
             }
             else
             {
-                await Context.Channel.SendMessageAsync($"{Context.User.Mention} no encontre el dlc que me pediste :(");
+                await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} Debes escribir mas de 3 letras de el/los dlc(s) que buscas.");
             }
         }
     }

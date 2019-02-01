@@ -12,5 +12,19 @@
         "Links": [
             "[GDrive](https://drive.google.com/file/d/1cwR5V4z027uIQHc6z7KL6DzmB3gc-X2F/view?usp=drivesdk)"
         ]
+    },
+    {
+        "Titulo": "Dragon Ball FighterZ",
+        "Peso": "6.2 GB",
+        "Formato": "NSP",
+        "Password": "bello1987",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/517000082646761473/540239436357828608/images.jpg",
+        "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/504708714255876097/DBZportada.jpg",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/1DuCeQUJWLtCfxDfL2DWwg_xtCgUdmstE/view?usp=drivesdk)"
+        ],
+        "UpdateIndex": 1,
+        "DlcIndex": 1
     }
 ]

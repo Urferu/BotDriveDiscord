@@ -2,13 +2,24 @@
     {
         "Titulo": "Super Smash Bros Ultimate",
         "Peso": "483 MB",
-		"Formato": "NSP",
+        "Formato": "NSP",
         "Version": "v262144 (2.0.0) patched for 5.xx",
         "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/516043161953501216/Caratula_SSBU.png",
         "ImagenDiscord": "https://cdn.discordapp.com/attachments/517000082646761473/540239436357828608/images.jpg",
         "UploadBy": "By Bello1987",
         "Links": [
             "[GDrive](https://drive.google.com/open?id=1P0YFmX9mPRStlEBFKIh2f1U5zEVmjnxR)"
+        ]
+    },
+    {
+        "Titulo": "Dragon Ball FighterZ",
+        "Version": "v196608",
+        "Formato": "NSP",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/517000082646761473/540239436357828608/images.jpg",
+        "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/504708714255876097/DBZportada.jpg",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/1sVzmRA06E64TOOcp7YYNd98H5-Igz-tI/view?usp=sharing)"
         ]
     }
 ]
