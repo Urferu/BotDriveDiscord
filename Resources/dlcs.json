@@ -4,7 +4,7 @@
         "Peso": "120 KB",
         "Formato": "NSP",
         "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/516043161953501216/Caratula_SSBU.png",
-        "ImagenDiscord": "https://cdn.discordapp.com/attachments/517000082646761473/540239436357828608/images.jpg",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "UploadBy": "By Bello1987",
         "Links": [
             "[GDrive Piranha Plant](https://drive.google.com/file/d/1d4B6QD3qvaRU9TIfFRP1bwvcWqU_yp7S/view?usp=sharing)",
@@ -21,10 +21,34 @@
         "Titulo": "Dragon Ball FighterZ",
         "Formato": "NSP",
         "UploadBy": "By Bello1987",
-        "ImagenDiscord": "https://cdn.discordapp.com/attachments/517000082646761473/540239436357828608/images.jpg",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/504708714255876097/DBZportada.jpg",
         "Links": [
             "[GDrive All Dlc's](https://drive.google.com/file/d/1QrBV8bLZHFM4C7GVBDfboFWute6_FrBC/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "The Legend Of Zelda: Breath Of The Wild",
+        "Peso": "Variado",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/9KijACn350YiOFHodQemTH2Ien3mNWLG/MQhcEUQFnObuQuxIhb1xLSfnhs9QiBuu.png",
+        "Links": [
+            "[Gdrive dlc 1](https://drive.google.com/file/d/1RLmr83oL6Ln1PodJp9LQvtG6YDEFPQiS/view?usp=sharing)",
+            "[Gdrive dlc 2](https://drive.google.com/file/d/1X5A0DX_DJBE332EA9ZTuKkireaTK0Cbw/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "Travis Strikes Again No More Heroes",
+        "Peso": "variado",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/9DmoRdl0YIkJTch64xFQAeLHzjmqF7Hj/cTjC4M3j8ok31qdmVT1MFXXbSh9ywEdP.png",
+        "Links": [
+            "[Gdrive Dlc 1](https://drive.google.com/open?id=1mrwpKV0ewPi6G3F0xwjDGwPP-6Z-RVah)",
+            "[Gdrive Dlc 2](https://drive.google.com/open?id=1AlHSrKn9H8gPBmT2SO0lVwtdi2brxwHN)"
         ]
     }
 ]

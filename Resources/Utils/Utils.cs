@@ -109,7 +109,16 @@ namespace DriveBot.Resources.Utils
 
             stdClassCSharp gamesStd = stdClassCSharp.readJsonFile("games.json");
 
-            foreach(stdClassCSharp game in gamesStd.toArray())
+            List<stdClassCSharp> listaJuegos = new List<stdClassCSharp>();
+
+            foreach (stdClassCSharp game in gamesStd.toArray())
+            {
+                listaJuegos.Add(game);
+            }
+
+            listaJuegos = listaJuegos.OrderBy(lj => lj["Titulo"]).ToList();
+
+            foreach (stdClassCSharp game in listaJuegos)
             {
                 if (response.Length > 0)
                     response.Append(Environment.NewLine);

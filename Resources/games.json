@@ -5,7 +5,7 @@
         "Formato": "NSP",
         "Descripcion": "Juego de peleas bien perron",
         "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/516043161953501216/Caratula_SSBU.png",
-        "ImagenDiscord": "https://cdn.discordapp.com/attachments/517000082646761473/540239436357828608/images.jpg",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "UpdateIndex": 0,
         "DlcIndex": 0,
         "UploadBy": "By Bello1987",
@@ -19,12 +19,155 @@
         "Formato": "NSP",
         "Password": "bello1987",
         "UploadBy": "By Bello1987",
-        "ImagenDiscord": "https://cdn.discordapp.com/attachments/517000082646761473/540239436357828608/images.jpg",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/504708714255876097/DBZportada.jpg",
         "Links": [
             "[GDrive](https://drive.google.com/file/d/1DuCeQUJWLtCfxDfL2DWwg_xtCgUdmstE/view?usp=drivesdk)"
         ],
         "UpdateIndex": 1,
-        "DlcIndex": 1
+        "DlcIndex": 1,
+        "Descripcion": "Juego de peleas de dragon ball"
+    },
+    {
+        "Titulo": "Mario Kart 8 Deluxe",
+        "Descripcion": "carreras",
+        "Peso": "6.76 Gb",
+        "Formato": "NSP",
+        "UploadBy": "by Bello1987",
+        "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/502968730972585984/PORTADA10a47.jpg",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1ViNnt--Fk6jHmxZcBt-2v42vDPgTqAkE/view?usp=sharing)"
+        ],
+        "UpdateIndex": 2,
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png"
+    },
+    {
+        "Titulo": "New Super Mario Bros. U Deluxe",
+        "Descripcion": "juego plataformero",
+        "Peso": "2.5 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/JMv1JrZnzEh-guyoRfDv2-24v35zaVni/jnFM9X8nyxHrksI72L3DIUhk7FaHFZ_M.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1fKe-60zTOglMJKQU-bAy8mhDC7Sl8P_f)"
+        ]
+    },
+    {
+        "Titulo": "The Legend Of Zelda: Breath Of The Wild",
+        "Descripcion": "Rpg, accion, aventura ",
+        "Peso": "13 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/9KijACn350YiOFHodQemTH2Ien3mNWLG/MQhcEUQFnObuQuxIhb1xLSfnhs9QiBuu.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1iUj-hdEcGmMD9V0cOGkXMVfCaAxKnWEl/view?usp=sharing)"
+        ],
+        "UpdateIndex": 3,
+        "DlcIndex": 2
+    },
+    {
+        "Titulo": "1-2 Switch",
+        "Descripcion": "juego multijugador, entretenimiento",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/oiM2QlLg9frNJhSWvFGmi5NAvEAGlYVx/_3d_ldcR3G0YQl590uHXZ89Jmouu5aS9.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1hI85Y_h3WR7LvXgXOhFhi5oHte3Qj32f/view?usp=sharing)"
+        ],
+        "UpdateIndex": 4
+    },
+    {
+        "Titulo": "Tales Of Vesperia: Definitive Edition",
+        "Peso": "13 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/XxAnG62_dACUBPSPOFDRwaLe5929SswI/5I2vi2j-Zy9ar3MnMCXgW5fk6e4WD6Gd.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1hMDeGQ_yIarYIBsfZihvR4_zbLxU-haw)"
+        ],
+        "UpdateIndex": 5
+    },
+    {
+        "Titulo": "Wolfenstein II: The New Colossus",
+        "Descripcion": "accion, shooter",
+        "Peso": "14 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/VNyVj_zZlMtmPvTEwkvnipCH6Yft9Of7/Mes9bLY1FaRfqUX_h5Sn4KGXP_bV9O2c.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1jTmiPIRdFbHc8Lj1Ur4t6eSPSyr2VRQN/view?usp=sharing)"
+        ],
+        "UpdateIndex": 6
+    },
+    {
+        "Titulo": "Travis Strikes Again No More Heroes",
+        "Descripcion": "multijugador, accion",
+        "Peso": "6 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/9DmoRdl0YIkJTch64xFQAeLHzjmqF7Hj/cTjC4M3j8ok31qdmVT1MFXXbSh9ywEdP.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1eiEG_aiA_w16TJV0w8tyAEQoTnHGyvpU/view?usp=sharing)"
+        ],
+        "UpdateIndex": 7,
+        "DlcIndex": 3
+    },
+    {
+        "Titulo": "Resident Evil Revelations",
+        "Descripcion": "survival horror",
+        "Peso": "12 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/l4bn-ZM-R_79pTpHMbTt0dpAsVu7xxHO/VZ1BxqM8QjLSn0XjUbe-hg9k4L2A7wOK.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1qS0MG-tRyZyc0TubhIuIeeRa3Erxixdb)"
+        ]
+    },
+    {
+        "Titulo": "Resident Evil Revelations 2",
+        "Descripcion": "Survival Horror",
+        "Peso": "24 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "Links": [
+            "[Gdrive parte 1](https://drive.google.com/open?id=1GK0ub0QHBVZvOs60o_eNWK2xdD9I9dVr)",
+            "[Gdrive parte 2](https://drive.google.com/open?id=1LXffCqDr3Hc-Ell2YZoCv6rNMELZ7Jmz)",
+            "[Gdrive parte 3](https://drive.google.com/open?id=1L6lzhTUJD-YQSIg-_CGVeqcqIKgiqyVH)"
+        ]
+    },
+    {
+        "Titulo": "Pokémon Let’s Go, Pikachu!",
+        "Descripcion": "aventura, rol",
+        "Peso": "4 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/vt7les7qOfqmuiYlgQqE1KvoBGcDYwfW/IEqiKeiJ-27z1heGl5Wc34Nmhp_T_3aW.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1jDRnYyKrESCrEZiFUA9F-Ul_bMbXyOC6)"
+        ],
+        "UpdateIndex": 8
+    },
+    {
+        "Titulo": "Pokémon Let’s Go, Eevee!",
+        "Descripcion": "aventura, rol",
+        "Peso": "4 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/CSOAMj2W9rveoiuTcGo-hzGAIeGTo5Kw/PuhHRfNGbPs3MCRRIsm6WjrEsnn0DZAg.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1Erqt63xSYWAFIEmBLKEK4UBSe9emcFvC)"
+        ],
+        "UpdateIndex": 9
     }
 ]

@@ -13,7 +13,7 @@ namespace DriveBot.Core.Commands
         [Command("hola"), Alias("hola", "que tal", "que hay de nuevo"), Summary("Hello world command")]
         public async Task sJustein()
         {
-            switch(new Random().Next(10))
+            switch(new Random().Next(6))
             {
                 case 1:
                     await Context.Channel.SendMessageAsync($"Hola que tal!!! {Context.Message.Author.Mention}");
