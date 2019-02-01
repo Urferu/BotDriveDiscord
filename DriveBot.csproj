@@ -105,6 +105,7 @@
     <Compile Include="Core\Commands\GamesSearch.cs" />
     <Compile Include="Core\Commands\GroseriasResponse.cs" />
     <Compile Include="Core\Commands\HelloWorld.cs" />
+    <Compile Include="Core\Commands\HelpResponse.cs" />
     <Compile Include="Core\Commands\ListGames.cs" />
     <Compile Include="Core\Commands\UpdateSearch.cs" />
     <Compile Include="Program.cs" />
