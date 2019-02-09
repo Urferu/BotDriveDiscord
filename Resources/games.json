@@ -3,7 +3,7 @@
         "Titulo": "Super Smash Bros Ultimate",
         "Peso": "14.0 GB",
         "Formato": "NSP",
-        "Descripcion": "Juego de peleas bien perron",
+        "Descripcion": "Super Smash Bros. Ultimate es la nueva entrega para Nintendo Switch de la popular saga de Nintendo centrada en el género de lucha, en la que personajes como Super Mario, Zelda, Samus de Metroid, Donkey Kong o Pikachu de Pokémon por citar algunos, combaten en los más variados escenarios extraídos del legado digital de la empresa japonesa, así como de compañías invitadas de la talla de Capcom, Bandai Namco, SEGA o Konami. Con el plantel de héroes, heroínas y villanos más grande hasta la fecha, con nuevos modos de juego y una jugabilidad clásica, Ultimate supone el punto álgido de una licencia emblemática de Nintendo.",
         "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/516043161953501216/Caratula_SSBU.png",
         "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "UpdateIndex": 0,
@@ -26,11 +26,11 @@
         ],
         "UpdateIndex": 1,
         "DlcIndex": 1,
-        "Descripcion": "Juego de peleas de dragon ball"
+        "Descripcion": "Dragon Ball fighterZ es un juego que ofrecerá combates con sabor clásico pero muy espectaculares, ya que incluye elementos en 3D como los ataques finales, movimientos especiales y distintas animaciones para imitar al máximo posible el estilo de animación del anime."
     },
     {
         "Titulo": "Mario Kart 8 Deluxe",
-        "Descripcion": "carreras",
+        "Descripcion": "Mario Kart 8 Deluxe es una remasterización para Nintendo Switch de este exitoso y aclamado juego de Wii U. Llegará a las tiendas el 28 de abril y, además de ofrecer mejores gráficos, también contará con nuevos personajes, ajustes jugables y un renovado Modo Batalla. De esta forma, Mario Kart 8 Deluxe tendrá 48 circuitos (los 32 del original más los 16 de los DLC) y 40 personajes, cinco de ellos nuevos. Estos son Inkling chico e Inkling chica de Splatoon, el Rey Boo, Huesitos y Bowsy, así como nuevas piezas con las que configurar nuestros vehículos.",
         "Peso": "6.76 Gb",
         "Formato": "NSP",
         "UploadBy": "by Bello1987",
@@ -43,7 +43,7 @@
     },
     {
         "Titulo": "New Super Mario Bros. U Deluxe",
-        "Descripcion": "juego plataformero",
+        "Descripcion": "New Super Mario Bros. U Deluxe es una puesta al día o remasterización del clásico videojuego de plataformas en 2D New Super Mario Bros. U para Nintendo Switch. Actualizando el título lanzado en Wii U para la híbrida de Nintendo, encontraremos un videojuego que recoge todo el contenido editado hasta la fecha, incluyendo la expansión New Super Luigi U, así como retocando ciertos aspectos de la jugabilidad para hacer aún más adictiva las mecánicas. Ofrece posibilidades de juego en solitario y en cooperativo en una misma Nintendo Switch.",
         "Peso": "2.5 Gb",
         "Formato": "NSP",
         "UploadBy": "By bello1987",
@@ -55,7 +55,7 @@
     },
     {
         "Titulo": "The Legend Of Zelda: Breath Of The Wild",
-        "Descripcion": "Rpg, accion, aventura ",
+        "Descripcion": "El argumento del juego, vuelve a desarrollarse en el fantástico reino de Hyrule, donde se nos presenta a un Link que lleva sumido en un profundo sueño desde hace 100 años y que despierta en un misterioso templo sin saber cómo ni por qué ha acabado ahí. Link deberá hacer caso a una misteriosa voz que le encomienda la misión de acabar con el villano Ganon, un ser maligno que aparece desde épocas inmemoriales y que causó lo que se conoce como el cataclismo. En su camino, conocerá a personajes como a la princesa Zelda, la familia real de hyrule y a sus habitantes, mientras descubre cuál fue su pasado.",
         "Peso": "13 Gb",
         "Formato": "NSP",
         "UploadBy": "By bello1987",
@@ -69,7 +69,7 @@
     },
     {
         "Titulo": "1-2 Switch",
-        "Descripcion": "juego multijugador, entretenimiento",
+        "Descripcion": "1-2-Switch es un título multijugador que traerá consigo un buen número de minijuegos para que nos divirtamos compitiendo con nuestros amigos. Todos ellos buscarán alguna forma de sacarle partido a las posibilidades exclusivas de los nuevos mandos Joy-Con. Incluirá un total de 28 minijuegos, que nos invitarán a retarnos en duelos, ordenar vacas, descubrir las bondades de la vibración HD o manejar platillos con equilibrio.",
         "Peso": "1 Gb",
         "Formato": "NSP",
         "UploadBy": "By bello1987",
@@ -90,11 +90,12 @@
         "Links": [
             "[Gdrive](https://drive.google.com/open?id=1hMDeGQ_yIarYIBsfZihvR4_zbLxU-haw)"
         ],
-        "UpdateIndex": 5
+        "UpdateIndex": 5,
+        "Descripcion": "Tales of Vesperia Definitive Edition nos traslada al mundo de Terca Lumireis, un planeta distante en el que los habitantes han llegado a dominar una sustancia mágica llamada Blastia, que la emplean para los más variados ámbitos de su vida y que han incluido como parte de su desarrollo tecnológico. Sin embargo, en la ciudad de Zaphias alguien ha robado la principal blastia que da poder y funcionamiento a la urbe, desatando el caos. Nuestro protagonista, Yuri Lowell, se verá envuelto en una extraña conspiración que pondrá en riesgo al mismo destino del planeta y la forma en la que se usa esta poderosa fuente de poder."
     },
     {
         "Titulo": "Wolfenstein II: The New Colossus",
-        "Descripcion": "accion, shooter",
+        "Descripcion": "Se trata de la secuela de The New Order, una vez más deberemos luchar contra las fuerzas nazis que se han hecho con el control del país norteamericano y en nuestra aventura recorreremos lugares como Roswell, Nuevo Méjico y Nueva Orleans, entre muchos otros. Para acabar con sus enemigos y liberar a América Balzkowicz deberá aliarse con un peculiar y carismático grupo de rebeldes para oponer resistencia y expulsar a los alemanes invasores. La acción y la brutalidad está 100% asegurada ya que dispondremos de un amplio y diverso arsenal de armas y habilidades con las que acabar con nuestros enemigos mecánicos y humanos de todas las formas habidas y por haber.",
         "Peso": "14 Gb",
         "Formato": "NSP",
         "UploadBy": "By bello1987",
@@ -107,7 +108,7 @@
     },
     {
         "Titulo": "Travis Strikes Again No More Heroes",
-        "Descripcion": "multijugador, accion",
+        "Descripcion": "Travis Strikes Again: No More Heroes nos presenta un total de siete títulos o géneros diferentes en su planteamiento. De esta forma, nos encontraremos encarnando de nuevo a Travis, que volverá a portar su beam katana, en una carera por detener al villano del videojuego y su legión de bugs y fallos, que pretenden amenazar la existencia del universo virtual en el que nos encontramos. En Travis Strikes Again: No More Heroes encontraremos un homenaje a los títulos de acción, a los de carrera o incluso a los de puzles, formando un equipo en cooperativo con Badman, algo que nos permite resolver y afrontar desafíos en una misma consola.",
         "Peso": "6 Gb",
         "Formato": "NSP",
         "UploadBy": "By bello1987",
@@ -121,7 +122,7 @@
     },
     {
         "Titulo": "Resident Evil Revelations",
-        "Descripcion": "survival horror",
+        "Descripcion": "Resident Evil llega a Nintendo Switch en su forma clásica, tras Mercenaries, en una aventura que volverá a combinar sustos, exploración del escenario, puzles y acción. Controlamos a Jill Valentine, que se despierta sin saber cómo en un barco, donde transcurrirá la historia, ambientada entre Resident Evil 4 y 5. Jill y su compañero, un nuevo personaje llamado Parker Luciani, tendrán que buscar el paradero de Chris Redfield.",
         "Peso": "12 Gb",
         "Formato": "NSP",
         "UploadBy": "By bello1987",
@@ -133,7 +134,7 @@
     },
     {
         "Titulo": "Resident Evil Revelations 2",
-        "Descripcion": "Survival Horror",
+        "Descripcion": "Resident Evil Revelations 2 para Nintendo Switch es la continuación de aquella vuelta a los orígenes de Resident Evil que fue el primer Revelations. Ambientado entre Resident Evil 5 y 6, está protagonizado por Claire Redfield y Moira Burton, hija de Barry Burton. Claire realiza las secuencias de acción, mientras que Moira es la encargada de curar y mantener con vida a Claire mientras descubren los misterios de la isla en la que se ",
         "Peso": "24 Gb",
         "Formato": "NSP",
         "UploadBy": "By bello1987",
@@ -142,11 +143,12 @@
             "[Gdrive parte 1](https://drive.google.com/open?id=1GK0ub0QHBVZvOs60o_eNWK2xdD9I9dVr)",
             "[Gdrive parte 2](https://drive.google.com/open?id=1LXffCqDr3Hc-Ell2YZoCv6rNMELZ7Jmz)",
             "[Gdrive parte 3](https://drive.google.com/open?id=1L6lzhTUJD-YQSIg-_CGVeqcqIKgiqyVH)"
-        ]
+        ],
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Zhdgn6t_7Q46Ja3pbziWlCA8VgBkiwBj/mffv71Myu7Ebi9qcy4NfVIS0Sb6COiXA.png"
     },
     {
         "Titulo": "Pokémon Let’s Go, Pikachu!",
-        "Descripcion": "aventura, rol",
+        "Descripcion": "Pokémon Let’s Go Pikachu! se trata del debut de la reputada saga de monstruos de bolsillo coleccionables en Nintendo Switch. Considerados una reinterpretación de Pokémon Amarillo, llegan a la consola híbrida de Nintendo ofreciendo una serie de mecánicas y formas de jugar diseñadas tanto para los veteranos de la saga como para los nuevos jugadores y novatos que decidan acercarse a estos juegos por primera vez. Nintendo, The Pokémon Company y Game Freak quieren aprovechar con estos videojuegos las sinergías de Pokémon GO.",
         "Peso": "4 Gb",
         "Formato": "NSP",
         "UploadBy": "By bello1987",
@@ -159,7 +161,7 @@
     },
     {
         "Titulo": "Pokémon Let’s Go, Eevee!",
-        "Descripcion": "aventura, rol",
+        "Descripcion": "Pokémon Let’s Go Eevee! se trata del debut de la reputada saga de monstruos de bolsillo coleccionables en Nintendo Switch. Considerados una reinterpretación de Pokémon Amarillo, llegan a la consola híbrida de Nintendo ofreciendo una serie de mecánicas y formas de jugar diseñadas tanto para los veteranos de la saga como para los nuevos jugadores y novatos que decidan acercarse a estos juegos por primera vez. Nintendo, The Pokémon Company y Game Freak quieren aprovechar con estos videojuegos las sinergías de Pokémon GO.",
         "Peso": "4 Gb",
         "Formato": "NSP",
         "UploadBy": "By bello1987",
@@ -169,5 +171,409 @@
             "[Gdrive](https://drive.google.com/open?id=1Erqt63xSYWAFIEmBLKEK4UBSe9emcFvC)"
         ],
         "UpdateIndex": 9
+    },
+    {
+        "Titulo": "Mario Tennis Aces",
+        "Descripcion": "Mario Tennis Aces cuenta con un elaborado modo historia, que ahondará en las mismas facetas que hicieron grande a Mario Power Tennis, para muchos la mejor entrega de la serie hasta la fecha. En esta modalidad iremos recorriendo distintos escenarios o minimapas, al más puro estilo New Super Mario Bros. Aquí encontraremos enfrentamientos de todo tipo, desde duelos individuales a partidos por parejas, minijuegos, pruebas especiales o combates contra jefes finales, todo ello con un cierto énfasis en la historia y un argumento divertido y disparatado.",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/0CnueRP5knJkZXOgCmH4RQuNR-1trpmh/jhK5UfeksE2_bwXbaMuq31tKJMZxde0e.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1G38I99SzOdPGGhHEWnn71bBO0wfX-TRJ)"
+        ],
+        "UpdateIndex": 10
+    },
+    {
+        "Titulo": "Aaero - Complete Edition",
+        "Descripcion": "Juego de aviones",
+        "Peso": "1,4 GB",
+        "Formato": "NSP",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/532724914247958538/Aaero.png",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/19yU6gM48lCdB2ChuEQPg8znW6xha0ivA/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "Anima Gate of Memories",
+        "Descripcion": "Anima Gate of Memories es un RPG de acción en tercera persona en el que el jugador explorará un vasto mundo lleno de peligros y maravillas. En él tomas el control de dos personajes que están atrapados en una guerra en las sombras, un conflicto secreto que envolverá al mundo en el caos.",
+        "Peso": "4,5 GB",
+        "Formato": "NSP",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/532961546779885568/unknown.png",
+        "Links": [
+            "[MediaFire](https://www.mediafire.com/file/rx7f3rd8bgoh3k3/%5BGM%5DAGOM%5BN%5D.rar)"
+        ]
+    },
+    {
+        "Titulo": "Anima Gate of Memories 2: The Nameless Chronicles",
+        "Descripcion": "Anima The Nameless Chronicles es un juego de rol y acción en tercera persona que narra la historia del Sin nombre, un ser inmortal con una maldición: recorrer el mundo por toda la eternidad.",
+        "Peso": "3.3 GB",
+        "Formato": "NSP",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/532962633415131138/DfL4H9RWAAAlEEw.png",
+        "Links": [
+            "[MediaFire](https://www.mediafire.com/file/8tnhj43tv3l1p4g/%5BGM%5DAGOMTNC%5BN%5D.rar)"
+        ]
+    },
+    {
+        "Titulo": "Aqua TV",
+        "Descripcion": "Aqua TV es un impresionante acuario virtual totalmente personalizable. Elija una pecera y luego cambie el piso, las paredes, la decoración y, por supuesto, el pescado, para hacer el acuario que USTED desea. Todo prestado en glorioso 3D.",
+        "Peso": "220 MB",
+        "Formato": "NSP",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/532963263483346944/Aqua-TV.png",
+        "Links": [
+            "[GDrive](http://dapalan.com/20097327/aqua-tv)"
+        ]
+    },
+    {
+        "Titulo": "ARK: Survival Evolved",
+        "Descripcion": "ARK: Survival Evolved nos lleva a una época prehistórica con la misión de sobrevivir. Nos encontramos en un mapa de 48 kilómetros cuadrados (32 de tierra y 16 de agua) en el que tenemos que enfrentarnos a un mundo hostil lleno de criaturas prehistóricas. Tendremos que establecer nuestro campamento y defenderlo de criaturas, así como construir nuestras propias herramientas.",
+        "Peso": "9.79 GB",
+        "Formato": "NSP",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.vandal.net/t200/59055/ark-survival-evolved-201812222191753_7.jpg",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/1Eg4sMgyNic-kzVV-HIHgK_h-llTyh-15/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "ARMS",
+        "Descripcion": "ARMS es un juego de combate para Nintendo Switch que parece situarse en la tradición de Punch-Out con una estética desenfadada y futurista. Los puños de los luchadores están unidos a su cuerpo por unos muelles que permiten atacar a distancia en el cuadrilatero. Gracias a su innovador control, diseñado para sacarle partido a los Joy-Con, se nos ofrecerá la posibilidad de encadenar golpes, desplazarnos por los escenarios de combate y lanzar ataques a distancia.",
+        "Peso": "2.2GB",
+        "Formato": "NSP",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.vandal.net/t200/45238/arms-2017619164434_17.jpg",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/1EbLwDuTXnrnYhR3hEBVzZb6gpS6vLVBX/view?usp=sharing)"
+        ],
+        "UpdateIndex": 11
+    },
+    {
+        "Titulo": "DOOM Eternal Collection",
+        "Descripcion": "DOOM Eternal nos trasladará a un escenario muy diferente al de la primera parte. Los demonios y las criaturas más raras del averno han invadido la Tierra, desatando el Infierno en ella. Nuestra misión no será otra que la de pararle los pies, evitando que su maldad y su corrupción se extienda por todos los lugares del planeta. Al trasladarse a la Tierra, el juego cuenta con más ambientes y lugares más abiertos, aumentándose la escala del título en varios enteros.",
+        "Peso": "13 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/s9J85UIRFnNAO89bODHqJ0VEaF7UC94-/XdqRvkvyEbFkzKujYyPz9WKeRxQKp37f.jpg",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/1XynE5dVxIDGO10uGnRwmgPuRDMJexkYb/view?usp=sharing)"
+        ],
+        "UpdateIndex": 12
+    },
+    {
+        "Titulo": "Diablo III Eternal Collection",
+        "Peso": "13.3 GB y 19 GB",
+        "Formato": "NSP y XCI",
+        "UploadBy": "By Bello NSP & Urferu XCI",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.vandal.net/t200/64374/diablo-iii-eternal-collection-20181121133416_11.jpg",
+        "Links": [
+            "[GDrive NSP](https://drive.google.com/uc?id=1jFAY7kBc10NToctBCAxoIO73YHejCuhk&export=download)",
+            "[GDrive XC0](https://drive.google.com/file/d/1c2a7HBQqcpe-kNsDEOUzly8fExMECamK/view?usp=sharing)",
+            "[GDrive XC1](https://drive.google.com/file/d/1H84CPyrdp4RMQEmA4glRWLoCtm1j_HUV/view?usp=sharing)",
+            "[GDrive XC2](https://drive.google.com/file/d/1NbLD3jFMDBmbRL22tnm5mvpNhhy46fWv/view?usp=sharing)",
+            "[GDrive XC3](https://drive.google.com/file/d/197qxChCrHs45AzLNTvS3Z6Yx9jGPF8YS/view?usp=sharing)",
+            "[GDrive XC4](https://drive.google.com/file/d/15f8duhTM_G01ADRPcilJX-u_ODvjxW0q/view?usp=sharing)"
+        ],
+        "UpdateIndex": 13,
+        "DlcIndex": 4,
+        "Descripcion": "Diablo III: Eternal Collection reúne en la consola de Nintendo todos los contenidos originales de Diablo III en su lanzamiento, así como las dos expansiones, Reaper of Souls y Rise of the Necromancer, en una misma presentación. Hablamos de una colección que empaqueta en un mismo cartucho todas las bondades del videojuego de rol y acción, con mazmorras, criaturas infectas y multitud de equipos, armas y armaduras a configurar. Ya sea combatiendo solos o con amigos a través de internet, Diablo III en Nintendo Switch presenta una duración casi infinita."
+    },
+    {
+        "Titulo": "Sid Meier's Civilization VI",
+        "Descripcion": "estrategia",
+        "Peso": "5 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/hTezlKU5pDCtR1_Jbo0wOM8AbIfzk9Go/kRKN1pxPQZz2KHCclVT9bRR9VB5phIZf.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1mXRiRsOg01JaC96cerHJ15HAI0nffwh_/view?usp=sharing)"
+        ],
+        "UpdateIndex": 14,
+        "DlcIndex": 5
+    },
+    {
+        "Titulo": "Oceanhorn - Monster of Uncharted Seas",
+        "Descripcion": "juego de rol, accion y aventura",
+        "Peso": "279 Mb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/or6Rfdq_hwk_Yc_BpwKIAj4OYF2XO4gt/ZFyrVOz5joN5lNC-61VhRznFoND7eCJc.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1RlxS50gh8KFQDdHDacDO2_FqUrd5pDNV)"
+        ],
+        "UpdateIndex": 15
+    },
+    {
+        "Titulo": "Bayonetta",
+        "Descripcion": "accion",
+        "Peso": "9 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/C_KILbcC9T1Wx99b3-SmqiI7tm_qJMan/kVDva-b_yjxhHtNkqBjAn8JJIL83gsPs.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1nNLhLx71Mc5vCKK96zH7G1KzIKsyDI1D)"
+        ]
+    },
+    {
+        "Titulo": "Bayonetta 2",
+        "Descripcion": "accion",
+        "Peso": "12 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/3Lx5gBkhblOz__GLTFkTTYJCBsGgiP1F/YOQDTy1l6z9cMA4NdsEZVx8O8gjtDzVR.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=17er73CBg1fV08EQX_k2-D8_9mEIH2TQj)"
+        ]
+    },
+    {
+        "Titulo": "Tumblestone",
+        "Descripcion": "puzzle.",
+        "Peso": "961 Mb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/rwgdscjBGakXe2J2n0EGozaU_or77qxn/PhpjvIrvYrK4mDGgHAgcVjguMXZ3zavK.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=17EI_QWHX-KMT3WdSaqj5l8xajBnXWQB3)"
+        ]
+    },
+    {
+        "Titulo": "Victor Vran Overkill Edition",
+        "Descripcion": "rpg",
+        "Peso": "3 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/w9kT4-asamf3W6aI8WdpPO0vLmgNwasH/wOmZCWTm-wwfq2Zuu1-01JbfkRyIYwsU.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1x9yZbTxo59shkJws7FmouNIGFa0qrmfQ)"
+        ],
+        "UpdateIndex": 16
+    },
+    {
+        "Titulo": "Death Mark",
+        "Descripcion": "aventura",
+        "Peso": "4 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/cQ-UT52DaB7U3sQgNY-3aXfLDdIJWsf9/i3KUcGlQgJyqX08VnJo0PpqwZRwd_PdZ.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=10-CLj68R932YBkkkBkmXCaHMrX2VZDd7)"
+        ],
+        "UpdateIndex": 17
+    },
+    {
+        "Titulo": "Taiko no Tatsujin: Drum 'n' Fun!",
+        "Descripcion": "musical",
+        "Peso": "3 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/XQPbGWW_v6lX8aBk8JbTIscRSzMgKbbj/CqHHX3K5rsBtCzLJu_gm4-5Mjsxn6E8l.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1mufDYoxdsnynHeAlVpDcxgfJeB1x8ObC/view?usp=sharing)"
+        ],
+        "UpdateIndex": 18,
+        "DlcIndex": 6
+    },
+    {
+        "Titulo": "Aragami: Shadow Edition",
+        "Descripcion": "plataformas, accion, aventura",
+        "Peso": "3 GB",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/EiuSMY-4GdyhBnfLKe1kDaLGjfV_ERs0/uEL5tZqYjM3pDhOBLQ4YL4B09fYwk0vc.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1Zd4cZU2INcm4MZjI2FwLZtcCFVwelyZs/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "R.B.I. Baseball 18",
+        "Peso": "5 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/7-GqYbpp2MerqXMGadI8rEnDLHIXg4DO/ouBjcPIrZ8uKcAem6-ZMfHAhOCdkdxCy.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=14puQhYKR-kb7LUalKdlt-v6Z3BWxyA-Y)"
+        ],
+        "UpdateIndex": 19
+    },
+    {
+        "Titulo": "Disgaea 5 Complete",
+        "Descripcion": "juego de rol",
+        "Peso": "6 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/i0sqABIhuhmWIqxNnYC-GnhfhS__UwtT/L3kH3aztyUDm4UmjLjeUA7n72Rdx-5NA.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1sHzR8FLlaLrz1C1Ua-vFTefRoAgwojEy)"
+        ]
+    },
+    {
+        "Titulo": "Disgaea 1 Complete",
+        "Peso": "3 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/k4GBDtgUrY53d5MjqmWETCpgvEQ4L_mB/g0XHbe5mTPqAVgmsvfYYg75Doy9sNMhW.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1Sp33WgKH9SQO_wMDy28bptyqDWExMzhB)"
+        ]
+    },
+    {
+        "Titulo": "DARK SOULS: REMASTERED",
+        "Descripcion": "rol, rpg",
+        "Peso": "4 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/uis0Vr2AJiJZ0fVqxh_j1yJlUIlHsxlv/1ryzR4eDYs3Hu1uJgSWezGMXb7lZZGCq.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1VZ8IMRP_Mi3MKVYgUcus0roiFdh-MaIk)"
+        ],
+        "UpdateIndex": 20
+    },
+    {
+        "Titulo": "Dead Cells",
+        "Descripcion": "metroidvania",
+        "Peso": "443 Mb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_DeadCells_PEGI.jpg",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1FGUa0rntGeCnI_G_Xx4YP-yLqaOED1pj)"
+        ],
+        "UpdateIndex": 21
+    },
+    {
+        "Titulo": "Crash Bandicoot N. Sane Trilogy",
+        "Peso": "5 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/YpA1cOZEzMCQVgGKuf92PNFAXTLlcXp5/oi3EIICDqGdi2ILsTA2eUHzwsx-3oUQh.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=143CVak2DUoFIY3YUYDQYSt8aJk3GSye6)"
+        ]
+    },
+    {
+        "Titulo": "Captain Toad: Treasure Tracker",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Ku68rcmSJKen7UnibJ_v3RY3RsJtfXNx/5GOXMh4vjnKWuu8fhJnquH1EABATAND7.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=16ewcFApGcx5xBs6UoVeP8rwdc6EeBDai)"
+        ]
+    },
+    {
+        "Titulo": "Donkey Kong Country: Tropical Freeze",
+        "Descripcion": "accion, plataformas",
+        "Peso": "7 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/wcfCyAd7t2N78FkGvEwCOGzVFBNQRbhy/AvG-_d4kEvEplp0mJoUew8IAg71YQveM.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=10lE5DccEfNT70M3gLhl4YEwsFqxoRENO)"
+        ],
+        "UpdateIndex": 22
+    },
+    {
+        "Titulo": "FIFA 19",
+        "Descripcion": "soccer",
+        "Peso": "14 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/f0_HoyEparSfc6WlRBx7gYhZ_3KZ3HtY/nj6Hkit4tDh4H_fEQziBu76Wo1z05fD3.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=16vBDQR90jkxHcytwyXsO0j2qYRDAJC6V)"
+        ],
+        "UpdateIndex": 23
+    },
+    {
+        "Titulo": "Fitness Boxing",
+        "Descripcion": "deportes, musica",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/HLaXUqbwOHLUlZ5zV4OFz6zvboqjEDeY/usrb6jUkUIQM4sfopAVknxrNVdSt5FFq.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1O6_lKZmty2_zM2beVW5DQplq7s4Yr8ig)"
+        ],
+        "UpdateIndex": 24
+    },
+    {
+        "Titulo": "Guacamelee! 2",
+        "Peso": "2 Gb ",
+        "Formato": "NSP",
+        "UploadBy": "By belllo1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/1MwU_qf-b4SEz5YH9brybYiTPlQrasmr/vRDCkuvuYPkSJ8sqB_lu8ErheMaQr7U_.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1moaOcdQ1idOHT7Fc13txKKK0yUUA1wUh)"
+        ],
+        "UpdateIndex": 25,
+        "DlcIndex": 7
+    },
+    {
+        "Titulo": "Guacamelee! Super Turbo Championship Edition",
+        "Descripcion": "plataformas",
+        "Peso": "640 Mb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/V_ddrmwHYiUqggyW-lPF_b7e7FSMCBJN/aCWvfJAUxcuZ6GjMypFfEUQIMUYNa7x9.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/11qqJHDcfVbEm5APc2ILQ9MmV1-_OVwHz/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "Observer",
+        "Descripcion": "terror",
+        "Peso": "18 Gb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/q7eGarIL0lt5wUDt0Bc4p171aW5KpQO_/6uf6Ux84tXjPi78HlUawd1Y7Ql_kGHWx.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1gq1PDjOQgGUla3yGyrmbY3ystiJxTZo2)"
+        ]
+    },
+    {
+        "Titulo": "Cartoon Network: Battle Crashers",
+        "Descripcion": "Action, Adventure, Fighting, Multiplayer",
+        "Peso": "157 Mb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/-9qX9xzR_MAS1qprejSDDEzzPzMjWbHH/u-gyY068tCKkqneVLX6NXR7Efff5iaQ3.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1RCKGHDW4gNkDjZwZrQov-sPrcu-HL5IA/view?usp=sharing)"
+        ]
     }
 ]
