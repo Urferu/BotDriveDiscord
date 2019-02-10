@@ -555,8 +555,9 @@ namespace DriveBot.Resources.Utils
             stdClassCSharp game = new stdClassCSharp();
             stdClassCSharp update = new stdClassCSharp();
             stdClassCSharp dlc = new stdClassCSharp();
+            generaDatosJuego(messageGame, ref game, ref update, ref dlc);
 
-            if(game["Titulo", TiposDevolver.Boleano] && game["Links", TiposDevolver.Boleano])
+            if (game["Titulo", TiposDevolver.Boleano] && game["Links", TiposDevolver.Boleano])
             {
                 if (index < 0)
                 {
@@ -589,7 +590,7 @@ namespace DriveBot.Resources.Utils
                         game["DlcIndex"] = dlcStd.toArray().Length - 1;
                     }
                 }
-
+                gamesStd.Add(game);
                 gamesStd.writeJsonFile("games.json");
                 updatesStd.writeJsonFile("updates.json");
                 dlcStd.writeJsonFile("dlcs.json");
@@ -603,9 +604,9 @@ namespace DriveBot.Resources.Utils
             return respuesta;
         }
 
-        private void generaDatosJuego(string messageGame, ref stdClassCSharp game, ref stdClassCSharp update, ref stdClassCSharp dlc)
+        private static void generaDatosJuego(string messageGame, ref stdClassCSharp game, ref stdClassCSharp update, ref stdClassCSharp dlc)
         {
-            string[] datosDelJuego = messageGame.Split(new String[] { Environment.NewLine }, StringSplitOptions.None);
+            string[] datosDelJuego = messageGame.Split('\n');//new String[] { Environment.NewLine }, StringSplitOptions.None);
             string propiedad = "", valor = "";
             int tipoDatoJuego = 0;
             for(int i = 0; i < datosDelJuego.Length; i++)
@@ -629,7 +630,7 @@ namespace DriveBot.Resources.Utils
                     {
                         game[propiedad] = new stdClassCSharp(true);
                         i++;
-                        while(string.IsNullOrEmpty(datosDelJuego[i]))
+                        while(i < datosDelJuego.Length && !string.IsNullOrEmpty(datosDelJuego[i]))
                         {
                             (game[propiedad] as stdClassCSharp).Add(datosDelJuego[i]);
                             i++;
@@ -640,7 +641,7 @@ namespace DriveBot.Resources.Utils
                     {
                         update[propiedad] = new stdClassCSharp(true);
                         i++;
-                        while (string.IsNullOrEmpty(datosDelJuego[i]))
+                        while (i < datosDelJuego.Length && !string.IsNullOrEmpty(datosDelJuego[i]))
                         {
                             (update[propiedad] as stdClassCSharp).Add(datosDelJuego[i]);
                             i++;
@@ -651,7 +652,7 @@ namespace DriveBot.Resources.Utils
                     {
                         dlc[propiedad] = new stdClassCSharp(true);
                         i++;
-                        while (string.IsNullOrEmpty(datosDelJuego[i]))
+                        while (i < datosDelJuego.Length && !string.IsNullOrEmpty(datosDelJuego[i]))
                         {
                             (dlc[propiedad] as stdClassCSharp).Add(datosDelJuego[i]);
                             i++;

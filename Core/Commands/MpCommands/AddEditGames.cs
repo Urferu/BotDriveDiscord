@@ -15,7 +15,7 @@ namespace DriveBot.Core.Commands
         {
             if (Context.IsPrivate)
             {
-                if (stdClassCSharp.readJsonFile("usersIds")[Context.User.Id.ToString(), TiposDevolver.Boleano])
+                if (stdClassCSharp.readJsonFile("usersIds.json")["users"][Context.User.Id.ToString(), TiposDevolver.Boleano])
                 {
                     if (string.IsNullOrEmpty(inputMessage))
                     {
