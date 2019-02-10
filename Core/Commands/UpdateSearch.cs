@@ -7,7 +7,7 @@ namespace DriveBot.Core.Commands
 {
     public class UpdateSearch : ModuleBase<SocketCommandContext>
     {
-        [Command("update"), Alias("update", "quiero el update del", "actualizacion", "actualización", "quiero la actualizacion del"), Summary("Solicita juego command")]
+        [Command("update"), Alias("update", "actualizacion", "actualización", "quiero la actualizacion del"), Summary("Solicita juego command")]
         public async Task sJustein([Remainder]string inputMessage = "NONE")
         {
             string mensaje = inputMessage;
