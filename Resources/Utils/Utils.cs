@@ -103,10 +103,11 @@ namespace DriveBot.Resources.Utils
             return response;
         }
 
-        public static string getListGames()
+        public static List<string> getListGames()
         {
-            //var responses = new List<string>();
+            var responses = new List<string>();
             StringBuilder response = new StringBuilder();
+            string Letter = "";
 
             stdClassCSharp gamesStd = stdClassCSharp.readJsonFile("games.json");
 
@@ -119,20 +120,26 @@ namespace DriveBot.Resources.Utils
 
             listaJuegos = listaJuegos.OrderBy(lj => lj["Titulo"]).ToList();
 
+            Letter = listaJuegos[0]["Titulo"].Substring(0, 1);
+
             foreach (stdClassCSharp game in listaJuegos)
             {
                 if (response.Length > 0)
                     response.Append(Environment.NewLine);
 
-                //if(response.Length + (game["Titulo"] as string).Length > 2000)
-                //{
-                //    responses.Add(response.ToString().Trim());
-                //    response.Clear();
-                //}
+                if(Letter != game["Titulo"].Substring(0,1))
+                {
+                    responses.Add(response.ToString().Trim());
+                    response.Clear();
+                    Letter = game["Titulo"].Substring(0, 1);
+                }
                 response.Append(game["Titulo"]);
             }
 
-            return response.ToString();
+            responses.Add(response.ToString().Trim());
+            response.Clear();
+
+            return responses;
         }
 
         /// <summary>
@@ -582,6 +589,8 @@ namespace DriveBot.Resources.Utils
                     else if (update["Links", TiposDevolver.Boleano] && !dlc["Links", TiposDevolver.Boleano])
                     {
                         dlc["Links"] = update["Links"];
+                        dlc["Peso"] = update["Peso"];
+                        dlc["Formato"] = update["Formato"];
                         dlc["Titulo"] = game["Titulo"];
                         dlc["ImagenJuego"] = game["ImagenJuego"];
                         dlc["ImagenDiscord"] = game["ImagenDiscord"];
