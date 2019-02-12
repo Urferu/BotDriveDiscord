@@ -30,11 +30,17 @@ namespace DriveBot.Core.Commands
                     }
                     else
                     {
+                        Discord.WebSocket.SocketGuild switchGeneral = Context.Client.GetGuild(485262131797688331);
+
                         string anuncio = "";
                         string response = Utils.guardarJuego(inputMessage, ref anuncio);
-                        await Context.User.SendMessageAsync(response);
-                        if(!string.IsNullOrEmpty(anuncio))
-                            await Context.Client.GetGuild(485262131797688331).GetTextChannel(485446685552803850).SendMessageAsync($"{Context.Client.GetGuild(485262131797688331).EveryoneRole.Mention} {anuncio}");
+                        await Context.User.SendMessageAsync($"{Context.User.Mention} {response}");
+                        anuncio = /*switchGeneral.EveryoneRole.Mention + */"@everyone " + anuncio;
+                        if (!string.IsNullOrEmpty(anuncio))
+                        {
+                            //await Context.Client.GetGuild(485262131797688331).GetTextChannel(485446685552803850).SendMessageAsync(anuncioC);
+                            await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync(anuncio);
+                        }
                     }
                 }
                 else
