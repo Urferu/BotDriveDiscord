@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using System.Collections;
 
 using Discord;
 using Discord.Commands;
@@ -36,7 +37,7 @@ namespace DriveBot.Core.Commands
                         string response = Utils.guardarJuego(inputMessage, ref anuncio);
                         await Context.User.SendMessageAsync($"{Context.User.Mention} {response}");
                         anuncio = /*switchGeneral.EveryoneRole.Mention + */"@everyone " + anuncio;
-                        if (!string.IsNullOrEmpty(anuncio))
+                        if (!string.IsNullOrWhiteSpace(anuncio))
                         {
                             //await Context.Client.GetGuild(485262131797688331).GetTextChannel(485446685552803850).SendMessageAsync(anuncioC);
                             await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync(anuncio);
@@ -70,7 +71,8 @@ namespace DriveBot.Core.Commands
                         string descripcion = "";
                         foreach (stdClassCSharp juego in Utils.getListGamesEdit())
                         {
-                            descripcion = $"{Environment.NewLine}{juego["indexGame"]}    {juego["Titulo"]}";
+                            builder.AddField(juego["indexGame"], juego["Titulo"]);
+                            //descripcion = $"{Environment.NewLine}{juego["indexGame"]}    {juego["Titulo"]}";
                         }
                         builder.WithDescription(descripcion);
                         builder.WithColor(new Color(0xFFF000));
@@ -82,16 +84,23 @@ namespace DriveBot.Core.Commands
                     }
                     else if(int.TryParse(inputMessage, out indexGame))
                     {
-                        await Context.User.SendMessageAsync("Aún no me programan esta parte por favor se paciente con mi creador XD");
+                        string response = Utils.searchGameToEdit(indexGame);
+                        await Context.User.SendMessageAsync(response);
                     }
                     else
                     {
-                        //string anuncio = "";
-                        //string response = Utils.guardarJuego(inputMessage, ref anuncio);
-                        //await Context.User.SendMessageAsync(response);
-                        //if (!string.IsNullOrEmpty(anuncio))
-                        //    await Context.Client.GetGuild(485262131797688331).GetTextChannel(485446685552803850).SendMessageAsync($"{Context.Client.GetGuild(485262131797688331).EveryoneRole.Mention} {anuncio}");
-                        await Context.User.SendMessageAsync("Aún no me programan esta parte por favor se paciente con mi creador XD");
+                        Discord.WebSocket.SocketGuild switchGeneral = Context.Client.GetGuild(485262131797688331);
+                        ArrayList datosJuego = new ArrayList(inputMessage.Split('\n'));
+                        int.TryParse(datosJuego[0].ToString().Substring(datosJuego[0].ToString().IndexOf(':') + 1), out indexGame);
+                        string anuncio = datosJuego[1].ToString().Trim();
+                        datosJuego.RemoveAt(0);
+                        datosJuego.RemoveAt(0);
+                        string response = Utils.guardarJuego(string.Join("\n", (string[])datosJuego.ToArray()), ref anuncio, indexGame);
+                        await Context.User.SendMessageAsync($"{Context.User.Mention} {response}");
+                        if(!string.IsNullOrWhiteSpace(anuncio))
+                        {
+                            await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync($"@everyone {anuncio}");
+                        }
                     }
                 }
                 else
@@ -106,7 +115,7 @@ namespace DriveBot.Core.Commands
             }
         }
 
-        [Command("getid"), Alias("dame mi id"), Summary("Agrega Nuevo Juego")]
+        [Command("getid"), Alias("dame mi id"), Summary("Obtiene tu id")]
         public async Task getUserId([Remainder]string inputMessage = "")
         {
             if (Context.IsPrivate)
@@ -118,6 +127,20 @@ namespace DriveBot.Core.Commands
                 await Context.Message.DeleteAsync(RequestOptions.Default);
                 await Context.Channel.SendMessageAsync($"Ese comando solo funciona por mp.");
             }
+        }
+
+        [Command("get_avatar"), Alias("dame el avatar de"), Summary("Obtiene el avatar del usuario mencionado")]
+        public async Task getAvatarUser([Remainder]string inputMessage = "")
+        {
+            //if (Context.IsPrivate)
+            //{
+            //    await Context.User.SendMessageAsync($"tu id es: {Context.User.Id}");
+            //}
+            //else
+            //{
+            //    await Context.Message.DeleteAsync(RequestOptions.Default);
+            //    await Context.Channel.SendMessageAsync($"Ese comando solo funciona por mp.");
+            //}
         }
     }
 }

@@ -170,6 +170,8 @@ namespace DriveBot.Resources.Utils
         {
             StringBuilder sbResponse = new StringBuilder();
             stdClassCSharp game = new stdClassCSharp();
+            stdClassCSharp update = new stdClassCSharp();
+            stdClassCSharp dlc = new stdClassCSharp();
             sbResponse.Append("id: ");
             sbResponse.Append(indexGame);
             sbResponse.Append(Environment.NewLine);
@@ -262,7 +264,89 @@ namespace DriveBot.Resources.Utils
                 }
                 sbResponse.Append(Environment.NewLine);
 
+                if(game["UpdateIndex", TiposDevolver.Boleano] && searchUpdate("", ref update, game["UpdateIndex", TiposDevolver.Entero]))
+                {
+                    if (update["Version", TiposDevolver.Boleano])
+                    {
+                        sbResponse.Append("Version: ");
+                        sbResponse.Append(update["Version"]);
+                        sbResponse.Append(Environment.NewLine);
+                    }
+                    else
+                    {
+                        sbResponse.Append("Version: (No capturaste la vez anterior, si no actualizarás este campo eliminalo de los datos.)");
+                        sbResponse.Append(Environment.NewLine);
+                    }
 
+                    if (update["Peso", TiposDevolver.Boleano])
+                    {
+                        sbResponse.Append("Peso: ");
+                        sbResponse.Append(update["Peso"]);
+                        sbResponse.Append(Environment.NewLine);
+                    }
+                    else
+                    {
+                        sbResponse.Append("Peso: (No capturaste la vez anterior, si no actualizarás este campo eliminalo de los datos.)");
+                        sbResponse.Append(Environment.NewLine);
+                    }
+
+                    if (update["Formato", TiposDevolver.Boleano])
+                    {
+                        sbResponse.Append("Formato: ");
+                        sbResponse.Append(update["Formato"]);
+                        sbResponse.Append(Environment.NewLine);
+                    }
+                    else
+                    {
+                        sbResponse.Append("Formato: (No capturaste la vez anterior, si no actualizarás este campo eliminalo de los datos.)");
+                        sbResponse.Append(Environment.NewLine);
+                    }
+
+                    sbResponse.Append("Links:");
+                    sbResponse.Append(Environment.NewLine);
+                    foreach (var updateLink in update["Links"].toArray())
+                    {
+                        sbResponse.Append(updateLink);
+                        sbResponse.Append(Environment.NewLine);
+                    }
+                    sbResponse.Append(Environment.NewLine);
+                }
+
+                if (game["DlcIndex", TiposDevolver.Boleano] && searchDlc("", ref dlc, game["DlcIndex", TiposDevolver.Entero]))
+                {
+                    if (dlc["Peso", TiposDevolver.Boleano])
+                    {
+                        sbResponse.Append("Peso: ");
+                        sbResponse.Append(dlc["Peso"]);
+                        sbResponse.Append(Environment.NewLine);
+                    }
+                    else
+                    {
+                        sbResponse.Append("Peso: (No capturaste la vez anterior, si no actualizarás este campo eliminalo de los datos.)");
+                        sbResponse.Append(Environment.NewLine);
+                    }
+
+                    if (dlc["Formato", TiposDevolver.Boleano])
+                    {
+                        sbResponse.Append("Formato: ");
+                        sbResponse.Append(dlc["Formato"]);
+                        sbResponse.Append(Environment.NewLine);
+                    }
+                    else
+                    {
+                        sbResponse.Append("Formato: (No capturaste la vez anterior, si no actualizarás este campo eliminalo de los datos.)");
+                        sbResponse.Append(Environment.NewLine);
+                    }
+
+                    sbResponse.Append("Links:");
+                    sbResponse.Append(Environment.NewLine);
+                    foreach (var dlcLink in dlc["Links"].toArray())
+                    {
+                        sbResponse.Append(dlcLink);
+                        sbResponse.Append(Environment.NewLine);
+                    }
+                    sbResponse.Append(Environment.NewLine);
+                }
             }
 
             return sbResponse.ToString();
@@ -562,54 +646,131 @@ namespace DriveBot.Resources.Utils
             stdClassCSharp game = new stdClassCSharp();
             stdClassCSharp update = new stdClassCSharp();
             stdClassCSharp dlc = new stdClassCSharp();
+            stdClassCSharp gameActual = new stdClassCSharp();
+            int upateIndex = -1;
+            int dlcIndex = -1;
             generaDatosJuego(messageGame, ref game, ref update, ref dlc);
 
+            if (index >= 0)
+            {
+                respuesta = "Tu juego se ha editado correctamente";
+                searchGame("", ref gameActual, index);
+                if (gameActual["DlcIndex", TiposDevolver.Boleano])
+                {
+                    dlcIndex = gameActual["DlcIndex", TiposDevolver.Entero];
+                }
+                else if (gameActual["DlcIndexAnt", TiposDevolver.Boleano])
+                {
+                    dlcIndex = gameActual["DlcIndexAnt", TiposDevolver.Entero];
+                }
+
+                if (gameActual["UpdateIndex", TiposDevolver.Boleano])
+                {
+                    upateIndex = gameActual["UpdateIndex", TiposDevolver.Entero];
+                }
+                else if (gameActual["UpdateIndexAnt", TiposDevolver.Boleano])
+                {
+                    upateIndex = gameActual["UpdateIndex", TiposDevolver.Entero];
+                }
+            }
+
+            gameActual = game;
+            
             if (game["Titulo", TiposDevolver.Boleano] && game["Links", TiposDevolver.Boleano])
             {
-                if (index < 0)
+                if (dlc["Links", TiposDevolver.Boleano])
                 {
-                    if(dlc["Links", TiposDevolver.Boleano])
+                    dlc["Titulo"] = game["Titulo"];
+                    dlc["ImagenJuego"] = game["ImagenJuego"];
+                    dlc["ImagenDiscord"] = game["ImagenDiscord"];
+                    dlc["UploadBy"] = game["UploadBy"];
+
+                    if (dlcIndex >= 0)
                     {
-                        dlc["Titulo"] = game["Titulo"];
-                        dlc["ImagenJuego"] = game["ImagenJuego"];
-                        dlc["ImagenDiscord"] = game["ImagenDiscord"];
-                        dlc["UploadBy"] = game["UploadBy"];
+                        dlcStd[dlcIndex] = dlc;
+                        gameActual["DlcIndex"] = dlcIndex;
+                        if (gameActual["DlcIndexAnt", TiposDevolver.Boleano])
+                        {
+                            gameActual.Remove("DlcIndexAnt");
+                        }
+                    }
+                    else
+                    {
                         dlcStd.Add(dlc);
                         game["DlcIndex"] = dlcStd.toArray().Length - 1;
                     }
-                    if (update["Version", TiposDevolver.Boleano] && update["Links", TiposDevolver.Boleano])
+                }
+                else if (dlcIndex >= 0)
+                {
+                    gameActual["DlcIndexAnt"] = dlcIndex;
+                }
+                if (update["Version", TiposDevolver.Boleano] && update["Links", TiposDevolver.Boleano])
+                {
+                    update["Titulo"] = game["Titulo"];
+                    update["ImagenJuego"] = game["ImagenJuego"];
+                    update["ImagenDiscord"] = game["ImagenDiscord"];
+                    update["UploadBy"] = game["UploadBy"];
+
+                    if (upateIndex >= 0)
                     {
-                        update["Titulo"] = game["Titulo"];
-                        update["ImagenJuego"] = game["ImagenJuego"];
-                        update["ImagenDiscord"] = game["ImagenDiscord"];
-                        update["UploadBy"] = game["UploadBy"];
+                        updatesStd[upateIndex] = update;
+                        gameActual["UpdateIndex"] = dlcIndex;
+                        if (gameActual["UpdateIndexAnt", TiposDevolver.Boleano])
+                        {
+                            gameActual.Remove("UpdateIndexAnt");
+                        }
+                    }
+                    else
+                    {
                         updatesStd.Add(update);
                         game["UpdateIndex"] = updatesStd.toArray().Length - 1;
                     }
-                    else if (update["Links", TiposDevolver.Boleano] && !dlc["Links", TiposDevolver.Boleano])
+                }
+                else if (update["Links", TiposDevolver.Boleano] && !dlc["Links", TiposDevolver.Boleano])
+                {
+                    if (upateIndex >= 0)
                     {
-                        dlc["Links"] = update["Links"];
-                        dlc["Peso"] = update["Peso"];
-                        dlc["Formato"] = update["Formato"];
-                        dlc["Titulo"] = game["Titulo"];
-                        dlc["ImagenJuego"] = game["ImagenJuego"];
-                        dlc["ImagenDiscord"] = game["ImagenDiscord"];
-                        dlc["UploadBy"] = game["UploadBy"];
+                        gameActual["UpdateIndexAnt"] = upateIndex;
+                    }
+                    dlc["Links"] = update["Links"];
+                    dlc["Peso"] = update["Peso"];
+                    dlc["Formato"] = update["Formato"];
+                    dlc["Titulo"] = game["Titulo"];
+                    dlc["ImagenJuego"] = game["ImagenJuego"];
+                    dlc["ImagenDiscord"] = game["ImagenDiscord"];
+                    dlc["UploadBy"] = game["UploadBy"];
+
+                    if (dlcIndex >= 0)
+                    {
+                        dlcStd[dlcIndex] = dlc;
+                        gameActual["DlcIndex"] = dlcIndex;
+                        if (gameActual["DlcIndexAnt", TiposDevolver.Boleano])
+                        {
+                            gameActual.Remove("DlcIndexAnt");
+                        }
+                    }
+                    else
+                    {
                         dlcStd.Add(dlc);
                         game["DlcIndex"] = dlcStd.toArray().Length - 1;
                     }
+                }
+                else if(upateIndex >= 0)
+                {
+                    gameActual["UpdateIndexAnt"] = upateIndex;
                 }
                 gamesStd.Add(game);
                 gamesStd.writeJsonFile("games.json");
                 updatesStd.writeJsonFile("updates.json");
                 dlcStd.writeJsonFile("dlcs.json");
-                anuncialo = $"El juego {game["Titulo"]} ha sido agregado a mi lista de juegos solicitalo con el comando !game [juegoabuscar]";
+                if(string.IsNullOrWhiteSpace(anuncialo) && index == -1)
+                    anuncialo = $"El juego {game["Titulo"]} ha sido agregado a mi lista de juegos solicitalo con el comando !game [juegoabuscar]";
             }
             else
             {
                 respuesta = "No capturaste titulo o links del juego.";
             }
-            
+
             return respuesta;
         }
 
