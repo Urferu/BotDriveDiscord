@@ -23,8 +23,8 @@ namespace DriveBot.Core.Commands
                     {
                         if (Utils.generaBuilderUpdate(update, ref builderUpdate))
                         {
-                            if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
-                                await Context.Message.DeleteAsync(RequestOptions.Default);
+                            //if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
+                            //    await Context.Message.DeleteAsync(RequestOptions.Default);
 
                             await Context.User.SendMessageAsync("", false, builderUpdate.Build());
                             await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he respondido tu solicitud por mp :)");

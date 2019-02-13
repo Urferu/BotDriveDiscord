@@ -23,8 +23,8 @@ namespace DriveBot.Core.Commands
                     {
                         if (Utils.generaBuilderGame(game, ref builderGame))
                         {
-                            if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
-                                await Context.Message.DeleteAsync(RequestOptions.Default);
+                            //if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
+                            //    await Context.Message.DeleteAsync(RequestOptions.Default);
 
                             await Context.User.SendMessageAsync("", false, builderGame.Build());
                             await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he respondido tu solicitud por mp :)");

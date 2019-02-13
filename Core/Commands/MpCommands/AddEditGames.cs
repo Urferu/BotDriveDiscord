@@ -61,7 +61,7 @@ namespace DriveBot.Core.Commands
         {
             if (Context.IsPrivate)
             {
-                if (stdClassCSharp.readJsonFile("usersIds")[Context.User.Id.ToString(), TiposDevolver.Boleano])
+                if (stdClassCSharp.readJsonFile("usersIds.json")["users"][Context.User.Id.ToString(), TiposDevolver.Boleano])
                 {
                     int indexGame = 0;
                     if (string.IsNullOrEmpty(inputMessage))
@@ -71,10 +71,10 @@ namespace DriveBot.Core.Commands
                         string descripcion = "";
                         foreach (stdClassCSharp juego in Utils.getListGamesEdit())
                         {
-                            builder.AddField(juego["indexGame"], juego["Titulo"]);
+                            builder.AddField(juego["indexGame", TiposDevolver.Cadena], juego["Titulo"]);
                             //descripcion = $"{Environment.NewLine}{juego["indexGame"]}    {juego["Titulo"]}";
                         }
-                        builder.WithDescription(descripcion);
+                        //builder.WithDescription(descripcion);
                         builder.WithColor(new Color(0xFFF000));
                         builder.AddField("¿Para editar?", $"Solo vuelve a colocar el comando !edit_game [id del juego] en base a la lista colocada y te devolveré los datos del juego que se capturaron al agregarlo" +
                             $" después de editar esos datos mandas de nuevo el comando pero ahora de la siguiente manera:{Environment.NewLine}{Environment.NewLine}!edit_game id: id del juego{Environment.NewLine}" +
@@ -95,7 +95,8 @@ namespace DriveBot.Core.Commands
                         string anuncio = datosJuego[1].ToString().Trim();
                         datosJuego.RemoveAt(0);
                         datosJuego.RemoveAt(0);
-                        string response = Utils.guardarJuego(string.Join("\n", (string[])datosJuego.ToArray()), ref anuncio, indexGame);
+                        string response = string.Join("\n", datosJuego.ToArray());
+                        response = Utils.guardarJuego(response, ref anuncio, indexGame);
                         await Context.User.SendMessageAsync($"{Context.User.Mention} {response}");
                         if(!string.IsNullOrWhiteSpace(anuncio))
                         {
@@ -127,6 +128,38 @@ namespace DriveBot.Core.Commands
                 await Context.Message.DeleteAsync(RequestOptions.Default);
                 await Context.Channel.SendMessageAsync($"Ese comando solo funciona por mp.");
             }
+        }
+
+        [Command("clear_messages"), Alias("limpia tus mensajes"), Summary("limpia los mensajes")]
+        public async Task clearMessages()
+        {
+            //if (Context.IsPrivate)
+            //{
+            //    try
+            //    {
+            //        var message = Context.Message.Channel.GetMessagesAsync(Context.Message.Id, Direction.Before, 1).Flatten().Result;
+            //
+            //        while (message != null)
+            //        {
+            //            try
+            //            {
+            //                await Context.Channel.DeleteMessagesAsync(message, RequestOptions.Default);
+            //                
+            //            }
+            //            catch
+            //            {
+            //            }
+            //        }
+            //    }
+            //    catch
+            //    {
+            //    }
+            //}
+            //else
+            //{
+            //    await Context.Message.DeleteAsync(RequestOptions.Default);
+            //    await Context.Channel.SendMessageAsync($"Ese comando solo funciona por mp.");
+            //}
         }
 
         [Command("get_avatar"), Alias("dame el avatar de"), Summary("Obtiene el avatar del usuario mencionado")]
