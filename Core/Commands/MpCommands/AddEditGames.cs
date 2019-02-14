@@ -67,15 +67,28 @@ namespace DriveBot.Core.Commands
                     if (string.IsNullOrEmpty(inputMessage))
                     {
                         var builder = new EmbedBuilder();
-                        builder.WithTitle("Estos son los juegos que tengo disponibles:");
-                        string descripcion = "";
+                        int fields = 0;
+                        builder.WithTitle("Ids de los juegos:");
+                        builder.WithColor(new Color(0xFFF000));
                         foreach (stdClassCSharp juego in Utils.getListGamesEdit())
                         {
+                            if (fields >= 24)
+                            {
+                                await Context.User.SendMessageAsync("", false, builder.Build());
+                                builder = new EmbedBuilder();
+                                builder.WithColor(new Color(0xFFF000));
+                                fields = 0;
+                            }
                             builder.AddField(juego["indexGame", TiposDevolver.Cadena], juego["Titulo"]);
                             //descripcion = $"{Environment.NewLine}{juego["indexGame"]}    {juego["Titulo"]}";
                         }
-                        //builder.WithDescription(descripcion);
-                        builder.WithColor(new Color(0xFFF000));
+                        if (fields >= 24)
+                        {
+                            await Context.User.SendMessageAsync("", false, builder.Build());
+                            builder = new EmbedBuilder();
+                            builder.WithColor(new Color(0xFFF000));
+                            fields = 0;
+                        }
                         builder.AddField("¿Para editar?", $"Solo vuelve a colocar el comando !edit_game [id del juego] en base a la lista colocada y te devolveré los datos del juego que se capturaron al agregarlo" +
                             $" después de editar esos datos mandas de nuevo el comando pero ahora de la siguiente manera:{Environment.NewLine}{Environment.NewLine}!edit_game id: id del juego{Environment.NewLine}" +
                             $"Anuncio que quieres que realice el en el discord para informar a los usuarios del cambio realizado(se puede dejar el renglon en blanco y no se enviará anuncio){Environment.NewLine}" +

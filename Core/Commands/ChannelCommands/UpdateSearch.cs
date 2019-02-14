@@ -14,25 +14,25 @@ namespace DriveBot.Core.Commands
             {
                 string mensaje = inputMessage;
                 int argPos = 0;
-                stdClassCSharp update = new stdClassCSharp();
-                EmbedBuilder builderUpdate = new EmbedBuilder();
+                stdClassCSharp updates = new stdClassCSharp(true);
+                EmbedBuilder builderUpdate;
 
                 if (mensaje.Trim().Length > 3)
                 {
-                    if (Utils.searchUpdate(mensaje, ref update))
+                    if (Utils.searchUpdate(mensaje, ref updates))
                     {
-                        if (Utils.generaBuilderUpdate(update, ref builderUpdate))
+                        foreach(stdClassCSharp update in updates.toArray())
                         {
-                            //if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
-                            //    await Context.Message.DeleteAsync(RequestOptions.Default);
-
-                            await Context.User.SendMessageAsync("", false, builderUpdate.Build());
-                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he respondido tu solicitud por mp :)");
+                            builderUpdate = new EmbedBuilder();
+                            if (Utils.generaBuilderUpdate(update, ref builderUpdate))
+                            {
+                                await Context.User.SendMessageAsync("", false, builderUpdate.Build());
+                            }
                         }
+                        if (updates.Count == 1)
+                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he encontrado {updates.Count} resultado y te lo he enviado por mp :)");
                         else
-                        {
-                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} mis circuitos no me permitieron buscar tu actualización correctamente :(");
-                        }
+                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he encontrado {updates.Count} resultados y te los he enviado por mp :)");
                     }
                     else
                     {

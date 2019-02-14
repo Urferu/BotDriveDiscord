@@ -14,13 +14,39 @@ namespace DriveBot.Core.Commands
             if (!Context.IsPrivate || stdClassCSharp.readJsonFile("usersIds.json")["users"][Context.User.Id.ToString(), TiposDevolver.Boleano])
             {
                 var builder = new EmbedBuilder();
+                int fields = 0;
                 builder.WithTitle("Estos son los juegos que tengo disponibles:");
                 //.WithDescription(Utils.getListGames())
                 builder.WithColor(new Color(0xAF3A));
                 foreach(string listaLetra in Utils.getListGames())
                 {
+                    if(fields >= 24)
+                    {
+                        if (inputMessage.ToLower() == "aqui")
+                            await Context.Channel.SendMessageAsync("", false, builder.Build());
+                        else
+                            await Context.User.SendMessageAsync("", false, builder.Build());
+
+                        builder = new EmbedBuilder();
+                        builder.WithColor(new Color(0xAF3A));
+                        fields = 0;
+                    }
                     builder.AddField(listaLetra.Substring(0, 1), listaLetra);
+                    fields++;
                 }
+
+                if (fields >= 24)
+                {
+                    if (inputMessage.ToLower() == "aqui")
+                        await Context.Channel.SendMessageAsync("", false, builder.Build());
+                    else
+                        await Context.User.SendMessageAsync("", false, builder.Build());
+
+                    builder = new EmbedBuilder();
+                    builder.WithColor(new Color(0xAF3A));
+                    fields = 0;
+                }
+
                 builder.AddField("¿Como pedir juegos?", $"Puedes pedirme juegos, updates y dlc solamente buscando" +
                     $" por una parte de su titulo de la siguiente manera:{Environment.NewLine}" +
                     $"Para pedirme un juego puedes utilizar el comando (!game juego_que_deseas) o puedes mencionarme y" +

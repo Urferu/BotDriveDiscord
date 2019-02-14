@@ -14,9 +14,9 @@ namespace DriveBot.Resources.Utils
         /// Se encarga de buscar el nombre en la lista de juegos disponibles
         /// </summary>
         /// <param name="gameSearch">Corresponde al texto del juego</param>
-        /// <param name="game">Parametro donde se guardará el juego encontrado</param>
+        /// <param name="games">Parametro donde se guardará el juego encontrado</param>
         /// <returns>Regresa verdadero en caso de haber encontrado el juego</returns>
-        public static bool searchGame(string gameSearch,ref stdClassCSharp game, int indexGame = -1)
+        public static bool searchGame(string gameSearch,ref stdClassCSharp games, int indexGame = -1)
         {
             bool response = false;
 
@@ -24,18 +24,17 @@ namespace DriveBot.Resources.Utils
 
             if (indexGame >= 0)
             {
-                game = gamesStd[indexGame];
+                games = gamesStd[indexGame];
                 response = true;
             }
             else
             {
-                for (int i = 0; i < gamesStd.toArray().Length && !response; i++)
+                for (int i = 0; i < gamesStd.toArray().Length; i++)
                 {
-                    if (gamesStd[i]["Titulo"].ToLower().Contains(gameSearch.ToLower()) || gameSearch.ToLower().Contains(gamesStd[i]["Titulo"].ToLower()))
+                    if (gamesStd[i]["Titulo"].ToLower().Contains(gameSearch.ToLower()))
                     {
                         response = true;
-                        game = gamesStd[i];
-                        i = gamesStd.toArray().Length;
+                        games.Add(gamesStd[i]);
                     }
                 }
             }
@@ -62,13 +61,12 @@ namespace DriveBot.Resources.Utils
             }
             else
             {
-                for (int i = 0; i < updatesStd.toArray().Length && !response; i++)
+                for (int i = 0; i < updatesStd.toArray().Length; i++)
                 {
-                    if (updatesStd[i]["Titulo"].ToLower().Contains(updateSearch.ToLower()) || updateSearch.ToLower().Contains(updatesStd[i]["Titulo"].ToLower()))
+                    if (updatesStd[i]["Titulo"].ToLower().Contains(updateSearch.ToLower()))
                     {
                         response = true;
-                        update = updatesStd[i];
-                        i = updatesStd.toArray().Length;
+                        update.Add(updatesStd[i]);
                     }
                 }
             }
@@ -89,13 +87,12 @@ namespace DriveBot.Resources.Utils
             }
             else
             {
-                for (int i = 0; i < dlcStd.toArray().Length && !response; i++)
+                for (int i = 0; i < dlcStd.toArray().Length; i++)
                 {
                     if (dlcStd[i]["Titulo"].ToLower().Contains(dlcSearch.ToLower()) || dlcSearch.ToLower().Contains(dlcStd[i]["Titulo"].ToLower()))
                     {
                         response = true;
-                        dlc = dlcStd[i];
-                        i = dlcStd.toArray().Length;
+                        dlc.Add(dlcStd[i]);
                     }
                 }
             }

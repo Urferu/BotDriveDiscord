@@ -14,25 +14,25 @@ namespace DriveBot.Core.Commands
             {
                 string mensaje = inputMessage;
                 int argPos = 0;
-                stdClassCSharp game = new stdClassCSharp();
-                EmbedBuilder builderGame = new EmbedBuilder();
+                stdClassCSharp games = new stdClassCSharp(true);
+                EmbedBuilder builderGame;
 
                 if (mensaje.Trim().Length > 3)
                 {
-                    if (Utils.searchGame(mensaje, ref game))
+                    if (Utils.searchGame(mensaje, ref games))
                     {
-                        if (Utils.generaBuilderGame(game, ref builderGame))
+                        foreach(stdClassCSharp game in games.toArray())
                         {
-                            //if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
-                            //    await Context.Message.DeleteAsync(RequestOptions.Default);
-
-                            await Context.User.SendMessageAsync("", false, builderGame.Build());
-                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he respondido tu solicitud por mp :)");
+                            builderGame = new EmbedBuilder();
+                            if (Utils.generaBuilderGame(game, ref builderGame))
+                            {
+                                await Context.User.SendMessageAsync("", false, builderGame.Build());
+                            }
                         }
+                        if(games.Count == 1)
+                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he encontrado {games.Count} resultado y te lo he enviado por mp :)");
                         else
-                        {
-                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} mis circuitos no me permitieron buscar tu juego correctamente :(");
-                        }
+                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he encontrado {games.Count} resultados y te los he enviado por mp :)");
                     }
                     else
                     {

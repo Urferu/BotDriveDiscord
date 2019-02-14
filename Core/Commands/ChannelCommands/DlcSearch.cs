@@ -13,25 +13,25 @@ namespace DriveBot.Core.Commands
             {
                 string mensaje = inputMessage;
                 int argPos = 0;
-                stdClassCSharp dlc = new stdClassCSharp();
-                EmbedBuilder builderDlc = new EmbedBuilder();
+                stdClassCSharp dlcs = new stdClassCSharp(true);
+                EmbedBuilder builderDlc;
 
                 if (mensaje.Trim().Length > 3)
                 {
-                    if (Utils.searchDlc(mensaje, ref dlc))
+                    if (Utils.searchDlc(mensaje, ref dlcs))
                     {
-                        if (Utils.generaBuilderDlc(dlc, ref builderDlc))
+                        builderDlc = new EmbedBuilder();
+                        foreach (stdClassCSharp dlc in dlcs.toArray())
                         {
-                            //if (!Context.Message.HasMentionPrefix(Context.Client.CurrentUser, ref argPos))
-                            //    await Context.Message.DeleteAsync(RequestOptions.Default);
-
-                            await Context.User.SendMessageAsync("", false, builderDlc.Build());
-                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he respondido tu solicitud por mp :)");
+                            if (Utils.generaBuilderDlc(dlc, ref builderDlc))
+                            {
+                                await Context.User.SendMessageAsync("", false, builderDlc.Build());
+                            }
                         }
+                        if (dlcs.Count == 1)
+                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he encontrado {dlcs.Count} resultado y te lo he enviado por mp :)");
                         else
-                        {
-                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} mis circuitos no me permitieron buscar tu dlc correctamente :(");
-                        }
+                            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} he encontrado {dlcs.Count} resultados y te los he enviado por mp :)");
                     }
                     else
                     {
