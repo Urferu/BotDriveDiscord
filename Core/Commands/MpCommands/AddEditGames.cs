@@ -80,7 +80,7 @@ namespace DriveBot.Core.Commands
                                 fields = 0;
                             }
                             builder.AddField(juego["indexGame", TiposDevolver.Cadena], juego["Titulo"]);
-                            //descripcion = $"{Environment.NewLine}{juego["indexGame"]}    {juego["Titulo"]}";
+                            fields++;
                         }
                         if (fields >= 24)
                         {
