@@ -361,6 +361,7 @@ namespace DriveBot.Resources.Utils
             try
             {
                 StringBuilder sbDatos = new StringBuilder();
+                int parte = 0;
                 sbDatos.Append("**");
                 sbDatos.Append(game["Titulo"]);
                 sbDatos.Append("**");
@@ -411,13 +412,26 @@ namespace DriveBot.Resources.Utils
                 {
                     if (sbDatos.Length > 0)
                         sbDatos.Append(Environment.NewLine);
+                    if (sbDatos.Length + link.ToString().Length > 1024)
+                    {
+                        parte++;
+                        builderGame.AddField($"Links Del Juego {parte}", sbDatos.ToString());
+                        sbDatos.Clear();
+                    }
 
                     sbDatos.Append(link);
                 }
 
-                builderGame.AddField("Juego", sbDatos.ToString());
+                if (parte > 0)
+                {
+                    parte++;
+                    builderGame.AddField($"Links Del Juego {parte}", sbDatos.ToString());
+                }
+                else
+                    builderGame.AddField($"Links Del Juego {parte}", sbDatos.ToString());
 
                 sbDatos.Clear();
+                parte = 0;
 
                 if (game["UpdateIndex", TiposDevolver.Boleano])
                 {
@@ -432,13 +446,26 @@ namespace DriveBot.Resources.Utils
                         {
                             if (sbDatos.Length > 0)
                                 sbDatos.Append(Environment.NewLine);
+                            if(sbDatos.Length + link.ToString().Length > 1024)
+                            {
+                                parte++;
+                                builderGame.AddField($"Links Update {game["Update"].Version} {parte}", sbDatos.ToString());
+                                sbDatos.Clear();
+                            }
 
                             sbDatos.Append(link);
                         }
 
-                        builderGame.AddField($"Update {game["Update"].Version}", sbDatos.ToString());
+                        if (parte > 0)
+                        {
+                            parte++;
+                            builderGame.AddField($"Links Update {game["Update"].Version} {parte}", sbDatos.ToString());
+                        }
+                        else
+                            builderGame.AddField($"Links Update {game["Update"].Version}", sbDatos.ToString());
 
                         sbDatos.Clear();
+                        parte = 0;
                     }
                 }
 
@@ -455,13 +482,26 @@ namespace DriveBot.Resources.Utils
                         {
                             if (sbDatos.Length > 0)
                                 sbDatos.Append(Environment.NewLine);
+                            if (sbDatos.Length + link.ToString().Length > 1024)
+                            {
+                                parte++;
+                                builderGame.AddField($"DLC's parte {parte}", sbDatos.ToString());
+                                sbDatos.Clear();
+                            }
 
                             sbDatos.Append(link);
                         }
 
-                        builderGame.AddField("DLC's", sbDatos.ToString());
+                        if (parte > 0)
+                        {
+                            parte++;
+                            builderGame.AddField($"DLC's parte {parte}", sbDatos.ToString());
+                        }
+                        else
+                            builderGame.AddField("DLC's", sbDatos.ToString());
 
                         sbDatos.Clear();
+                        parte = 0;
                     }
                 }
                 respuesta = true;
@@ -485,6 +525,7 @@ namespace DriveBot.Resources.Utils
             try
             {
                 StringBuilder sbDatos = new StringBuilder();
+                int parte = 0;
                 sbDatos.Append("**");
                 sbDatos.Append(update["Titulo"]);
                 sbDatos.Append("**");
@@ -535,13 +576,27 @@ namespace DriveBot.Resources.Utils
                 {
                     if (sbDatos.Length > 0)
                         sbDatos.Append(Environment.NewLine);
+                    if (sbDatos.Length + link.ToString().Length > 1024)
+                    {
+                        parte++;
+                        builderUpdate.AddField($"Links parte {parte}", sbDatos.ToString());
+                        sbDatos.Clear();
+                    }
 
                     sbDatos.Append(link);
                 }
 
-                builderUpdate.AddField("Links", sbDatos.ToString());
+                if (parte > 0)
+                {
+                    parte++;
+                    builderUpdate.AddField($"Links parte {parte}", sbDatos.ToString());
+                }
+                else
+                    builderUpdate.AddField($"Links", sbDatos.ToString());
 
                 sbDatos.Clear();
+
+                parte = 0;
 
                 respuesta = true;
             }
@@ -564,6 +619,7 @@ namespace DriveBot.Resources.Utils
             try
             {
                 StringBuilder sbDatos = new StringBuilder();
+                int parte = 0;
                 sbDatos.Append("**");
                 sbDatos.Append(dlc["Titulo"]);
                 sbDatos.Append("**");
@@ -613,13 +669,25 @@ namespace DriveBot.Resources.Utils
                 {
                     if (sbDatos.Length > 0)
                         sbDatos.Append(Environment.NewLine);
-
+                    if (sbDatos.Length + link.ToString().Length > 1024)
+                    {
+                        parte++;
+                        builderDlc.AddField($"Links parte {parte}", sbDatos.ToString());
+                        sbDatos.Clear();
+                    }
                     sbDatos.Append(link);
                 }
 
-                builderDlc.AddField("Links", sbDatos.ToString());
+                if(parte > 0)
+                {
+                    parte++;
+                    builderDlc.AddField($"Links parte {parte}", sbDatos.ToString());
+                }
+                else
+                    builderDlc.AddField("Links", sbDatos.ToString());
 
                 sbDatos.Clear();
+                parte = 0;
 
                 respuesta = true;
             }
