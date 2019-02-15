@@ -13,9 +13,11 @@ namespace DriveBot.Core.Commands
             if (!Context.IsPrivate)
             {
                 string mensaje = inputMessage;
-                int argPos = 0;
+                int links = 0;
+                string jdwonloader = "";
                 stdClassCSharp games = new stdClassCSharp(true);
                 EmbedBuilder builderGame;
+                EmbedBuilder builderJDownloader;
 
                 if (mensaje.Trim().Length > 3)
                 {
@@ -24,9 +26,20 @@ namespace DriveBot.Core.Commands
                         foreach(stdClassCSharp game in games.toArray())
                         {
                             builderGame = new EmbedBuilder();
-                            if (Utils.generaBuilderGame(game, ref builderGame))
+                            builderJDownloader = new EmbedBuilder();
+                            jdwonloader = "";
+                            links = 0;
+                            if (Utils.generaBuilderGame(game, ref builderGame, ref jdwonloader, ref links))
                             {
+                                if(links > 1)
+                                {
+                                    builderJDownloader.WithTitle(builderGame.Title);
+                                    builderJDownloader.WithColor(0xD0021B);
+                                    builderJDownloader.WithDescription(jdwonloader);
+                                }
                                 await Context.User.SendMessageAsync("", false, builderGame.Build());
+                                if (links > 1)
+                                    await Context.User.SendMessageAsync("", false, builderJDownloader.Build());
                             }
                         }
                         if(games.Count == 1)

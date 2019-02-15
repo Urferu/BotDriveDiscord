@@ -121,7 +121,7 @@
         "DlcIndex": 3
     },
     {
-        "Titulo": "Resident Evil Revelations",
+        "Titulo": "Resident Evil Revelations 1",
         "Descripcion": "Resident Evil llega a Nintendo Switch en su forma clásica, tras Mercenaries, en una aventura que volverá a combinar sustos, exploración del escenario, puzles y acción. Controlamos a Jill Valentine, que se despierta sin saber cómo en un barco, donde transcurrirá la historia, ambientada entre Resident Evil 4 y 5. Jill y su compañero, un nuevo personaje llamado Parker Luciani, tendrán que buscar el paradero de Chris Redfield.",
         "Peso": "12 Gb",
         "Formato": "NSP",
@@ -259,8 +259,8 @@
         "UpdateIndex": 11
     },
     {
-        "Titulo": "DOOM Eternal Collection",
-        "Descripcion": "DOOM Eternal nos trasladará a un escenario muy diferente al de la primera parte. Los demonios y las criaturas más raras del averno han invadido la Tierra, desatando el Infierno en ella. Nuestra misión no será otra que la de pararle los pies, evitando que su maldad y su corrupción se extienda por todos los lugares del planeta. Al trasladarse a la Tierra, el juego cuenta con más ambientes y lugares más abiertos, aumentándose la escala del título en varios enteros.",
+        "Titulo": "DOOM",
+        "Descripcion": "Shooter",
         "Peso": "13 Gb",
         "Formato": "NSP",
         "UploadBy": "By Bello1987",
@@ -486,7 +486,8 @@
         "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Ku68rcmSJKen7UnibJ_v3RY3RsJtfXNx/5GOXMh4vjnKWuu8fhJnquH1EABATAND7.png",
         "Links": [
             "[Gdrive](https://drive.google.com/open?id=16ewcFApGcx5xBs6UoVeP8rwdc6EeBDai)"
-        ]
+        ],
+        "UpdateIndex": 89
     },
     {
         "Titulo": "Donkey Kong Country: Tropical Freeze",
@@ -730,7 +731,8 @@
         "Links": [
             "[GDrive](https://drive.google.com/open?id=1i35JDce10zAo1xbo7zq0Xy5VCVeRT1DL)"
         ],
-        "UpdateIndex": 34
+        "UpdateIndex": 34,
+        "DlcIndex": 24
     },
     {
         "Titulo": "BLAZBLUE CROSS TAG BATTLE",
@@ -1381,5 +1383,420 @@
             "[GDrive](https://drive.google.com/open?id=1nwYSZWJ4L2lSYVReF5xAlPRvhe_RHrXx)"
         ],
         "UpdateIndex": 76
+    },
+    {
+        "Titulo": "Dust: An Elysian Tail",
+        "Descripcion": "Action, Role-Playing, Adventure, Platformer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/lxHZ9kR7yzaUMFhFWhiqqPYKbX-qfI-K/0STB5Cc-lLeXUMSt_ZAH0bbddpcc5QTA.png",
+        "Peso": "996 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1_CoHWfl8G9FVm2sRdevdbCkcOml1ng7V)"
+        ],
+        "UpdateIndex": 77
+    },
+    {
+        "Titulo": "Fast RMX",
+        "Descripcion": "Racing, Action, Arcade",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/bdCoTe-0-3_LVjpmdsS3GVJE73R403Ty/__CHScrmButd7jw-i5e2RKm7Qib6FPSj.png",
+        "Peso": "823 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1fOGlhUuZ_RlEZF7nQW0z8yPj-wZf7vmk)"
+        ],
+        "UpdateIndex": 78
+    },
+    {
+        "Titulo": "OKAMI HD",
+        "Descripcion": "Adventure",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/SQJ1zkVbiZwg1_katy638zbVwNrWq5a7/pfLW__ouyyknYncM8vSh0FBvJPyL6XnN.png",
+        "Peso": "9 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1UleNBnrIsddhb0gXB_UwC_hLPrUwzl8R)"
+        ]
+    },
+    {
+        "Titulo": "South Park: The Stick of Truth",
+        "Descripcion": "Role-Playing, Adventure, Strategy",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/sLe347m3YkcYBYGQkZeLyM5dz_eUlV4W/VqZw_cxGMHzkMnbtH5HRMI3GmCoZaG-d.png",
+        "Peso": "5 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1yly0vhOM_W_oC_h1fhkUb1xvcFM7iurJ)"
+        ]
+    },
+    {
+        "Titulo": "South Park: The Fractured But Whole",
+        "Descripcion": "Role-Playing, Adventure, Action, Strategy",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Q2aqTyF6etEkSLg-hMtAYOLvyl3nzqve/oU3jZEO_CXXn_bTAUp9qaLuCkwvamYhJ.png",
+        "Peso": "14 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=18VWbGq-KZVB0s3U7lyUW-uGuEv0-mmhh)"
+        ],
+        "DlcIndex": 18,
+        "UpdateIndex": 79
+    },
+    {
+        "Titulo": "Pokken Tournament DX",
+        "Descripcion": "Fighting, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/wxRJwmXXt7df9zGcEROSQD33nlKbzkph/Ig2d4FWNzGDyjiVR6Q9wFNEq1vZjskLy.png",
+        "Peso": "3 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1q_jCQH4HxwzRknWNwQHTueCjNzqlWOlg)"
+        ],
+        "DlcIndex": 19,
+        "UpdateIndex": 80
+    },
+    {
+        "Titulo": "Super Mario Party",
+        "Descripcion": "Party, Multiplayer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/gYEaBiQz-u_3jK6iK7EbMt-BufVWtGD_/jS291O2H_rvq8VUtytP0MetXAUi1aZGn.png",
+        "Peso": "3 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=18mudHZI_eo9Keqz9uEo3QUchZNHMLhNA)"
+        ]
+    },
+    {
+        "Titulo": "Moonlighter",
+        "Descripcion": "Action, Adventure, Role-Playing, Simulation",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/1traZBrlvyquGMtFjvUHZ3GvwZ2sUioE/Qp2TxdNn7z5e-U1b_PNO5q2Wz-MCigiX.png",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1h26At-ZR6fh_eP1wCA1WOU0O6fea6Swv)"
+        ],
+        "UpdateIndex": 81
+    },
+    {
+        "Titulo": "Dandara",
+        "Descripcion": "Action, Platformer, Adventure",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Cz5CGsMCJYri9SlCQSAbdCdpUAIpRa78/wn91aP7Wu2U2AnnExcYCkQMop8KvliEq.png",
+        "Peso": "570 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1w3eMZR79lIcHDRJkYAlRknjc9Zk8N96Q)"
+        ],
+        "UpdateIndex": 82
+    },
+    {
+        "Titulo": "Nintendo Labo Variety Kit 1",
+        "Descripcion": "fun!",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://storemedia.nintendo.com/ui/images/devices/labo/toy-con-01-variety/labo-toy-con-01-variety-package-640x480.png",
+        "Peso": "2 Gb",
+        "Formato": "XCI",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1FtdwcywudBubQNpYlMJsqg4I4Q4M2jOt)"
+        ],
+        "DlcIndex": 20,
+        "UpdateIndex": 83
+    },
+    {
+        "Titulo": "Nintendo Labo Robot Kit 2",
+        "Descripcion": "fun!",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://storemedia.nintendo.com/ui/images/devices/labo/toy-con-02-robot/labo-toy-con-02-robot-package-640x480.png",
+        "Peso": "2 Gb",
+        "Formato": "XCI",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1n1UlkPHXagCF6cFzlYidVogFRc18ZzlR)"
+        ],
+        "DlcIndex": 21,
+        "UpdateIndex": 84
+    },
+    {
+        "Titulo": "Nintendo Labo Vehicle Kit 3",
+        "Descripcion": "fun!",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://storemedia.nintendo.com/ui/images/devices/labo/toy-con-03-vehicle/labo-toy-con-03-vehicle-package-640x480.png",
+        "Peso": "2 Gb",
+        "Formato": "XCI",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1A-Qy6mScEyEpiJXCA_r76CsOCmdlqMOQ)"
+        ],
+        "DlcIndex": 22
+    },
+    {
+        "Titulo": "OCTOPATH TRAVELER",
+        "Descripcion": "Role-Playing, Adventure",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/52yHZdow0JIT66VPGPY9xg_FUbT6hf6w/wW4hMobKdrOGg0sm8qmbjhzflpbdtf2w.png",
+        "Peso": "3 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1rLVSNxDU9FoFJnAbfRZFrwv9XUEf-dOP)"
+        ],
+        "UpdateIndex": 85
+    },
+    {
+        "Titulo": "Salt and Sanctuary",
+        "Descripcion": "Action, Role-Playing",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/iyw7-bWAId9qrsu1mMBtf3pmXswjfBH3/LPt5smIJ6cmZL4WG4sU1TtTm2KxncJUN.png",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1ttOxb7t-Ro04uP_K_-Hai1A8yYK0-0eF)"
+        ],
+        "UpdateIndex": 86
+    },
+    {
+        "Titulo": "Wild Gun Reloaded",
+        "Descripcion": "Arcade, Action, Multiplayer, First Person",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Rb_CwGFvRedubPm7rU5voEztaKoqRynM/m6Sy7CxWtnLkpUvql7yDHZzlfm5noh18.png",
+        "Peso": "357 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1Otf1HO7DoXjnZLnZFRZ1XmAvrbNSZbps)"
+        ]
+    },
+    {
+        "Titulo": "Max: The Curse of Brotherhood",
+        "Descripcion": "Platformer, Adventure, Puzzle",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/UemlXWiJ0PcbUECTVcOCsjYW-Rb60Zn-/xnRh_aM6bckZpGTaAMaLCCgAJg09fe5F.png",
+        "Peso": "880 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1DNgV1lHSAQtEpldY2K0WrH-uxQJG7OaH)"
+        ],
+        "UpdateIndex": 87
+    },
+    {
+        "Titulo": "Raging Justice",
+        "Descripcion": "Fighting, Action, Arcade",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/nMUBFvuP4-Wu-vRXRQ4lqK297ZHFfXcS/AEldIUl7Nb7mImxxAM5SpJUr28Jw8J4D.png",
+        "Peso": "900 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1kTyZkDg3WUsd_mE8q75Gka5koj5hUWc4)"
+        ],
+        "UpdateIndex": 88
+    },
+    {
+        "Titulo": "Runbow",
+        "Descripcion": "Platformer, Party, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/zFP-hb0Nbr2ek-5uLKVQY6cevAyFKH4o/Wc7fZh90taMAumW9pfdccEHsrQVu343x.png",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1aPYGFOe-wv11yxDeuV4yCIIhS7yYUqj0)"
+        ],
+        "DlcIndex": 23,
+        "UpdateIndex": 90
+    },
+    {
+        "Titulo": "Bloodstained: Curse of the Moon",
+        "Descripcion": "Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/PR4OgtXI0aNuquYn45KSlTzSVYRN8wEF/H4W2xu0_e-x3e3iIV78JoPGlDLUKCkg8.png",
+        "Peso": "31 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1r07cgjoaV6rRXswOtuhS3RV92cc5v0lU)"
+        ],
+        "UpdateIndex": 91
+    },
+    {
+        "Titulo": "Super Bomberman R",
+        "Descripcion": "Action, Party, Puzzle, Multiplayer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/BEIfQA42klKKRZQQk1eXQYK_60F4MUzc/b1hRJ1rtxVjWXDkdv5PpDN-DgtFsC8nQ.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1w1hQZc2xY8BCRUnX5wDHY_tNTSPArnY-)"
+        ],
+        "UpdateIndex": 92
+    },
+    {
+        "Titulo": "Capcom Beat 'Em Up Bundle",
+        "Descripcion": "Action, Arcade",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/99vWJCCAnO2KMleQy-wIeXRp8txkgYe_/5EJAF6XqUJsEafx1BkoaOmwlfLcEfJv9.png",
+        "Peso": "765 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1ZZtE0C5PfGRR46EOk2Xnd0cp_1Wa5xmh)"
+        ],
+        "UpdateIndex": 93
+    },
+    {
+        "Titulo": "Carnival Games",
+        "Descripcion": "Party, Multiplayer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/VN7mXG8PmnyHvnJEndhcrjbh610JBKVZ/XPtrxkb5YTe5ItHOlZ2bOl_aixLU10hR.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1AsYAqLOisM0CwocAc-aNpCb-8IvQ6OEZ)"
+        ],
+        "UpdateIndex": 94
+    },
+    {
+        "Titulo": "Celeste",
+        "Descripcion": "Adventure, Platformer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/BhITPyOUFDpMFX86GI0eTBz3HETPFTOo/tt2ihzlt7kqrAtIeZccBHNy9r0oEDTmO.png",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1DsvEx9_F-KpX33YdcLnltgP88uUflBpH)"
+        ],
+        "UpdateIndex": 95
+    },
+    {
+        "Titulo": "DRAGON BALL Xenoverse 2",
+        "Descripcion": "Action, Fighting",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/5n3GEUzrJMN8SKN3dS2p4dJpjqLyXZ7e/lhVlqse8GD0XTYR72cArCpo1j1DnqOhD.png",
+        "Peso": "6 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=12WEBPAoAy3V7rSCqoM-A6cwqzY4mfXSs)"
+        ],
+        "DlcIndex": 25,
+        "UpdateIndex": 96
+    },
+    {
+        "Titulo": "Death Road to Canada",
+        "Descripcion": "Action, Adventure",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/jumGHcYnxmVZ_yYF1Vx35EY6rUn6jtUL/SLaZTk9qT8DXb84a8cyCxTt_TQCwK2ce.png",
+        "Peso": "159 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1vC5WX9nk9qjQRhld7PAPT5z98-Z6EEEh)"
+        ],
+        "UpdateIndex": 97
+    },
+    {
+        "Titulo": "The Deer God",
+        "Descripcion": "Adventure, Platformer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/xFeMFpfM6tTYPN94HwnusANIv_6YGnwA/J_uk2spNYyTjRCzfCm8c1W03y2FgBoNg.png",
+        "Peso": "152 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1lGRkvLdPsV19qLmefeDR8_o1MaODQe1E)"
+        ]
+    },
+    {
+        "Titulo": "Yoshi's Crafted World DEMO",
+        "Descripcion": "Action, Platformer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/vAwYoc0WEGhPiObb1eO1XTZ0E46RAcK9/M5G9hrgA8ypEW3q32ntEpd20sQcuqu6Y.png",
+        "Peso": "511 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/1O5RtYTz1r6aUpiDbu6mEofrnGbsNKq0R/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "Fire Emblem Warriors",
+        "Descripcion": "Action, Role-Playing",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/hinkRjxGuHlz3nvFqgB1cr9PgzCmVdYy/akahDdWxWelTU8r9zhGGsI2lQcg4N_gG.png",
+        "Peso": "13 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1j8wPVVxA8UlHeHEbdyZERbO1XlajcpaV)"
+        ],
+        "DlcIndex": 26,
+        "UpdateIndex": 98
+    },
+    {
+        "Titulo": "Harvest Life",
+        "Descripcion": "Simulation, Arcade, Lifestyle, Multiplayer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/ZwPlrDdc_bS_PNsenLizrbS8ZolR69eY/zPHBCKRYEAaq9RBoDLGbEpRto429cCe4.png",
+        "Peso": "397 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1sFfSE84NEYLP9Nuy3LfUwt76BlPnhbBq)"
+        ]
+    },
+    {
+        "Titulo": "Harvest Moon: Light of Hope Special Edition",
+        "Descripcion": "Role-Playing, Simulation",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Q-QOhOU-0PSQ74pPjPcW9ODFyfjvAJsC/6rKYYWnOUDE42s15XpUINBlSNNZa16NM.png",
+        "Peso": "666 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1qaKWLgJhc2REkWgjf7pWSMPhYrMHOVdV)"
+        ],
+        "DlcIndex": 27,
+        "UpdateIndex": 99
+    },
+    {
+        "Titulo": "FINAL FANTASY IX",
+        "Descripcion": "Role-Playing",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/vWvLi6gsBkllHOgLLfD3c5dW1rq09Knp/jSQeH7SrcTf6qRSCHQpSahhV4G7tfzcu.png",
+        "Peso": "5 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1H6uWKF-ZYq8UcOo-t9Z7RjtFYR75DlvR)"
+        ]
+    },
+    {
+        "Titulo": "Tetris 99",
+        "Descripcion": "Multiplayer, Puzzle",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/C6vVKrYnSQJMaRKBwOLxb2O1ReedsSou/aMalIFm7lGWVGvk_s-4MwVKvlzOTGyG3.png",
+        "Peso": "147 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1k7PGFl_AnCYd-aBgdZSLhvRw1OhV5YKK)"
+        ]
     }
 ]

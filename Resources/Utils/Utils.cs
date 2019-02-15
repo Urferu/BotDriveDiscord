@@ -183,7 +183,7 @@ namespace DriveBot.Resources.Utils
                 if (game["Descripcion", TiposDevolver.Boleano])
                 {
                     sbResponse.Append("Descripcion: ");
-                    sbResponse.Append(game["UploadBy"]);
+                    sbResponse.Append(game["Descripcion"]);
                     sbResponse.Append(Environment.NewLine);
                 }
                 else
@@ -355,13 +355,14 @@ namespace DriveBot.Resources.Utils
         /// <param name="game">Corresponde a los datos del juego</param>
         /// <param name="builderGame">Correspone al builder donde se harán las configuraciones</param>
         /// <returns>Regresa verdadero si todo se ejecuta correctamente.</returns>
-        public static bool generaBuilderGame(stdClassCSharp game,ref EmbedBuilder builderGame)
+        public static bool generaBuilderGame(stdClassCSharp game,ref EmbedBuilder builderGame, ref string jdwonloader, ref int totalLinks)
         {
             bool respuesta = false;
             try
             {
                 StringBuilder sbDatos = new StringBuilder();
                 int parte = 0;
+                string linkTemporal = "";
                 sbDatos.Append("**");
                 sbDatos.Append(game["Titulo"]);
                 sbDatos.Append("**");
@@ -408,7 +409,7 @@ namespace DriveBot.Resources.Utils
                     builderGame.AddField("Password", game["Password"]);
                 }
 
-                foreach (var link in game["Links"].toArray())
+                foreach (string link in game["Links"].toArray())
                 {
                     if (sbDatos.Length > 0)
                         sbDatos.Append(Environment.NewLine);
@@ -420,6 +421,10 @@ namespace DriveBot.Resources.Utils
                     }
 
                     sbDatos.Append(link);
+                    linkTemporal = link.Substring(0, link.Length - 1);
+                    linkTemporal = linkTemporal.Substring(linkTemporal.IndexOf('(') + 1);
+                    jdwonloader = $"{jdwonloader},{linkTemporal}";
+                    totalLinks++;
                 }
 
                 if (parte > 0)
@@ -442,7 +447,7 @@ namespace DriveBot.Resources.Utils
                     {
                         game["Update"] = update;
                         stdClassCSharp links = game["Update"].Links;
-                        foreach (var link in links.toArray())
+                        foreach (string link in links.toArray())
                         {
                             if (sbDatos.Length > 0)
                                 sbDatos.Append(Environment.NewLine);
@@ -454,6 +459,10 @@ namespace DriveBot.Resources.Utils
                             }
 
                             sbDatos.Append(link);
+                            linkTemporal = link.Substring(0, link.Length - 1);
+                            linkTemporal = linkTemporal.Substring(linkTemporal.IndexOf('(') + 1);
+                            jdwonloader = $"{jdwonloader},{linkTemporal}";
+                            totalLinks++;
                         }
 
                         if (parte > 0)
@@ -478,7 +487,7 @@ namespace DriveBot.Resources.Utils
                     {
                         game["Dlc"] = dlc;
                         stdClassCSharp links = game["Dlc"].Links;
-                        foreach (var link in links.toArray())
+                        foreach (string link in links.toArray())
                         {
                             if (sbDatos.Length > 0)
                                 sbDatos.Append(Environment.NewLine);
@@ -490,6 +499,10 @@ namespace DriveBot.Resources.Utils
                             }
 
                             sbDatos.Append(link);
+                            linkTemporal = link.Substring(0, link.Length - 1);
+                            linkTemporal = linkTemporal.Substring(linkTemporal.IndexOf('(') + 1);
+                            jdwonloader = $"{jdwonloader},{linkTemporal}";
+                            totalLinks++;
                         }
 
                         if (parte > 0)
@@ -504,6 +517,7 @@ namespace DriveBot.Resources.Utils
                         parte = 0;
                     }
                 }
+                jdwonloader = $"[Add JDownloader]({jdwonloader.Substring(1)} <- Click Derecho - Copiar enlace";
                 respuesta = true;
             }
             catch
@@ -519,12 +533,13 @@ namespace DriveBot.Resources.Utils
         /// <param name="update">Corresponde a los datos del juego</param>
         /// <param name="builderUpdate">Correspone al builder donde se harán las configuraciones</param>
         /// <returns>Regresa verdadero si todo se ejecuta correctamente.</returns>
-        public static bool generaBuilderUpdate(stdClassCSharp update,ref EmbedBuilder builderUpdate)
+        public static bool generaBuilderUpdate(stdClassCSharp update,ref EmbedBuilder builderUpdate, ref string jdwonloader, ref int totalLinks)
         {
             bool respuesta = false;
             try
             {
                 StringBuilder sbDatos = new StringBuilder();
+                string linkTemporal = "";
                 int parte = 0;
                 sbDatos.Append("**");
                 sbDatos.Append(update["Titulo"]);
@@ -583,7 +598,12 @@ namespace DriveBot.Resources.Utils
                         sbDatos.Clear();
                     }
 
+
                     sbDatos.Append(link);
+                    linkTemporal = link.Substring(0, link.Length - 1);
+                    linkTemporal = linkTemporal.Substring(linkTemporal.IndexOf('(') + 1);
+                    jdwonloader = $"{jdwonloader},{linkTemporal}";
+                    totalLinks++;
                 }
 
                 if (parte > 0)
@@ -597,6 +617,7 @@ namespace DriveBot.Resources.Utils
                 sbDatos.Clear();
 
                 parte = 0;
+                jdwonloader = $"[Add JDownloader]({jdwonloader.Substring(1)} <- Click Derecho - Copiar enlace";
 
                 respuesta = true;
             }
@@ -613,13 +634,14 @@ namespace DriveBot.Resources.Utils
         /// <param name="dlc">Corresponde a los datos del juego</param>
         /// <param name="builderDlc">Correspone al builder donde se harán las configuraciones</param>
         /// <returns>Regresa verdadero si todo se ejecuta correctamente.</returns>
-        public static bool generaBuilderDlc(stdClassCSharp dlc, ref EmbedBuilder builderDlc)
+        public static bool generaBuilderDlc(stdClassCSharp dlc, ref EmbedBuilder builderDlc, ref string jdwonloader, ref int totalLinks)
         {
             bool respuesta = false;
             try
             {
                 StringBuilder sbDatos = new StringBuilder();
                 int parte = 0;
+                string linkTemporal = "";
                 sbDatos.Append("**");
                 sbDatos.Append(dlc["Titulo"]);
                 sbDatos.Append("**");
@@ -676,6 +698,10 @@ namespace DriveBot.Resources.Utils
                         sbDatos.Clear();
                     }
                     sbDatos.Append(link);
+                    linkTemporal = link.Substring(0, link.Length - 1);
+                    linkTemporal = linkTemporal.Substring(linkTemporal.IndexOf('(') + 1);
+                    jdwonloader = $"{jdwonloader},{linkTemporal}";
+                    totalLinks++;
                 }
 
                 if(parte > 0)
@@ -689,6 +715,7 @@ namespace DriveBot.Resources.Utils
                 sbDatos.Clear();
                 parte = 0;
 
+                jdwonloader = $"[Add JDownloader]({jdwonloader.Substring(1)} <- Click Derecho - Copiar enlace";
                 respuesta = true;
             }
             catch
@@ -740,7 +767,7 @@ namespace DriveBot.Resources.Utils
             }
 
             gameActual = game;
-            
+
             if (game["Titulo", TiposDevolver.Boleano] && game["Links", TiposDevolver.Boleano])
             {
                 if (dlc["Links", TiposDevolver.Boleano])
@@ -820,11 +847,14 @@ namespace DriveBot.Resources.Utils
                         game["DlcIndex"] = dlcStd.toArray().Length - 1;
                     }
                 }
-                else if(upateIndex >= 0)
+                else if (upateIndex >= 0)
                 {
                     gameActual["UpdateIndexAnt"] = upateIndex;
                 }
-                gamesStd.Add(game);
+                if (index < 0)
+                    gamesStd.Add(game);
+                else
+                    gamesStd[index] = game;
                 gamesStd.writeJsonFile("games.json");
                 updatesStd.writeJsonFile("updates.json");
                 dlcStd.writeJsonFile("dlcs.json");
