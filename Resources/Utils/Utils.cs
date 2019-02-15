@@ -416,7 +416,7 @@ namespace DriveBot.Resources.Utils
                     if (sbDatos.Length + link.ToString().Length > 1024)
                     {
                         parte++;
-                        builderGame.AddField($"Links Del Juego {parte}", sbDatos.ToString());
+                        builderGame.AddField($"Links Del Juego parte {parte}", sbDatos.ToString());
                         sbDatos.Clear();
                     }
 
@@ -430,10 +430,10 @@ namespace DriveBot.Resources.Utils
                 if (parte > 0)
                 {
                     parte++;
-                    builderGame.AddField($"Links Del Juego {parte}", sbDatos.ToString());
+                    builderGame.AddField($"Links Del Juego parte {parte}", sbDatos.ToString());
                 }
                 else
-                    builderGame.AddField($"Links Del Juego {parte}", sbDatos.ToString());
+                    builderGame.AddField($"Links Del Juego", sbDatos.ToString());
 
                 sbDatos.Clear();
                 parte = 0;
@@ -517,7 +517,7 @@ namespace DriveBot.Resources.Utils
                         parte = 0;
                     }
                 }
-                jdwonloader = $"[Add JDownloader]({jdwonloader.Substring(1)} <- Click Derecho - Copiar enlace";
+                jdwonloader = $"[Add JDownloader]({jdwonloader.Substring(1)}) <- Click Derecho - Copiar enlace";
                 respuesta = true;
             }
             catch
@@ -617,7 +617,7 @@ namespace DriveBot.Resources.Utils
                 sbDatos.Clear();
 
                 parte = 0;
-                jdwonloader = $"[Add JDownloader]({jdwonloader.Substring(1)} <- Click Derecho - Copiar enlace";
+                jdwonloader = $"[Add JDownloader]({jdwonloader.Substring(1)}) <- Click Derecho - Copiar enlace";
 
                 respuesta = true;
             }
@@ -715,7 +715,7 @@ namespace DriveBot.Resources.Utils
                 sbDatos.Clear();
                 parte = 0;
 
-                jdwonloader = $"[Add JDownloader]({jdwonloader.Substring(1)} <- Click Derecho - Copiar enlace";
+                jdwonloader = $"[Add JDownloader]({jdwonloader.Substring(1)}) <- Click Derecho - Copiar enlace";
                 respuesta = true;
             }
             catch
