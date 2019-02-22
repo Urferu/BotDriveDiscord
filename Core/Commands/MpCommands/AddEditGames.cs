@@ -34,13 +34,18 @@ namespace DriveBot.Core.Commands
                         Discord.WebSocket.SocketGuild switchGeneral = Context.Client.GetGuild(485262131797688331);
 
                         string anuncio = "";
-                        string response = Utils.guardarJuego(inputMessage, ref anuncio);
+                        string trailer = "";
+                        string response = Utils.guardarJuego(inputMessage, ref anuncio, ref trailer);
                         await Context.User.SendMessageAsync($"{Context.User.Mention} {response}");
                         anuncio = /*switchGeneral.EveryoneRole.Mention + */"@everyone " + anuncio;
                         if (!string.IsNullOrWhiteSpace(anuncio))
                         {
                             //await Context.Client.GetGuild(485262131797688331).GetTextChannel(485446685552803850).SendMessageAsync(anuncioC);
                             await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync(anuncio);
+                        }
+                        if (!string.IsNullOrWhiteSpace(trailer))
+                        {
+                            await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync(trailer);
                         }
                     }
                 }
@@ -104,16 +109,25 @@ namespace DriveBot.Core.Commands
                     {
                         Discord.WebSocket.SocketGuild switchGeneral = Context.Client.GetGuild(485262131797688331);
                         ArrayList datosJuego = new ArrayList(inputMessage.Split('\n'));
+                        if(datosJuego.Count == 1)
+                        {
+                            datosJuego = new ArrayList(inputMessage.Split(new String[] { Environment.NewLine }, StringSplitOptions.None));
+                        }
                         int.TryParse(datosJuego[0].ToString().Substring(datosJuego[0].ToString().IndexOf(':') + 1), out indexGame);
                         string anuncio = datosJuego[1].ToString().Trim();
+                        string trailer = "";
                         datosJuego.RemoveAt(0);
                         datosJuego.RemoveAt(0);
                         string response = string.Join("\n", datosJuego.ToArray());
-                        response = Utils.guardarJuego(response, ref anuncio, indexGame);
+                        response = Utils.guardarJuego(response, ref anuncio, ref trailer, indexGame);
                         await Context.User.SendMessageAsync($"{Context.User.Mention} {response}");
                         if(!string.IsNullOrWhiteSpace(anuncio))
                         {
                             await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync($"@everyone {anuncio}");
+                        }
+                        if (!string.IsNullOrWhiteSpace(trailer))
+                        {
+                            await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync(trailer);
                         }
                     }
                 }

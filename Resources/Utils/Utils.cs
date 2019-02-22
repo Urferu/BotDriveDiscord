@@ -729,7 +729,7 @@ namespace DriveBot.Resources.Utils
         /// Guarda los datos de juego desde un mensaje mp
         /// </summary>
         /// <param name="index">Determina el indice del juego a modificar, si es juego nuevo obtendrá -1</param>
-        public static string guardarJuego(string messageGame, ref string anuncialo, int index = -1)
+        public static string guardarJuego(string messageGame, ref string anuncialo, ref string trailer, int index = -1)
         {
             string respuesta = "Tu juego se ha agregado correctamente a la lista.";
             stdClassCSharp gamesStd = stdClassCSharp.readJsonFile("games.json");
@@ -741,7 +741,7 @@ namespace DriveBot.Resources.Utils
             stdClassCSharp gameActual = new stdClassCSharp();
             int upateIndex = -1;
             int dlcIndex = -1;
-            generaDatosJuego(messageGame, ref game, ref update, ref dlc);
+            generaDatosJuego(messageGame, ref trailer, ref game, ref update, ref dlc);
 
             if (index >= 0)
             {
@@ -869,16 +869,25 @@ namespace DriveBot.Resources.Utils
             return respuesta;
         }
 
-        private static void generaDatosJuego(string messageGame, ref stdClassCSharp game, ref stdClassCSharp update, ref stdClassCSharp dlc)
+        private static void generaDatosJuego(string messageGame, ref string trailer, ref stdClassCSharp game, ref stdClassCSharp update, ref stdClassCSharp dlc)
         {
-            string[] datosDelJuego = messageGame.Split('\n');//new String[] { Environment.NewLine }, StringSplitOptions.None);
+            string[] datosDelJuego = messageGame.Split('\n');
             string propiedad = "", valor = "";
             int tipoDatoJuego = 0;
+
+            if(datosDelJuego.Length == 1)
+            {
+                datosDelJuego = messageGame.Split(new String[] { Environment.NewLine }, StringSplitOptions.None);
+            }
             for(int i = 0; i < datosDelJuego.Length; i++)
             {
                 propiedad = datosDelJuego[i].Substring(0, datosDelJuego[i].IndexOf(':'));
                 valor = datosDelJuego[i].Substring(datosDelJuego[i].IndexOf(':') + 1);
 
+                if(propiedad.ToLower().Equals("trailer"))
+                {
+                    trailer = valor;
+                }
                 if(propiedad.ToLower().Equals("uploader"))
                 {
                     if(tipoDatoJuego == 0)
