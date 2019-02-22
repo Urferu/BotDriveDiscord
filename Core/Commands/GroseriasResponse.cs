@@ -32,8 +32,11 @@ namespace DriveBot.Core.Commands
                 case 1:
                     await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} que paso por que tan llevadito...");
                     break;
-                default:
+                case 2:
                     await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} la tuya querras decir...");
+                    break;
+                default:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} mejor me chingo a tu madre...");
                     break;
             }
         }
@@ -70,6 +73,63 @@ namespace DriveBot.Core.Commands
         public async Task sPitin()
         {
             await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} soy un bot no debería tener...");
+        }
+
+        [Command("!por_los_juegos"), Alias("aqui solo llegan por juegos?"), Summary("Lista de juegos")]
+        public async Task juegos()
+        {
+            await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} por desgracia y ni un gracias :(");
+        }
+
+        [Command("!gracias"), Alias("gracias"), Summary("Lista de juegos")]
+        public async Task gracias()
+        {
+            switch (new Random().Next(1, 4))
+            {
+                case 1:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} de nada...");
+                    break;
+                case 2:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} pero que sujeto tan agradable eres...");
+                    break;
+                default:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} por personas asi dan ganas de seguir XD...");
+                    break;
+            }
+        }
+
+        [Command("!vete_verga"), Alias("vete a la verga"), Summary("respuesta groseria")]
+        public async Task veteVerga()
+        {
+            switch (new Random().Next(1, 4))
+            {
+                case 1:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} Ahorita te alcanzo...");
+                    break;
+                case 2:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} iría pero quedó sobrepoblado cuando llegaste tú");
+                    break;
+                default:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} iría a la tuya pero no tienes, ups.");
+                    break;
+            }
+        }
+
+        [Command("!vales_verga"), Alias("vales verga"), Summary("respuesta a groseria")]
+        public async Task valesVerga()
+        {
+            switch (new Random().Next(1, 4))
+            {
+                case 1:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} por lo menos valgo más que tú...");
+                    break;
+                case 2:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} tu ni eso vales.");
+                    break;
+                default:
+                    await Context.Channel.SendMessageAsync($"{Context.Message.Author.Mention} y quien no lo vale, mira https://es.slideshare.net/RubenSoyChido/valer-verga-costumbre-o-instinto.");
+                    break;
+            }
         }
     }
 }
