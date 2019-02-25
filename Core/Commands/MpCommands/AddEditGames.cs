@@ -41,11 +41,11 @@ namespace DriveBot.Core.Commands
                         if (!string.IsNullOrWhiteSpace(anuncio))
                         {
                             //await Context.Client.GetGuild(485262131797688331).GetTextChannel(485446685552803850).SendMessageAsync(anuncioC);
-                            await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync(anuncio);
+                            await switchGeneral.GetTextChannel(543276952627314717).SendMessageAsync(anuncio);
                         }
                         if (!string.IsNullOrWhiteSpace(trailer))
                         {
-                            await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync(trailer);
+                            await switchGeneral.GetTextChannel(543276952627314717).SendMessageAsync(trailer);
                         }
                     }
                 }
@@ -123,11 +123,11 @@ namespace DriveBot.Core.Commands
                         await Context.User.SendMessageAsync($"{Context.User.Mention} {response}");
                         if(!string.IsNullOrWhiteSpace(anuncio))
                         {
-                            await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync($"@everyone {anuncio}");
+                            await switchGeneral.GetTextChannel(543276952627314717).SendMessageAsync($"@everyone {anuncio}");
                         }
                         if (!string.IsNullOrWhiteSpace(trailer))
                         {
-                            await switchGeneral.GetTextChannel(485446685552803850).SendMessageAsync(trailer);
+                            await switchGeneral.GetTextChannel(543276952627314717).SendMessageAsync(trailer);
                         }
                     }
                 }
