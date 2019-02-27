@@ -1,15 +1,15 @@
 ﻿[
     {
-        "Titulo": "Super Smash Bros Ultimate",
-        "Peso": "483 MB",
+        "Version": "v327680",
+        "Peso": "688 Mb",
         "Formato": "NSP",
-        "Version": "v262144 (2.0.0) patched for 5.xx",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=18T3AWJVdi4TSn1vsvZrg5rui_ISvT5Z4)"
+        ],
+        "Titulo": "Super Smash Bros Ultimate",
         "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/516043161953501216/Caratula_SSBU.png",
         "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
-        "UploadBy": "By Bello1987",
-        "Links": [
-            "[GDrive](https://drive.google.com/open?id=1P0YFmX9mPRStlEBFKIh2f1U5zEVmjnxR)"
-        ]
+        "UploadBy": "By bello1987"
     },
     {
         "Titulo": "Dragon Ball FighterZ",
@@ -59,16 +59,16 @@
         ]
     },
     {
-        "Titulo": "Tales Of Vesperia: Definitive Edition",
         "Version": "v65536",
         "Peso": "218 Mb",
         "Formato": "NSP",
-        "UploadBy": "By bello1987",
-        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
-        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/XxAnG62_dACUBPSPOFDRwaLe5929SswI/5I2vi2j-Zy9ar3MnMCXgW5fk6e4WD6Gd.png",
         "Links": [
             "[Gdrive](https://drive.google.com/open?id=1f-rmwm8BPw3DfRonaIZ7xWNpEceDtT8Z)"
-        ]
+        ],
+        "Titulo": "Tales Of Vesperia: Definitive Edition",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/XxAnG62_dACUBPSPOFDRwaLe5929SswI/5I2vi2j-Zy9ar3MnMCXgW5fk6e4WD6Gd.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By bello1987"
     },
     {
         "Titulo": "Wolfenstein II: The New Colossus",
@@ -107,16 +107,16 @@
         ]
     },
     {
-        "Titulo": "Pokémon Let’s Go, Eevee!",
-        "Version": "v65536",
-        "Peso": "34 Mb",
+        "Version": "v262144",
+        "Peso": "96 Mb",
         "Formato": "NSP",
-        "UploadBy": "By bello1987",
-        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
-        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/CSOAMj2W9rveoiuTcGo-hzGAIeGTo5Kw/PuhHRfNGbPs3MCRRIsm6WjrEsnn0DZAg.png",
         "Links": [
-            "[Gdrive](https://drive.google.com/open?id=1nyPGlpx23tdKRT5OE0aJa0mRnRc5Cy1I)"
-        ]
+            "[Gdrive](https://drive.google.com/open?id=17G3vquvFHa5wpoej6CqHZoEuzwXhLlqn)"
+        ],
+        "Titulo": "Dragon Marked for Death: Advanced Attackers",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/GOcFhHzfuVmmCO7qSuYD6cc4WJxI1NMX/ycZhahc_sZTMWMVTV7N_sezYRBM0iMGI.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By bello1987"
     },
     {
         "Titulo": "Mario Tennis Aces",
@@ -143,16 +143,16 @@
         ]
     },
     {
-        "Titulo": "DOOM Eternal Collection",
         "Version": "v196608",
         "Peso": "8.7 GB",
         "Formato": "NSP",
-        "UploadBy": "By Bello1987",
-        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
-        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/s9J85UIRFnNAO89bODHqJ0VEaF7UC94-/XdqRvkvyEbFkzKujYyPz9WKeRxQKp37f.jpg",
         "Links": [
             "[GDrive](https://drive.google.com/file/d/1Ku7CAezwourL-WApt2j1zX01_91upV1d/view?usp=sharing)"
-        ]
+        ],
+        "Titulo": "DOOM",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/s9J85UIRFnNAO89bODHqJ0VEaF7UC94-/XdqRvkvyEbFkzKujYyPz9WKeRxQKp37f.jpg",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
     },
     {
         "Titulo": "Diablo III Eternal Collection",
@@ -251,16 +251,16 @@
         ]
     },
     {
-        "Titulo": "Dead Cells",
-        "Version": "v131072",
-        "Peso": "259 Mb",
+        "Version": "v196608",
+        "Peso": "359 Mb",
         "Formato": "NSP",
-        "UploadBy": "By bello1987",
-        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
-        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_DeadCells_PEGI.jpg",
         "Links": [
-            "[Gdrive](https://drive.google.com/open?id=1oRLLHeV_u3S794j8n3jCILZu_XctnttG)"
-        ]
+            "[Gdrive](https://drive.google.com/open?id=1ManPKPrl7hjX_kkm_YdhxcVnbHWU6I2e)"
+        ],
+        "Titulo": "Dead Cells",
+        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_DeadCells_PEGI.jpg",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By bello1987"
     },
     {
         "Titulo": "Donkey Kong Country: Tropical Freeze",
@@ -275,16 +275,16 @@
         ]
     },
     {
-        "Titulo": "FIFA 19",
-        "Version": "v262144",
-        "Peso": "451 Mb",
+        "Version": "v327680",
+        "Peso": "410Mb",
         "Formato": "NSP",
-        "UploadBy": "By bello1987",
-        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
-        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/f0_HoyEparSfc6WlRBx7gYhZ_3KZ3HtY/nj6Hkit4tDh4H_fEQziBu76Wo1z05fD3.png",
         "Links": [
-            "[Gdrive](https://drive.google.com/open?id=1As-key9TGU5Zg0hu9GUOdTVGATUU9Xum)"
-        ]
+            "[Gdrive](https://drive.google.com/open?id=1DjXJBn7qFLlYRTQWC_7NSXly0I1gLct1)"
+        ],
+        "Titulo": "FIFA 19",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/f0_HoyEparSfc6WlRBx7gYhZ_3KZ3HtY/nj6Hkit4tDh4H_fEQziBu76Wo1z05fD3.png",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By bello1987"
     },
     {
         "Titulo": "Fitness Boxing",
@@ -323,16 +323,16 @@
         ]
     },
     {
-        "Titulo": "Dragon Marked for Death: Advanced Attackers",
-        "Version": "v131072",
-        "Peso": "137 Mb",
+        "Version": "v262144",
+        "Peso": "96 Mb",
         "Formato": "NSP",
-        "UploadBy": "By bello1987",
-        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
-        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/GOcFhHzfuVmmCO7qSuYD6cc4WJxI1NMX/ycZhahc_sZTMWMVTV7N_sezYRBM0iMGI.png",
         "Links": [
-            "[Gdrive](https://drive.google.com/open?id=1Hg6xP_u0ivkoBKXIvlHjUqq1OaWlJUIu)"
-        ]
+            "[Gdrive](https://drive.google.com/open?id=17G3vquvFHa5wpoej6CqHZoEuzwXhLlqn)"
+        ],
+        "Titulo": "Dragon Marked for Death: Advanced Attackers",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/GOcFhHzfuVmmCO7qSuYD6cc4WJxI1NMX/ycZhahc_sZTMWMVTV7N_sezYRBM0iMGI.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By bello1987"
     },
     {
         "Titulo": "RIOT - Civil Unrest",
@@ -515,11 +515,11 @@
         "UploadBy": "ByBello1987"
     },
     {
-        "Version": "v196608",
+        "Version": "v262144",
         "Peso": "1 Gb",
         "Formato": "NSP",
         "Links": [
-            "[GDrive](https://drive.google.com/open?id=1VeRQ0lDTtkSubhqA_1CHO_MaskpdJUfn)"
+            "[GDrive](https://drive.google.com/open?id=17NbsEA-b1AnjQ2va8PVhB6WVqNACqrwU)"
         ],
         "Titulo": "Monster Boy and the Cursed Kingdom",
         "ImagenJuego": "https://media.nintendo.com/nintendo/bin/qoYTO7qlybV6-K9Ly3oGAn05jsO82tM5/ZkgIdbbXPOQsE-_oV9m2MMZVcL76N7i6.png",
@@ -921,5 +921,593 @@
         "ImagenJuego": "https://media.nintendo.com/nintendo/bin/KdCFBHA7t5D6JcLUeRDLUYeHyJPIp93a/OLgfAcwXk9wvl6km3GJOMnhdLweMXEXV.png",
         "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "73 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1GsxrYSErBD7Iq6kG1vb589IvUD-8_WFK)"
+        ],
+        "Titulo": "Dust: An Elysian Tail",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/lxHZ9kR7yzaUMFhFWhiqqPYKbX-qfI-K/0STB5Cc-lLeXUMSt_ZAH0bbddpcc5QTA.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "162 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1YOoIL7XnP3yQQ68kYvjVlEhdj6qoSNzo)"
+        ],
+        "Titulo": "Fast RMX",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/bdCoTe-0-3_LVjpmdsS3GVJE73R403Ty/__CHScrmButd7jw-i5e2RKm7Qib6FPSj.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v327680",
+        "Peso": "8 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1IoyKINV4vIDpeyLsTe_b1i3SUohT4tEN)"
+        ],
+        "Titulo": "South Park: The Fractured But Whole",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Q2aqTyF6etEkSLg-hMtAYOLvyl3nzqve/oU3jZEO_CXXn_bTAUp9qaLuCkwvamYhJ.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v458752",
+        "Peso": "784 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1T7u1TtX349fiNesEF0ISbrZOF-slz4rW)"
+        ],
+        "Titulo": "Pokken Tournament DX",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/wxRJwmXXt7df9zGcEROSQD33nlKbzkph/Ig2d4FWNzGDyjiVR6Q9wFNEq1vZjskLy.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "628 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1wfFHsBoIuEWCTbpchEUW0PRqsWwk0KnN)"
+        ],
+        "Titulo": "Moonlighter",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/1traZBrlvyquGMtFjvUHZ3GvwZ2sUioE/Qp2TxdNn7z5e-U1b_PNO5q2Wz-MCigiX.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "852 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1sveZva4n7R6IOwe07xxrHzAW4mSmWMyO)"
+        ],
+        "Titulo": "Dandara",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Cz5CGsMCJYri9SlCQSAbdCdpUAIpRa78/wn91aP7Wu2U2AnnExcYCkQMop8KvliEq.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "62 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1tLECW6MgCTGWPgSDoP82lTW8848yRrXL)"
+        ],
+        "Titulo": "Nintendo Labo Variety Kit 1",
+        "ImagenJuego": "https://storemedia.nintendo.com/ui/images/devices/labo/toy-con-01-variety/labo-toy-con-01-variety-package-640x480.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "16 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1xbGzimuDgs94Cn_uUfKYH48M5O1KsNMW)"
+        ],
+        "Titulo": "Nintendo Labo Robot Kit 2",
+        "ImagenJuego": "https://storemedia.nintendo.com/ui/images/devices/labo/toy-con-02-robot/labo-toy-con-02-robot-package-640x480.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v131072",
+        "Peso": "127 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1ulAOAFNAuS1rU6Lu1MpZeMb3TsIXHLyk)"
+        ],
+        "Titulo": "OCTOPATH TRAVELER",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/52yHZdow0JIT66VPGPY9xg_FUbT6hf6w/wW4hMobKdrOGg0sm8qmbjhzflpbdtf2w.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v131072",
+        "Peso": "36 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=11_rCakzr-1tGtNmjyp0k6wQlPtU38mEr)"
+        ],
+        "Titulo": "Salt and Sanctuary",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/iyw7-bWAId9qrsu1mMBtf3pmXswjfBH3/LPt5smIJ6cmZL4WG4sU1TtTm2KxncJUN.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "205 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=19dv3Z5W4z3R8n8ihZmSJ3MNLkda9_zqy)"
+        ],
+        "Titulo": "Max: The Curse of Brotherhood",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/UemlXWiJ0PcbUECTVcOCsjYW-Rb60Zn-/xnRh_aM6bckZpGTaAMaLCCgAJg09fe5F.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "239 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1eNTnslNAfkrQUe_TspuIzE9qjJSGrypW)"
+        ],
+        "Titulo": "Raging Justice",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/nMUBFvuP4-Wu-vRXRQ4lqK297ZHFfXcS/AEldIUl7Nb7mImxxAM5SpJUr28Jw8J4D.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Titulo": "Captain Toad: Treasure Tracker",
+        "Version": "v65536",
+        "Peso": "98 Mb",
+        "Formato": "NSP",
+        "UploadBy": "By bello1987",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Ku68rcmSJKen7UnibJ_v3RY3RsJtfXNx/5GOXMh4vjnKWuu8fhJnquH1EABATAND7.png",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1Cfw8Gfm5sG3siGY_rxPOYAT9mpfvi5xK)"
+        ]
+    },
+    {
+        "Version": "v65536",
+        "Peso": "81 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1b_LZWz0ZRuw6oYz-bWmGbCGt3BZXvaQH)"
+        ],
+        "Titulo": "Runbow",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/zFP-hb0Nbr2ek-5uLKVQY6cevAyFKH4o/Wc7fZh90taMAumW9pfdccEHsrQVu343x.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "15 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1roNj1qsNQlqq8v1wazxWQMIO0Dd2w8tE)"
+        ],
+        "Titulo": "Bloodstained: Curse of the Moon",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/PR4OgtXI0aNuquYn45KSlTzSVYRN8wEF/H4W2xu0_e-x3e3iIV78JoPGlDLUKCkg8.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v720896",
+        "Peso": "3 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1DjCx4gEMwNZA29xKbspfk2tt6M7VM5uC)"
+        ],
+        "Titulo": "Super Bomberman R",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/BEIfQA42klKKRZQQk1eXQYK_60F4MUzc/b1hRJ1rtxVjWXDkdv5PpDN-DgtFsC8nQ.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "42 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=166WWBxThJsERaqVHp0sTffvJ-byKYwML)"
+        ],
+        "Titulo": "Capcom Beat 'Em Up Bundle",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/99vWJCCAnO2KMleQy-wIeXRp8txkgYe_/5EJAF6XqUJsEafx1BkoaOmwlfLcEfJv9.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v131072",
+        "Peso": "82 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1Q957b7-U1eqi_3z7r-n9P_uJF8OvuD8C)"
+        ],
+        "Titulo": "Carnival Games",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/VN7mXG8PmnyHvnJEndhcrjbh610JBKVZ/XPtrxkb5YTe5ItHOlZ2bOl_aixLU10hR.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "158 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1du5jzMJrHZFrnse2zktljP1KP5ggk6U2)"
+        ],
+        "Titulo": "Celeste",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/BhITPyOUFDpMFX86GI0eTBz3HETPFTOo/tt2ihzlt7kqrAtIeZccBHNy9r0oEDTmO.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v524288",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1xnRYI8mKVPAZPlZx3zDzTBMV7d-UykNF)"
+        ],
+        "Titulo": "DRAGON BALL Xenoverse 2",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/5n3GEUzrJMN8SKN3dS2p4dJpjqLyXZ7e/lhVlqse8GD0XTYR72cArCpo1j1DnqOhD.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v262144",
+        "Peso": "52 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=106fTjgCleVRULuKSBpAHEH0Ndi6qyyQ4)"
+        ],
+        "Titulo": "Death Road to Canada",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/jumGHcYnxmVZ_yYF1Vx35EY6rUn6jtUL/SLaZTk9qT8DXb84a8cyCxTt_TQCwK2ce.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v327680",
+        "Peso": "583 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1jNTCwvLt-zf5Aa4y7w9UbzaQT7oJFnoe)"
+        ],
+        "Titulo": "Fire Emblem Warriors",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/hinkRjxGuHlz3nvFqgB1cr9PgzCmVdYy/akahDdWxWelTU8r9zhGGsI2lQcg4N_gG.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "324 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1hogsxYTWeRgiii6Wi27T_tRpz2d29dJt)"
+        ],
+        "Titulo": "Harvest Moon: Light of Hope Special Edition",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Q-QOhOU-0PSQ74pPjPcW9ODFyfjvAJsC/6rKYYWnOUDE42s15XpUINBlSNNZa16NM.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "9 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1gDd1MD-D7LMxexqe0MuAGR23-PXXSX4R)"
+        ],
+        "Titulo": "Starlink: Battle For Atlas",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/5TqGD0xNlMsxYDG1My63miRcsvoZXxLz/UOsAzmrnoSersFuvNLggHLjP5PduaNeh.jpg",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v917504",
+        "Peso": "226 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1jsPY6Z03qTWP1fttXsZfhdgV7pKhJGsl)"
+        ],
+        "Titulo": "Xenoblade Chronicles 2",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/PqHlEWHNhL2mPNm6WE-ri95xMGxw-zzQ/0lslRCvuTZjKN2Sbt7Iu425Pcy6Rcef3.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "212 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1XcjTuHLOf_OlZ9jp1LRdZ_x0FQG61_ta)"
+        ],
+        "Titulo": "The Elder Scrolls V: Skyrim",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/fIoMnlkj4A28w_OqbZBWDq28nh_yvhGg/oyR6VRElQlRwtfC006wiyfSaRbiE7ANV.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v327680",
+        "Peso": "950 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1PtcTihAhBbvTuoQ_7xpcB8u9o3OPZgZq)"
+        ],
+        "Titulo": "Just Dance 2019",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/RydIre6s1M-qzfCJTebYzHdw4ciKPptZ/6Mrjb08Cv0w1t_CFws1cmFuw5oQ35eWq.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "559 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1ugcOIfyAQWhmqn_KzVcUsbTnHmwfT0d4)"
+        ],
+        "Titulo": "Snipperclips - Cut it out, together!",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/N8sCBwdyqfCzJLHudQvSjh0BCdwL7MWa/yvwgfJcBRYKvQWdUl3fx9A8TSWYZJRqs.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v131072",
+        "Peso": "98 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1Iozp45fQY4EjN8zRfuJy2fv541BB1kIT)"
+        ],
+        "Titulo": "RICO",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/yxgzdcnYkzz5o4KuyIfDoDQz0BUbIkCq/6LGX1wMYID1aAxFXsfZxlu9qyRcg1YM7.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "65 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1HMRPWl4CMJzBPOUjf74kaOdv8Gbyx-ga)"
+        ],
+        "Titulo": "Ghoulboy",
+        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_Ghoulboy.jpg",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "65 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1HMRPWl4CMJzBPOUjf74kaOdv8Gbyx-ga)"
+        ],
+        "Titulo": "Ghoulboy",
+        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_Ghoulboy.jpg",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "359 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1ManPKPrl7hjX_kkm_YdhxcVnbHWU6I2e)"
+        ],
+        "Titulo": "Dead Cells",
+        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_DeadCells_PEGI.jpg",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By bello1987"
+    },
+    {
+        "Version": "v262144",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=17NbsEA-b1AnjQ2va8PVhB6WVqNACqrwU)"
+        ],
+        "Titulo": "Monster Boy and the Cursed Kingdom",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/qoYTO7qlybV6-K9Ly3oGAn05jsO82tM5/ZkgIdbbXPOQsE-_oV9m2MMZVcL76N7i6.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "ByBello1987"
+    },
+    {
+        "Version": "v327680",
+        "Peso": "410Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1DjXJBn7qFLlYRTQWC_7NSXly0I1gLct1)"
+        ],
+        "Titulo": "FIFA 19",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/f0_HoyEparSfc6WlRBx7gYhZ_3KZ3HtY/nj6Hkit4tDh4H_fEQziBu76Wo1z05fD3.png",
+        "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1FH2WjAE-t5ead4km201oxT2QYWSGhxYB)"
+        ],
+        "Titulo": "Youtubers Life OMG Edition",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/xOdvPhDnibgbXzk2IIXnyNNPa6uU72jU/93Z-19EmR4LP4cLdc8m5KIEKOlWlRhgA.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v131072",
+        "Peso": "12 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=15jAZcVW-6TVm9ZoMxda00Zj4U6scrW1b)"
+        ],
+        "Titulo": "SINNER: Sacrifice for Redemption",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/H_0yPwjkRgWlLlyuwNNn8rWdZzDxLTw6/Yn-_66MMH2QQ2FAyJz-JOJhrQkTbaZwJ.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v131072",
+        "Peso": "109 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1Po45KHNi1duA9o5uFqXQCHQyuSa9ZBcu)"
+        ],
+        "Titulo": "OlliOlli: Switch Stance",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/IVN2fbpAFwGq6SNGjSC1QNdknNRdAm1i/Wo2s86dkPbjCrC2TkbSE5mcQFAK9ioJ1.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "33 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=12PcOEH7kq7JqXwBc0o4FfZ4etSnGvfut)"
+        ],
+        "Titulo": "Hyrule Warriors: Definitive Edition",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/SF6LoN-xgX1iT617eWfBrNcWH6RQXnSh/I_IRYaBzJ61i-3hnYt_k7hVxHtqGmM_w.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v327680",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1M5KrCpnE73pVHGGy-6whMc4SBvDyjbxK)"
+        ],
+        "Titulo": "NBA 2K Playgrounds 2",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/MM-qAfjeirnQ7xA8uyDnPL-YTz596VEQ/4N7YEYS-rNCNdeIC3KWa7kCV7v2H1jr4.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "401 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1HkrT6L3AXAOKDQTx2-dY-O2CWhx1L9Ys)"
+        ],
+        "Titulo": "Zombie Panic in Wonderland DX",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/cDB03qk4-VX2FWTIPl4PmLLw8qzDn0P7/oyWLo6E3kD84NTLONWdtprezuYDznz4r.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "175 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1AASdqRN4FereBl4pvr2emjZWt8qkr52f)"
+        ],
+        "Titulo": "Nightmare Boy",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/T70mksAV1q_QdYPvAWM7DX00OHwkOuxa/1Om66gaIIrTFfpGxKg1KddeNCBNRbdVI.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v262144",
+        "Peso": "519 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1x2H6efkYrBcMaLE7mpMHZ81o1aGAuzfa)"
+        ],
+        "Titulo": "The Messenger",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/AFp8hieWFGiGrPSVV5TXAsRiehbLldwo/jB9HI05GJPaVlwkBA5A8svqVb8ll-jYw.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "218 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[Gdrive](https://drive.google.com/open?id=1f-rmwm8BPw3DfRonaIZ7xWNpEceDtT8Z)"
+        ],
+        "Titulo": "Tales Of Vesperia: Definitive Edition",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/XxAnG62_dACUBPSPOFDRwaLe5929SswI/5I2vi2j-Zy9ar3MnMCXgW5fk6e4WD6Gd.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "965 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1_DVh6ln52R38eqMqPMNULxXjzS_E3pFl)"
+        ],
+        "Titulo": "The LEGO Movie 2 Videogame",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/7e7b7yzOfE2svT8OXyPmVwPbIwbpbPlX/OwOjhAsNHyhW0B4M9wRYZ_XsS7Tn2qc8.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v196608",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1LgJ6szvb3_TzRkFxz0Z3BKP46qbjhTw5)"
+        ],
+        "Titulo": "Tennis World Tour",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/2w__SZZPsPr3U3uKMc2577NdwAsZj-HB/aVZQgKoshMy_xblxYHZtGh_72OSN-Peu.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v720896",
+        "Peso": "3 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1DjCx4gEMwNZA29xKbspfk2tt6M7VM5uC)"
+        ],
+        "Titulo": "Super Bomberman R",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/BEIfQA42klKKRZQQk1eXQYK_60F4MUzc/b1hRJ1rtxVjWXDkdv5PpDN-DgtFsC8nQ.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v131072",
+        "Peso": "4 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1Qs6QP9R-a2zFuANNWAlY6n_tZi4roY-2)"
+        ],
+        "Titulo": "Rime",
+        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_Rime_PEGI.jpg",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v131072",
+        "Peso": "334 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1nnaze_HJT72HeMJ6wBEcJ6dX1VyMEYLw)"
+        ],
+        "Titulo": "Ultimate Chicken Horse",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/bJf2Zz6CCv_IcvQfJ1WcnE_EceJWz6kH/3A80BUDjAYzqGtnRC1j_uM1H1vuub8JF.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By Bello1987"
+    },
+    {
+        "Version": "v65536",
+        "Peso": "96 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[Gdrive](https://drive.google.com/file/d/1nyPGlpx23tdKRT5OE0aJa0mRnRc5Cy1I/view?usp=drivesdk)"
+        ],
+        "Titulo": "Pokémon Let’s Go, Eevee!",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/CSOAMj2W9rveoiuTcGo-hzGAIeGTo5Kw/PuhHRfNGbPs3MCRRIsm6WjrEsnn0DZAg.png",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "UploadBy": "By bello1987"
     }
 ]

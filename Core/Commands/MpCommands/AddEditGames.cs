@@ -143,6 +143,64 @@ namespace DriveBot.Core.Commands
             }
         }
 
+        [Command("delete_game"), Alias("borrar juego"), Summary("Elimina un juego")]
+        public async Task deleteGame([Remainder]string inputMessage = "")
+        {
+            if (Context.IsPrivate)
+            {
+                if (stdClassCSharp.readJsonFile("usersIds.json")["users"][Context.User.Id.ToString(), TiposDevolver.Boleano])
+                {
+                    int indexGame = 0;
+                    if (string.IsNullOrEmpty(inputMessage))
+                    {
+                        var builder = new EmbedBuilder();
+                        int fields = 0;
+                        builder.WithTitle("Ids de los juegos:");
+                        builder.WithColor(new Color(0xFFF000));
+                        foreach (stdClassCSharp juego in Utils.getListGamesEdit())
+                        {
+                            if (fields >= 24)
+                            {
+                                await Context.User.SendMessageAsync("", false, builder.Build());
+                                builder = new EmbedBuilder();
+                                builder.WithColor(new Color(0xFFF000));
+                                fields = 0;
+                            }
+                            builder.AddField(juego["indexGame", TiposDevolver.Cadena], juego["Titulo"]);
+                            fields++;
+                        }
+                        if (fields >= 24)
+                        {
+                            await Context.User.SendMessageAsync("", false, builder.Build());
+                            builder = new EmbedBuilder();
+                            builder.WithColor(new Color(0xFFF000));
+                            fields = 0;
+                        }
+                        builder.AddField("¿Para borrar?", $"Solo vuelve a colocar el comando !delete_game [id del juego] en base a la lista colocada y se eliminará el juego seleccionadp.");
+                        await Context.User.SendMessageAsync("", false, builder.Build());
+                    }
+                    else if (int.TryParse(inputMessage, out indexGame))
+                    {
+                        string response = Utils.deleteGame(indexGame);
+                        await Context.User.SendMessageAsync(response);
+                    }
+                    else
+                    {
+                        await Context.User.SendMessageAsync("Algo no enviaste bien");
+                    }
+                }
+                else
+                {
+                    await Context.User.SendMessageAsync("No estas autorizado para utilizar este comando");
+                }
+            }
+            else
+            {
+                await Context.Message.DeleteAsync(RequestOptions.Default);
+                await Context.Channel.SendMessageAsync($"Ese comando solo funciona por mp.");
+            }
+        }
+
         [Command("getid"), Alias("dame mi id"), Summary("Obtiene tu id")]
         public async Task getUserId([Remainder]string inputMessage = "")
         {

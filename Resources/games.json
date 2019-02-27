@@ -3,7 +3,7 @@
         "Titulo": "Super Smash Bros Ultimate",
         "Peso": "14.0 GB",
         "Formato": "NSP",
-        "Descripcion": "Super Smash Bros. Ultimate es la nueva entrega para Nintendo Switch de la popular saga de Nintendo centrada en el género de lucha, en la que personajes como Super Mario, Zelda, Samus de Metroid, Donkey Kong o Pikachu de Pokémon por citar algunos, combaten en los más variados escenarios extraídos del legado digital de la empresa japonesa, así como de compañías invitadas de la talla de Capcom, Bandai Namco, SEGA o Konami. Con el plantel de héroes, heroínas y villanos más grande hasta la fecha, con nuevos modos de juego y una jugabilidad clásica, Ultimate supone el punto álgido de una licencia emblemática de Nintendo.",
+        "Descripcion": "peleas",
         "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/516043161953501216/Caratula_SSBU.png",
         "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "UpdateIndex": 0,
@@ -82,16 +82,18 @@
     },
     {
         "Titulo": "Tales Of Vesperia: Definitive Edition",
-        "Peso": "13 Gb",
-        "Formato": "NSP",
+        "Trailer": "https://www.youtube.com/watch?v=bo5xnYoOc54",
+        "Descripcion": "Role-Playing",
         "UploadBy": "By bello1987",
         "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "ImagenJuego": "https://media.nintendo.com/nintendo/bin/XxAnG62_dACUBPSPOFDRwaLe5929SswI/5I2vi2j-Zy9ar3MnMCXgW5fk6e4WD6Gd.png",
+        "Peso": "13 Gb",
+        "Formato": "NSP",
         "Links": [
             "[Gdrive](https://drive.google.com/open?id=1hMDeGQ_yIarYIBsfZihvR4_zbLxU-haw)"
         ],
-        "UpdateIndex": 5,
-        "Descripcion": "Tales of Vesperia Definitive Edition nos traslada al mundo de Terca Lumireis, un planeta distante en el que los habitantes han llegado a dominar una sustancia mágica llamada Blastia, que la emplean para los más variados ámbitos de su vida y que han incluido como parte de su desarrollo tecnológico. Sin embargo, en la ciudad de Zaphias alguien ha robado la principal blastia que da poder y funcionamiento a la urbe, desatando el caos. Nuestro protagonista, Yuri Lowell, se verá envuelto en una extraña conspiración que pondrá en riesgo al mismo destino del planeta y la forma en la que se usa esta poderosa fuente de poder."
+        "DlcIndex": 34,
+        "UpdateIndex": 119
     },
     {
         "Titulo": "Wolfenstein II: The New Colossus",
@@ -162,15 +164,15 @@
     {
         "Titulo": "Pokémon Let’s Go, Eevee!",
         "Descripcion": "Pokémon Let’s Go Eevee! se trata del debut de la reputada saga de monstruos de bolsillo coleccionables en Nintendo Switch. Considerados una reinterpretación de Pokémon Amarillo, llegan a la consola híbrida de Nintendo ofreciendo una serie de mecánicas y formas de jugar diseñadas tanto para los veteranos de la saga como para los nuevos jugadores y novatos que decidan acercarse a estos juegos por primera vez. Nintendo, The Pokémon Company y Game Freak quieren aprovechar con estos videojuegos las sinergías de Pokémon GO.",
-        "Peso": "4 Gb",
-        "Formato": "NSP",
         "UploadBy": "By bello1987",
         "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "ImagenJuego": "https://media.nintendo.com/nintendo/bin/CSOAMj2W9rveoiuTcGo-hzGAIeGTo5Kw/PuhHRfNGbPs3MCRRIsm6WjrEsnn0DZAg.png",
+        "Peso": "4 Gb",
+        "Formato": "NSP",
         "Links": [
             "[Gdrive](https://drive.google.com/open?id=1Erqt63xSYWAFIEmBLKEK4UBSe9emcFvC)"
         ],
-        "UpdateIndex": 9
+        "UpdateIndex": 125
     },
     {
         "Titulo": "Mario Tennis Aces",
@@ -456,15 +458,15 @@
     {
         "Titulo": "Dead Cells",
         "Descripcion": "metroidvania",
-        "Peso": "443 Mb",
-        "Formato": "NSP",
         "UploadBy": "By bello1987",
         "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_DeadCells_PEGI.jpg",
+        "Peso": "443 Mb",
+        "Formato": "NSP",
         "Links": [
             "[Gdrive](https://drive.google.com/open?id=1FGUa0rntGeCnI_G_Xx4YP-yLqaOED1pj)"
         ],
-        "UpdateIndex": 21
+        "UpdateIndex": 108
     },
     {
         "Titulo": "Crash Bandicoot N. Sane Trilogy",
@@ -487,7 +489,9 @@
         "Links": [
             "[Gdrive](https://drive.google.com/open?id=16ewcFApGcx5xBs6UoVeP8rwdc6EeBDai)"
         ],
-        "UpdateIndex": 89
+        "UpdateIndex": 89,
+        "Descripcion": "Puzzle, Strategy",
+        "DlcIndex": 28
     },
     {
         "Titulo": "Donkey Kong Country: Tropical Freeze",
@@ -505,15 +509,15 @@
     {
         "Titulo": "FIFA 19",
         "Descripcion": "soccer",
-        "Peso": "14 Gb",
-        "Formato": "NSP",
         "UploadBy": "By bello1987",
         "ImagenDiscord": "https://media.discordapp.net/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "ImagenJuego": "https://media.nintendo.com/nintendo/bin/f0_HoyEparSfc6WlRBx7gYhZ_3KZ3HtY/nj6Hkit4tDh4H_fEQziBu76Wo1z05fD3.png",
+        "Peso": "14 Gb",
+        "Formato": "NSP",
         "Links": [
             "[Gdrive](https://drive.google.com/open?id=16vBDQR90jkxHcytwyXsO0j2qYRDAJC6V)"
         ],
-        "UpdateIndex": 23
+        "UpdateIndex": 110
     },
     {
         "Titulo": "Fitness Boxing",
@@ -605,17 +609,18 @@
     },
     {
         "Titulo": "Dragon Marked for Death: Advanced Attackers",
+        "Trailer": "https://www.youtube.com/watch?v=ppeaIi-otzo",
         "Descripcion": "Action, Role-Playing",
-        "Peso": "481 Mb",
-        "Formato": "NSP",
         "UploadBy": "By bello1987",
         "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
         "ImagenJuego": "https://media.nintendo.com/nintendo/bin/GOcFhHzfuVmmCO7qSuYD6cc4WJxI1NMX/ycZhahc_sZTMWMVTV7N_sezYRBM0iMGI.png",
+        "Peso": "481 Mb",
+        "Formato": "NSP",
         "Links": [
             "[Gdrive](https://drive.google.com/open?id=1jA3gFS-1RThCh2n-4-ccSWGljhvjwD7R)"
         ],
-        "UpdateIndex": 27,
-        "DlcIndex": 9
+        "DlcIndex": 9,
+        "UpdateIndex": 9
     },
     {
         "Titulo": "RIOT - Civil Unrest",
@@ -888,7 +893,7 @@
         "Links": [
             "[GDrive](https://drive.google.com/open?id=17dHM2pY6RmtVDLPikpmRqNvXNKD73zJb)"
         ],
-        "UpdateIndex": 43
+        "UpdateIndex": 109
     },
     {
         "Titulo": "Kirby Star Allies",
@@ -1798,5 +1803,622 @@
         "Links": [
             "[GDrive](https://drive.google.com/open?id=1k7PGFl_AnCYd-aBgdZSLhvRw1OhV5YKK)"
         ]
+    },
+    {
+        "Titulo": "Starlink: Battle For Atlas",
+        "Descripcion": "Arcade, Adventure, Role-Playing, Other",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/5TqGD0xNlMsxYDG1My63miRcsvoZXxLz/UOsAzmrnoSersFuvNLggHLjP5PduaNeh.jpg",
+        "Peso": "7 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1QFGMykWJFUQxd_Q8DG-zPgtSxadmhe9d)"
+        ],
+        "DlcIndex": 29,
+        "UpdateIndex": 100
+    },
+    {
+        "Titulo": "Xenoblade Chronicles 2",
+        "Descripcion": "Role-Playing",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/PqHlEWHNhL2mPNm6WE-ri95xMGxw-zzQ/0lslRCvuTZjKN2Sbt7Iu425Pcy6Rcef3.png",
+        "Peso": "13 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1L8zz0UE7g8E5byqsAI-Jrwi0NB8MGy3V)"
+        ],
+        "DlcIndex": 30,
+        "UpdateIndex": 101
+    },
+    {
+        "Titulo": "X-Morph: Defense",
+        "Descripcion": "Action, Strategy",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/lqb7nYfWhFxBk-ZoLA0hNxRn4uKNx5kT/cvbnfFtBuHAMoMpjIpwGa976v-X2PI0D.png",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=12V_LNCNjmjqrWa4FilAi16glEifCGoio)"
+        ],
+        "DlcIndex": 31
+    },
+    {
+        "Titulo": "Degrees of Separation",
+        "Descripcion": "Platformer, Puzzle, Multiplayer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/cuaOE8hhNSqHNnrK5KyXab2ovmvi-L8C/5hEIe15SR5wW3MX4oMnQtxD8Z1G_ocyA.png",
+        "Peso": "477 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1-GDHNkxiMkUXqv5f_eHwOkeqCMAPyzbN)"
+        ]
+    },
+    {
+        "Titulo": "Child of Light Ultimate Edition",
+        "Descripcion": "Platformer, Role-Playing, Adventure, Strategy",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/TIIqNRCXOP_UC9zcbten8S_zLEZ0Nfa8/PfA2ot3nV6sRkRBezVWOaokv5OnKV47u.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1h0DbpQVjF0bxEBPDZgWMpXHW0TnWmWVt)"
+        ]
+    },
+    {
+        "Titulo": "The Elder Scrolls V: Skyrim",
+        "Descripcion": "Role-Playing, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/fIoMnlkj4A28w_OqbZBWDq28nh_yvhGg/oyR6VRElQlRwtfC006wiyfSaRbiE7ANV.png",
+        "Peso": "14 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=11t0-KHdNWjJW0PoQTO_bLeg1kohwsPJu)"
+        ],
+        "DlcIndex": 32,
+        "UpdateIndex": 102
+    },
+    {
+        "Titulo": "The Liar Princess and the Blind Prince",
+        "Descripcion": "Adventure, Platformer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/0qxyKg8X4thyvrbSmFSyKedDQlt9eVvU/80cTt1mCP-Og4wlmhPGpJleqj4AP9IL8.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1u2Ao7YrlblVGMqTmu7ZxURicYZBDudJ6)"
+        ]
+    },
+    {
+        "Titulo": "Valkyria Chronicles 4",
+        "Descripcion": "Role-Playing, Strategy",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/mJR7XtCsg72WbyuZkF0wS5KEQ4WSJfy0/PFk1Sk2pN8xCX3mPHD1gglG5RQBSFPY-.png",
+        "Peso": "11 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1MJlrJclQYYVitkJLoPxzpWRxuJbyb2TW)"
+        ],
+        "DlcIndex": 33
+    },
+    {
+        "Titulo": "DreamWorks Dragons Dawn of New Riders",
+        "Descripcion": "Adventure",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/xNhM5w64zfsMKn32DFidSWBfNtYfleX7/RxNNagSHQA_4cJ3EkfND-9q8RfPi8ZBC.png",
+        "Peso": "623 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/1oQJnjsV-vTu3QmAnDqQC0SheVx7vMyT2/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "Just Dance 2019",
+        "Descripcion": "Music, Party, Training, Simulation",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/RydIre6s1M-qzfCJTebYzHdw4ciKPptZ/6Mrjb08Cv0w1t_CFws1cmFuw5oQ35eWq.png",
+        "Peso": "7 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1mzjDDp_0-d1FHIHjekrwJqLUCyUAUldi)"
+        ],
+        "UpdateIndex": 103
+    },
+    {
+        "Titulo": "STEINS;GATE ELITE",
+        "Descripcion": "Adventure",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/9kirvmDvYHOepibetqgYmnQJKbpvdgUa/NREeO8XsPsYJsN6E_8ijpa7dAN3oCbkJ.png",
+        "Peso": "7 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1nyTesG6MwzSmPAHdiJJTAoOrAxAhCzex)"
+        ]
+    },
+    {
+        "Titulo": "DAEMON X MACHINA: Prototype Missions",
+        "Descripcion": "Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/oWEI37YAgXwAM0ps8gNxNtphqZ91yATT/rwctfJrtGEzV_neiJR48Q6AbHyi1E2sF.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1KdZ65y5w512TdBBHLbkoEe029gtUgpF9)"
+        ]
+    },
+    {
+        "Titulo": "Snipperclips - Cut it out, together!",
+        "Descripcion": "Action, Puzzle, Multiplayer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/N8sCBwdyqfCzJLHudQvSjh0BCdwL7MWa/yvwgfJcBRYKvQWdUl3fx9A8TSWYZJRqs.png",
+        "Peso": "947 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1KAi8s4JJIryiANRWSPVsIDl-FN1q1X50)"
+        ],
+        "UpdateIndex": 104
+    },
+    {
+        "Titulo": "Car Mechanic Simulator",
+        "Descripcion": "Simulation, Racing, Puzzle",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/av8RRnwSJlwODcMosww7JvSPF8B_HOxA/KTWebBUS6er7qZHDRNHlZZC0XKb4L84r.png",
+        "Peso": "211 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1NQQMDUgn9BinYMfpmcRRANJ4zFW4I71_)"
+        ]
+    },
+    {
+        "Titulo": "RICO",
+        "Descripcion": "Arcade, First Person, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/yxgzdcnYkzz5o4KuyIfDoDQz0BUbIkCq/6LGX1wMYID1aAxFXsfZxlu9qyRcg1YM7.png",
+        "Peso": "3 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1tC_VejXQwNXxtO1gwzPjJMaP2g6Xsv2w)"
+        ],
+        "UpdateIndex": 105
+    },
+    {
+        "Titulo": "Ghoulboy",
+        "Descripcion": "Aventura, Plataformas",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_Ghoulboy.jpg",
+        "Peso": "249 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1nQVmXEuHTJurCZfTyt_10RfApHS8tMzO)"
+        ],
+        "UpdateIndex": 107
+    },
+    {
+        "Titulo": "Modern Combat Blackout",
+        "Descripcion": "Action, Adventure, Other",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/hMCU1ZyJNV9WRrTztnWseFeciAD_BrjQ/OWPd-JAPSwR4WF-ZAF9B1ZET_mJtovyM.png",
+        "Peso": "4 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1kkWwff6nR2hHlUGR9o6oVLjF9WZtQKT_)"
+        ]
+    },
+    {
+        "Titulo": "Youtubers Life OMG Edition",
+        "Descripcion": "Simulation, Strategy, Lifestyle",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/xOdvPhDnibgbXzk2IIXnyNNPa6uU72jU/93Z-19EmR4LP4cLdc8m5KIEKOlWlRhgA.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1MVNCKU_VTaTE5gi7jE-SrvO6rYL4b3bv)"
+        ],
+        "UpdateIndex": 111
+    },
+    {
+        "Titulo": "SINNER: Sacrifice for Redemption",
+        "Descripcion": "Action, Fighting",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/H_0yPwjkRgWlLlyuwNNn8rWdZzDxLTw6/Yn-_66MMH2QQ2FAyJz-JOJhrQkTbaZwJ.png",
+        "Peso": "12 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1n-seFTgqJ6PRsvguU1YSICJSTPu3t_U-)"
+        ],
+        "UpdateIndex": 112
+    },
+    {
+        "Titulo": "YUMENIKKI -DREAM DIARY",
+        "Descripcion": "Action, Adventure, Puzzle",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/MAWtWg-YEY9Tp9VYmglBn_GynYeDiPEk/RHgK4QFGecbDkRrud78b8IuDViFzBuNT.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/1GsoGNoD7sL5YZ348i7DuITWc1GE5_JBO/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "Devil Engine",
+        "Descripcion": "Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/cTcqfUXMqTRFGFFIklYIIsbRy1-WU40h/A1mByzxtDcoWTECkVFkuDzE6t5HoHXd7.png",
+        "Peso": "579 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1T5ow4m31uMu8wB1EVihIb6gkFm7Mx9Rg)"
+        ]
+    },
+    {
+        "Titulo": "Hell Warders",
+        "trailer": "https://www.youtube.com/watch?v=BXoS4dV_osc",
+        "Descripcion": "Action, Other",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/wxb8gCZ9XQ02_dPvYHiG9eYmDqyiWQQf/w6_NeeKnPDuPrp3tMKPo-mYLr5xsSKVi.png",
+        "Peso": "1.3 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1B_fJ1Y9vE4DABz6n4yAAmvbIxJSrvYNj)"
+        ]
+    },
+    {
+        "Titulo": "Warhammer Quest",
+        "trailer": "https://www.youtube.com/watch?v=yt2KfR8cFAw",
+        "Descripcion": "Board Game, RPG, Strategy",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_WarhammerQuest.jpg",
+        "Peso": "623 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1KFh6yLGfrpG698HJUOLv4lQNFHseByZN)"
+        ]
+    },
+    {
+        "Titulo": "Surfingers",
+        "trailer": "https://www.youtube.com/watch?v=2DuXBwx0bD8",
+        "Descripcion": "Arcade, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/ZaphupfEXNxAUcqyMT8MxcCnt0jWB6PZ/iqfNXpD-QanhJs9uX4vww7noc_zMEGrY.png",
+        "Peso": "199 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1IpzHXKzniS1UPQ9-ztqyXEV7HTL58ngK)"
+        ]
+    },
+    {
+        "Titulo": "OlliOlli: Switch Stance",
+        "trailer": "https://www.youtube.com/watch?v=-8dJts5g2cs",
+        "Descripcion": "Arcade, Sports, Multiplayer, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/IVN2fbpAFwGq6SNGjSC1QNdknNRdAm1i/Wo2s86dkPbjCrC2TkbSE5mcQFAK9ioJ1.png",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1BLsUw9Z-40xZrkOVhvvTVyrwvaM9-qie)"
+        ],
+        "UpdateIndex": 113
+    },
+    {
+        "Titulo": "Hyrule Warriors: Definitive Edition",
+        "trailer": "https://www.youtube.com/watch?v=AlXf32FihAo",
+        "Descripcion": "Action, Adventure, Fighting",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/SF6LoN-xgX1iT617eWfBrNcWH6RQXnSh/I_IRYaBzJ61i-3hnYt_k7hVxHtqGmM_w.png",
+        "Peso": "13 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1_b37doJOuPhCqYEWzWMhvilNza6n7Heu)"
+        ],
+        "UpdateIndex": 114
+    },
+    {
+        "Titulo": "NBA 2K Playgrounds 2",
+        "trailer": "https://www.youtube.com/watch?v=mupPWE3CH1k",
+        "Descripcion": "Sports",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/MM-qAfjeirnQ7xA8uyDnPL-YTz596VEQ/4N7YEYS-rNCNdeIC3KWa7kCV7v2H1jr4.png",
+        "Peso": "6 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1-iYYNHhP5y3_Mq1VIbv2flNJr5epqrTf)"
+        ],
+        "UpdateIndex": 115
+    },
+    {
+        "Titulo": "Warplanes: WW2 Dogfight",
+        "trailer": "https://www.youtube.com/watch?v=eEv_qwh5weU",
+        "Descripcion": "Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/aa3VrDCt5b21jzfxLXaYwvyotYTfI3tf/KB4JHKpLpiC0nOTp5DvSidWWZNjLX7FK.png",
+        "Peso": "190 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=12MWRpoGkkB3NkKm_zqtu27orz5TaIbY4)"
+        ]
+    },
+    {
+        "Titulo": "GIGANTIC ARMY",
+        "trailer": "https://www.youtube.com/watch?v=95G_D7dRXhs",
+        "Descripcion": "Arcade, Action, Platformer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/m59nnnXzOayEPl2FPPgPCN7Der_x8O4d/EY-AgQGTxZB5lnJhjLboO6PcPvFpW4yc.png",
+        "Peso": "283 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1_MudloR94_foTInq3qbg9ZburtjxXjEv)"
+        ]
+    },
+    {
+        "Titulo": "Phoenix Wright: Ace Attorney Trilogy",
+        "trailer": "https://www.youtube.com/watch?v=WsmIus8gxAI",
+        "Descripcion": "Miscellaneous, Compilation",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/548361611723800577/Phoenix-Wright-Ace-Attorney-Trilogy-feature.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1L21tfSTBiAJOjWO1-3x-r9mSeCCd38uK)"
+        ]
+    },
+    {
+        "Titulo": "Rogue Legacy",
+        "trailer": "https://www.youtube.com/watch?v=k_4jEzwxCZM",
+        "Descripcion": "Action, Platformer, Role-Playing, Adventure",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/Xrx5i2wDcaFCqYtTKu4LOo1mDr7VyBY3/z3fJhA3RVBXEbzSu09a1m0q5hlfH_8X6.png",
+        "Peso": "217 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1WOD-xggtSKKRubN9Oy9XdIZ1Tz8KiDsJ)"
+        ]
+    },
+    {
+        "Titulo": "Trials Rising Standard Edition",
+        "trailer": "https://www.youtube.com/watch?v=0nqV59FJbi8",
+        "Descripcion": "Racing, Platformer, Multiplayer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/OmFcVHAwZ7WfFLyvs7MKFMgkfG3PwqSY/i7tRs2j08c81Ls9O9uYeF2W8HZ55f1Kg.png",
+        "Peso": "7 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1uofaR40AltnGBSe3qIsDBVl5QPgbh_TZ)"
+        ]
+    },
+    {
+        "Titulo": "Trine 2: Complete Story",
+        "trailer": "https://www.youtube.com/watch?v=zNUArTnhpp0",
+        "Descripcion": "Action, Puzzle, Platformer, Adventure",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/WK45AeA5QjOQ5gMxLE6_LvdZHJKHSTMK/JHAD_kTqX4_41LaOraWFCiDLOuyPPuSM.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1xl8yxyUTAJgEG11DicktE_lkzK5cHUfJ)"
+        ]
+    },
+    {
+        "Titulo": "Zombie Panic in Wonderland DX",
+        "trailer": "https://www.youtube.com/watch?v=jEuoZ350Dyc",
+        "Descripcion": "Action, Arcade",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/cDB03qk4-VX2FWTIPl4PmLLw8qzDn0P7/oyWLo6E3kD84NTLONWdtprezuYDznz4r.png",
+        "Peso": "708 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1l11k64E7xeMZe8pVazkdMxYVM5Fh7hzN)"
+        ],
+        "UpdateIndex": 116
+    },
+    {
+        "Titulo": "Nightmare Boy",
+        "trailer": "https://www.youtube.com/watch?v=Xe_tGFIvaZM",
+        "Descripcion": "Action, Platformer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/T70mksAV1q_QdYPvAWM7DX00OHwkOuxa/1Om66gaIIrTFfpGxKg1KddeNCBNRbdVI.png",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1ZHLXmaJFcdxA2Pt3ptaMbnX6_qSyy2hF)"
+        ],
+        "UpdateIndex": 117
+    },
+    {
+        "Titulo": "The Messenger",
+        "trailer": "https://www.youtube.com/watch?v=qJf9edBS0TQ",
+        "Descripcion": "Action, Adventure, Arcade, Platformer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/AFp8hieWFGiGrPSVV5TXAsRiehbLldwo/jB9HI05GJPaVlwkBA5A8svqVb8ll-jYw.png",
+        "Peso": "1 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1-bi7bNmdmN76hdl9sZRGDpVT5NZkfuLH)"
+        ],
+        "UpdateIndex": 118
+    },
+    {
+        "Titulo": "Quest for the Golden Duck",
+        "trailer": "https://www.youtube.com/watch?v=lOekoNh1mt0",
+        "Descripcion": "Party, Multiplayer, Arcade, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/oFatIe7XzvrH2Zpw3F6GkqYyj9qDdZDE/mzvQ3s1JsB7skoNeVrvwWjtg0cYhrOXh.png",
+        "Peso": "299 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=15X94CDoqYtXBjQkUJriczT2Ar6oFhbJg)"
+        ]
+    },
+    {
+        "Titulo": "Daggerhood",
+        "trailer": "https://www.youtube.com/watch?v=fNSPwXYF01I",
+        "Descripcion": "Action, Platformer, Arcade, Adventure",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/blHIsIGOvktZrHVzWMVVj2jfinrwHsAh/o0OdmGSPCzdM1U8JbqQttgpbk17glG9D.png",
+        "Peso": "159 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1FLhm5WsVAGfZeUNVMm7XJFYNMMTIif__)"
+        ]
+    },
+    {
+        "Titulo": "Pang Adventures",
+        "trailer": "https://www.youtube.com/watch?v=KKl71TcUB-M",
+        "Descripcion": "Arcade, Puzzle, Multiplayer, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/8GX0uxoQLfnzO7I4soo5lUbChG06Q2Fz/T75-8PAaBfJY0o_oyYJz2ygIqtJ1R60s.png",
+        "Peso": "407 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1CU-QXP3QKJ6dMfBagjKor6yhxwxdqV2p)"
+        ]
+    },
+    {
+        "Titulo": "Darksiders Warmastered Edition",
+        "trailer": "https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.youtube.com/watch%3Fv%3DGk5PraZ3K00&ved=0ahUKEwjVgce20NngAhXzrIMKHROBCOsQo7QBCC0wBA&usg=AOvVaw0AisBSWR5yhW3H-uZNLdc1",
+        "Descripcion": "Adventure, Action.",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn.discordapp.com/attachments/502968119288004618/549963357260611584/MrL_mWnGmtKKApHWsZQOJhGJx7yTldHd.png",
+        "Peso": "13 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/file/d/1lBVcJtft6l3_-1ha6umwk2bovPrJjz8H/view?usp=sharing)"
+        ]
+    },
+    {
+        "Titulo": "The LEGO Movie 2 Videogame",
+        "Trailer": "https://www.youtube.com/watch?v=qPBM_nkBGm8",
+        "Descripcion": "Adventure, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/7e7b7yzOfE2svT8OXyPmVwPbIwbpbPlX/OwOjhAsNHyhW0B4M9wRYZ_XsS7Tn2qc8.png",
+        "Peso": "5 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1_oOxfq4ygRoQkWxl5KJPmKw9t779qj74)"
+        ],
+        "DlcIndex": 35,
+        "UpdateIndex": 120
+    },
+    {
+        "Titulo": "Tennis World Tour",
+        "Trailer": "https://www.youtube.com/watch?v=M-NMZOAu3-8",
+        "Descripcion": "Sports, Simulation, Multiplayer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/2w__SZZPsPr3U3uKMc2577NdwAsZj-HB/aVZQgKoshMy_xblxYHZtGh_72OSN-Peu.png",
+        "Peso": "4 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1kJs84i6ooHp9H-6QVsM8YwY_38Vzr-AZ)"
+        ],
+        "DlcIndex": 36,
+        "UpdateIndex": 121
+    },
+    {
+        "Titulo": "Tyr : Chains of Valhalla",
+        "Trailer": "https://www.youtube.com/watch?v=j5EssYGX-dI",
+        "Descripcion": "Platformer, Adventure, Arcade, Action",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/ySHq69dQrvIGl_LEal3zkCxhnVEt7QQL/S9g08Sz14AAL3t7vVRITC1uUA5WbfAgI.png",
+        "Peso": "567 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1ltYWeVEb6Muoik26ywgFFOMgEBz1uEhs)"
+        ]
+    },
+    {
+        "Titulo": "Super Bomberman R",
+        "Trailer": "https://www.youtube.com/watch?v=f98ZwgzYyig",
+        "Descripcion": "Action, Party, Puzzle, Multiplayer",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/BEIfQA42klKKRZQQk1eXQYK_60F4MUzc/b1hRJ1rtxVjWXDkdv5PpDN-DgtFsC8nQ.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1w1hQZc2xY8BCRUnX5wDHY_tNTSPArnY-)"
+        ],
+        "UpdateIndex": 122
+    },
+    {
+        "Titulo": "Rime",
+        "Trailer": "https://www.youtube.com/watch?v=qVvTyKTtdWM",
+        "Descripcion": "Aventura, Plataformas, Puzle",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_Rime_PEGI.jpg",
+        "Peso": "7 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1LtzHae-WarVvoE8b3k4dNMNBydnK4-_5)"
+        ],
+        "UpdateIndex": 123
+    },
+    {
+        "Titulo": "The World Ends with You: Final Remix",
+        "Trailer": "https://www.youtube.com/watch?v=m-MBV_QLVk0",
+        "Descripcion": "Role-Playing",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/m76--vlW3CV8d1SdNb-ja9UozRT3vRoU/0F0L1MYpJ4D7dp7OEQREUgGHNUekAwGH.png",
+        "Peso": "2 Gb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1LFyg520waIvrNdudo1r-iQi6VwvKx0hG)"
+        ]
+    },
+    {
+        "Titulo": "Ultimate Chicken Horse",
+        "Trailer": "https://www.youtube.com/watch?v=zCzRPTDH6QQ",
+        "Descripcion": "Platformer, Party, Multiplayer, Arcade",
+        "UploadBy": "By Bello1987",
+        "ImagenDiscord": "https://cdn.discordapp.com/attachments/502968119288004618/540734653682942007/hellfish_avatar.png",
+        "ImagenJuego": "https://media.nintendo.com/nintendo/bin/bJf2Zz6CCv_IcvQfJ1WcnE_EceJWz6kH/3A80BUDjAYzqGtnRC1j_uM1H1vuub8JF.png",
+        "Peso": "803 Mb",
+        "Formato": "NSP",
+        "Links": [
+            "[GDrive](https://drive.google.com/open?id=1ixa1t23IXvYx2YUsaBupBpZsEqXqBNtR)"
+        ],
+        "UpdateIndex": 124
     }
 ]

@@ -10,10 +10,12 @@ namespace DriveBot.Views
 {
     public partial class FormServer : Form
     {
-        string tocken;
+        stdClassCSharp token;
         public FormServer()
         {
             InitializeComponent();
+            token = stdClassCSharp.readJsonFile("token.json");
+            txtTocken.Text = token["token"];
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -23,14 +25,15 @@ namespace DriveBot.Views
 
         private void button1_Click(object sender, EventArgs e)
         {
-            tocken = txtTocken.Text;
+            token["token"] = txtTocken.Text;
             btnConectar.Enabled = false;
             bwBot.RunWorkerAsync();
+            token.writeJsonFile("token.json");
         }
 
         private void bwBot_DoWork(object sender, DoWorkEventArgs e)
         {
-            new Program().iniciaServer(tocken);
+            new Program().iniciaServer(token["token"]);
         }
 
         private void btnAgregarJuego_Click(object sender, EventArgs e)
