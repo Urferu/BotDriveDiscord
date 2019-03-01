@@ -763,6 +763,7 @@ namespace DriveBot.Resources.Utils
         public static string guardarJuego(string messageGame, ref string anuncialo, ref string trailer, int index = -1)
         {
             string respuesta = "Tu juego se ha agregado correctamente a la lista.";
+            bool encontro = false;
             stdClassCSharp gamesStd = stdClassCSharp.readJsonFile("games.json");
             stdClassCSharp updatesStd = stdClassCSharp.readJsonFile("updates.json");
             stdClassCSharp dlcStd = stdClassCSharp.readJsonFile("dlcs.json");
@@ -797,8 +798,14 @@ namespace DriveBot.Resources.Utils
                         {
                             dlcStd[i] = dlc;
                             i = dlcStd.toArray().Length;
+                            encontro = true;
                         }
                     }
+                    if(!encontro)
+                    {
+                        dlcStd.Add(dlc);
+                    }
+                    encontro = false;
                 }
 
                 if (update["Version", TiposDevolver.Boleano] && update["Links", TiposDevolver.Boleano])
@@ -814,8 +821,14 @@ namespace DriveBot.Resources.Utils
                         {
                             updatesStd[i] = update;
                             i = updatesStd.toArray().Length;
+                            encontro = true;
                         }
                     }
+                    if (!encontro)
+                    {
+                        updatesStd.Add(update);
+                    }
+                    encontro = false;
                 }
                 else if (update["Links", TiposDevolver.Boleano] && !dlc["Links", TiposDevolver.Boleano])
                 {
@@ -833,8 +846,14 @@ namespace DriveBot.Resources.Utils
                         {
                             dlcStd[i] = dlc;
                             i = dlcStd.toArray().Length;
+                            encontro = true;
                         }
                     }
+                    if (!encontro)
+                    {
+                        dlcStd.Add(dlc);
+                    }
+                    encontro = false;
                 }
 
                 #region quitar indices viejos
