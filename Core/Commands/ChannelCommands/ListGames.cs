@@ -15,14 +15,16 @@ namespace DriveBot.Core.Commands
             {
                 var builder = new EmbedBuilder();
                 int fields = 0;
+                string listaLetraAnterior = "";
+                string letraBuscar = inputMessage.Length == 1 ? inputMessage : "";
                 builder.WithTitle("Estos son los juegos que tengo disponibles:");
                 //.WithDescription(Utils.getListGames())
                 builder.WithColor(new Color(0xAF3A));
-                foreach(string listaLetra in Utils.getListGames())
+                foreach(string listaLetra in Utils.getListGames(letraBuscar))
                 {
                     if(fields >= 24)
                     {
-                        if (inputMessage.ToLower() == "aqui")
+                        if (inputMessage.ToLower().Contains("aqui"))
                             await Context.Channel.SendMessageAsync("", false, builder.Build());
                         else
                             await Context.User.SendMessageAsync("", false, builder.Build());
@@ -31,13 +33,18 @@ namespace DriveBot.Core.Commands
                         builder.WithColor(new Color(0xAF3A));
                         fields = 0;
                     }
-                    builder.AddField(listaLetra.Substring(0, 1), listaLetra);
+                    if(listaLetra.Substring(0, 1) == listaLetraAnterior)
+                        builder.AddField($"{listaLetra.Substring(0, 1)} continuación", listaLetra);
+                    else
+                        builder.AddField(listaLetra.Substring(0, 1), listaLetra);
+
                     fields++;
+                    listaLetraAnterior = listaLetra.Substring(0, 1);
                 }
 
                 if (fields >= 24)
                 {
-                    if (inputMessage.ToLower() == "aqui")
+                    if (inputMessage.ToLower().Contains("aqui"))
                         await Context.Channel.SendMessageAsync("", false, builder.Build());
                     else
                         await Context.User.SendMessageAsync("", false, builder.Build());
@@ -58,7 +65,7 @@ namespace DriveBot.Core.Commands
                     $"{Environment.NewLine}{Environment.NewLine} Espero te sea mas comodo pedirme tus juegos.");
 
 
-                if (inputMessage.ToLower() == "aqui")
+                if (inputMessage.ToLower().Contains("aqui"))
                 {
                     if(!Context.IsPrivate)
                         await Context.Message.DeleteAsync(RequestOptions.Default);

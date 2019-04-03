@@ -140,7 +140,7 @@ namespace DriveBot.Resources.Utils
             return response;
         }
 
-        public static List<string> getListGames()
+        public static List<string> getListGames(string letrabuscar)
         {
             var responses = new List<string>();
             StringBuilder response = new StringBuilder();
@@ -155,26 +155,42 @@ namespace DriveBot.Resources.Utils
                 listaJuegos.Add(game);
             }
 
+            if(!string.IsNullOrWhiteSpace(letrabuscar))
+            {
+                listaJuegos = listaJuegos
+                .Where(x => x["Titulo"].Substring(0,1).ToUpper() == letrabuscar.ToUpper())
+                .ToList();
+            }
             listaJuegos = listaJuegos.OrderBy(lj => lj["Titulo"]).ToList();
 
-            Letter = listaJuegos[0]["Titulo"].Substring(0, 1);
+            Letter = listaJuegos[0]["Titulo"].Substring(0, 1).ToUpper();
 
             foreach (stdClassCSharp game in listaJuegos)
             {
                 if (response.Length > 0)
                     response.Append(Environment.NewLine);
 
-                if(Letter != game["Titulo"].Substring(0,1))
+                if (response.Length + game["Titulo"].ToString().Length > 1024)
                 {
                     responses.Add(response.ToString().Trim());
                     response.Clear();
-                    Letter = game["Titulo"].Substring(0, 1);
+                    Letter = game["Titulo"].Substring(0, 1).ToUpper();
+                }
+
+                if (Letter != game["Titulo"].Substring(0, 1).ToUpper())
+                {
+                    responses.Add(response.ToString().Trim());
+                    response.Clear();
+                    Letter = game["Titulo"].Substring(0, 1).ToUpper();
                 }
                 response.Append(game["Titulo"]);
             }
 
-            responses.Add(response.ToString().Trim());
-            response.Clear();
+            if (response.Length > 0)
+            {
+                responses.Add(response.ToString().Trim());
+                response.Clear();
+            }
 
             return responses;
         }
