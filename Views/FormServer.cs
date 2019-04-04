@@ -32,7 +32,7 @@ namespace DriveBot.Views
                 builder.WithColor(new Color(0xAF3A));
                 foreach (string listaLetra in Utils.getListGames("T"))
                 {
-                    if (fields >= 24)
+                    if (fields >= 20)
                     {
                         builders.Add(builder);
 
@@ -48,7 +48,7 @@ namespace DriveBot.Views
                     fields++;
                     listaLetraAnterior = listaLetra.Substring(0, 1);
                 }
-                if (fields >= 24)
+                if (fields >= 20)
                 {
                     builders.Add(builder);
 

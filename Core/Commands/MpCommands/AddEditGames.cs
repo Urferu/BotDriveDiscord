@@ -77,7 +77,7 @@ namespace DriveBot.Core.Commands
                         builder.WithColor(new Color(0xFFF000));
                         foreach (stdClassCSharp juego in Utils.getListGamesEdit())
                         {
-                            if (fields >= 24)
+                            if (fields >= 20)
                             {
                                 await Context.User.SendMessageAsync("", false, builder.Build());
                                 builder = new EmbedBuilder();
@@ -87,7 +87,7 @@ namespace DriveBot.Core.Commands
                             builder.AddField(juego["indexGame", TiposDevolver.Cadena], juego["Titulo"]);
                             fields++;
                         }
-                        if (fields >= 24)
+                        if (fields >= 20)
                         {
                             await Context.User.SendMessageAsync("", false, builder.Build());
                             builder = new EmbedBuilder();
@@ -159,7 +159,7 @@ namespace DriveBot.Core.Commands
                         builder.WithColor(new Color(0xFFF000));
                         foreach (stdClassCSharp juego in Utils.getListGamesEdit())
                         {
-                            if (fields >= 24)
+                            if (fields >= 20)
                             {
                                 await Context.User.SendMessageAsync("", false, builder.Build());
                                 builder = new EmbedBuilder();
@@ -169,7 +169,7 @@ namespace DriveBot.Core.Commands
                             builder.AddField(juego["indexGame", TiposDevolver.Cadena], juego["Titulo"]);
                             fields++;
                         }
-                        if (fields >= 24)
+                        if (fields >= 20)
                         {
                             await Context.User.SendMessageAsync("", false, builder.Build());
                             builder = new EmbedBuilder();
